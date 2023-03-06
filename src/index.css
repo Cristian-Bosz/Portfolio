@@ -504,6 +504,22 @@ ul{
 
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
+  .titulo-intro {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #323232;
+    font-family: 'Righteous', cursive;
+    margin-top: 1em;
+  }
+  .sub-intro{
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #404040;
+    margin-top: 1em;
+    font-family: 'Righteous', cursive;
+  }
   .img-analisis{
     margin: 2em 0em 4em 0em; /*top-left-bottom-right*/
   }
