@@ -20,6 +20,8 @@ background-size: cover;
   font-weight: 600;
   color: #656565;
   font-family: 'Righteous', cursive;
+  margin: 1em 0em 2em 0em;
+
 }
 .titulo-intro {
   font-size: 60px;
@@ -276,7 +278,6 @@ ul{
   font-size: 45px;
   font-weight: 600;
   font-family: 'Righteous', cursive;
-
 }
 .bg-pasti-thorkey{
   background-color: #ac7c2e ;
@@ -492,13 +493,75 @@ ul{
 .border-kyber{
   border-radius: 30px;
 }
+.walletfy-icon{
+  width: 25%;
+}
+.avatar-perfil{
+  width: 25% !important;
+}
+.avatar-about{
+  width: 50% !important;
+}
+.avatar-proyecto{
+  width: 75% !important;
+}
+.img-analisis{
+  width: 75%;
+}
+.wallet-li-h3{
+  font-size: 24px;
+}
 /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
+  .titulo-intro {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #323232;
+    font-family: 'Righteous', cursive;
+    margin-top: 1em;
+  }
+  .sub-intro{
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #404040;
+    margin-top: 1em;
+    font-family: 'Righteous', cursive;
+  }
+  .card-icon{
+    height: 90px;
+    width: 90px;
+    margin-left: 0%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+  }
   .img-thorkey{
     width: 75% !important;
   }
   .avatar-perfil{
+    width: 40% !important;
+  }
+  .avatar-about{
     width: 50% !important;
+  }
+  .avatar-proyecto{
+    width: 40% !important;
+  }
+  .walletfy-icon{
+    width: 50%;
+  }
+  .wallet-li {
+    margin-bottom: 18px;
+    position: relative;
+    font-family: sans-serif;
+    color: #929FAD;
+  }
+  .wallet-li-h3{
+    font-size: 18px;
+  }
+  .img-analisis{
+    width: 75%;
   }
 }
 
@@ -520,15 +583,35 @@ ul{
     margin-top: 1em;
     font-family: 'Righteous', cursive;
   }
+  .title-home{
+    font-size: 30px;
+    font-weight: 600;
+    color: #656565;
+    font-family: 'Righteous', cursive;
+    margin: 3em 0 2em 0;
+  }
+  .card-icon{
+    height: 90px;
+    width: 90px;
+    margin-left: 0%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+  }
   .img-analisis{
     margin: 2em 0em 4em 0em; /*top-left-bottom-right*/
   }
+  .walletfy-icon{
+    width: 75%;
+  }
   .wallet-li {
+    padding-left: 0px;
     margin-bottom: 18px;
     position: relative;
-    font-size: large;
     font-family: sans-serif;
     color: #929FAD;
+  }
+  .wallet-li-h3{
+    font-size: 18px;
   }
   .img-thorkey{
     width: 100% !important;
@@ -536,10 +619,67 @@ ul{
   .avatar-perfil{
     width: 50% !important;
   }
+  .avatar-about{
+    width: 75% !important;
+  }
+  .avatar-proyecto{
+    width: 75% !important;
+  }
   .border-thorkey{
     border: 1px solid rgba(146, 85, 5, 0.523)
   }
   .border-kyber{
     border: 1px solid rgba(124, 124, 124, 0.523)
   }
+  .social-icon{
+    margin: 0em 1em 0em 1em;
+  }
+  .titulo-home {
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #38b2e7;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 1em;
+  }
+  .p-home {    
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #4B5D72;
+    font-family: sans-serif;
+  }
+  .mockup-walletfy{
+    display: none;
+  }
+  
+.titulo-tesis{
+  font-size: 35px;
+  font-weight: 600;
+  color: #38b2e7;
+  font-family: 'Righteous', cursive;
+}
+.li-kyber{
+  padding-left: 10px;
+  margin-bottom: 18px;
+  position: relative;
+  font-size: large;
+  font-family: sans-serif;
+  color: #7e8995;
+}
+
+.title1-thorkey{
+  color: #ae7212;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
+  margin-bottom: 1em;
+}
+.p-thorkey{
+  color:rgb(70, 70, 70);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
 }

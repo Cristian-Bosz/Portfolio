@@ -11,7 +11,7 @@ const Walletfy = () => {
     <a class="btn-wsp" href="/"><i class="bi bi-arrow-left-circle"></i></a>
     <article className='container my-4'>    
             <div className=''>
-                <img src={walletfy} alt="encabezado con el logo de walletfy" className='w-25'/>
+                <img src={walletfy} alt="encabezado con el logo de walletfy" className='walletfy-icon'/>
             </div>
     </article>
 
@@ -25,7 +25,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                         <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>Probá la app</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                        <img src={home} alt='mockup del home de walletfy' className='mt-2'/>
+                        <img src={home} alt='mockup del home de walletfy' className='mockup-walletfy'/>
                     </div>
                 </div>
     </section>
@@ -85,7 +85,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                     <i class="bi bi-activity"></i> 
                                     </div>
                                     <div className='col-10'>
-                                        <h3 className='fw-bold'>Seguimiento de todos tus movimientos</h3> 
+                                        <h3 className='fw-bold wallet-li-h3'>Seguimiento de todos tus movimientos</h3> 
                                         
                                     </div>
                                 
@@ -98,7 +98,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                      <i class="bi bi-pie-chart"></i>  
                                     </div>
                                     <div className='col-10'>
-                                        <h3 className='fw-bold'>Gráficos detallados </h3>
+                                        <h3 className='fw-bold wallet-li-h3'>Gráficos detallados </h3>
                                         
                                     </div>
                                 
@@ -110,7 +110,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                     <i class="bi bi-book"></i>
                                     </div>
                                     <div className='col-10'>
-                            <h3 className='fw-bold'>Capacitación en el mundo de las finanzas</h3> 
+                            <h3 className='fw-bold wallet-li-h3'>Capacitación en el mundo de las finanzas</h3> 
                            
                                     </div>
                                 
@@ -121,7 +121,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                         <i class="bi bi-journal-text"></i>
                                     </div>
                                     <div className='col-10'>
-                                        <h3 className='fw-bold'>Cuestionarios</h3>
+                                        <h3 className='fw-bold wallet-li-h3'>Cuestionarios</h3>
                                                                    
                                     </div>
                                 
@@ -132,7 +132,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                     <i class="bi bi-newspaper"></i>
                                     </div>
                                     <div className='col-10'>
-                                        <h3 className='fw-bold'> Noticias y Novedades del mundo financiero</h3>
+                                        <h3 className='fw-bold wallet-li-h3'> Noticias y Novedades del mundo financiero</h3>
                                                                   
                                     </div>
                                 
@@ -143,7 +143,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                     <i class="bi bi-currency-bitcoin"></i>
                                     </div>
                                     <div className='col-10'>
-                                        <h3 className='fw-bold'>  Seguimiento del mercado de criptomonedas</h3>
+                                        <h3 className='fw-bold wallet-li-h3'>  Seguimiento del mercado de criptomonedas</h3>
                                                                   
                                     </div>
                                 
@@ -153,7 +153,7 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                                     <i class="bi bi-bank"></i>
                                     </div>
                                     <div className='col-10'>
-                                        <h3 className='fw-bold'> Seguimiento de la bolsa de valores</h3>
+                                        <h3 className='fw-bold wallet-li-h3'> Seguimiento de la bolsa de valores</h3>
                                                                   
                                     </div>
                                 

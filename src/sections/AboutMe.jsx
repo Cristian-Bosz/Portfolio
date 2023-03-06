@@ -10,9 +10,9 @@ const AboutMe = () => {
               <h3 className='title-home mt-5'>Sobre mí</h3>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6 my-5'>
-                      <img src={memoji} alt="programando" className='w-50 '/>
+                      <img src={memoji} alt="programando" className='avatar-about'/>
                     </div>
-                    <div className='col-12 col-lg-6 my-5 bg-in'>
+                    <div className='col-12 col-lg-6 bg-in'>
                         <div className='my-5'>
                           <p className='p-about mt-4 mb-5 mx-2'>Tengo 22 años y soy un Desarrollador Web Front-End Junior apasionado por el desarrollo web y la creación de experiencias de usuario únicas y atractivas. Si bien soy nuevo en la industria, tengo una sólida formación en HTML, CSS y JavaScript, y estoy emocionado por seguir aprendiendo y creciendo en mi carrera como desarrollador. </p>
                       

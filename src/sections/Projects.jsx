@@ -46,11 +46,11 @@ const Projects = () => {
     <article className='container mb-5'>
           <div className='row align-items-center'>
             <div className='col-12 col-lg-4'>
-            <img src={memoji} alt="meditando" className='w-75'/>
+            <img src={memoji} alt="meditando" className='avatar-proyecto'/>
 
             </div>
                 <div className='col-12 col-lg-8'>
-                    <h2 className='title-home m-5'>Estos proyectos me permitieron ganar experiencia en</h2>
+                    <h2 className='title-home'>Estos proyectos me permitieron ganar experiencia en</h2>
                     <ul className='text-start'>
                             <li className='wallet-li shadow-sm'>
                                 <div className='row'>

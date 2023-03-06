@@ -21,7 +21,7 @@ const Kyber = () => {
                         <h1 className='title1-kyber text-center'>Sables personalizados</h1>
                         <p className='p-home text-center'>Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars. </p>
                         <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>Explora el Github del proyecto</a>
-                        <a href={kyber_pdf} target="_blank" rel="noopener noreferrer" download="Cristian_Bosz_Proyecto_Kyber.pdf" className='btn btn-outline-dark fw-bold mx-2'>Descargá el PDF</a>
+                        <a href={kyber_pdf} target="_blank" rel="noopener noreferrer" download="Cristian_Bosz_Proyecto_Kyber.pdf" className='btn btn-outline-dark fw-bold mx-2 my-2'>Descargá el PDF</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
                         <img src={kyber_dis} alt='mockup de la tienda kyber en distintos dispositivos' className='w-100'/>
