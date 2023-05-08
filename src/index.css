@@ -211,10 +211,15 @@ ul{
   border-radius: 20px;
 }
 .card-icon-kyber{
-  height: 90px;
-  width: 90px;
-  border-radius: 15px;
+  height: 95px;
+  width: 95px;
+  margin: 10px 10px ;
+  border-radius: 5px;
   background-color: rgb(255, 255, 255);
+}
+.sk-icon-kyber{
+  height: 60px;
+  width: 60px; 
 }
 .li-kyber{
   padding-left: 20px;
@@ -285,9 +290,10 @@ ul{
 
 }
 .card-icon-thorkey{
-  height: 100px;
-  width: 100px;
-  border-radius: 15px;
+  height: 95px;
+  width: 95px;
+  border-radius: 10px;
+  margin: 0em 2em ;
   background-color: rgb(255, 255, 255);
 }
 .texto-thorkey{
@@ -511,6 +517,39 @@ ul{
 .wallet-li-h3{
   font-size: 24px;
 }
+.titulo-bsz{
+  color: rgb(13, 109, 31) !important;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
+}
+.bg-pasti-bsz{
+  background-color: rgb(20, 65, 29) ;
+  border-radius: 20px;
+}
+.bsz-icons{
+  font-size: 30px;
+  color: rgb(13, 109, 31);
+}
+.title1-bsz{
+  color: rgb(13, 109, 31);
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
+}
+.sk-icon-bsz{
+  height: 75px;
+  width: 75px;
+}
+.card-icon-bsz{
+  height: 95px;
+  width: 95px;
+  border-radius: 10px;
+  margin: 0px 10px ;
+  background-color: rgb(255, 255, 255);
+}
 /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
   .titulo-intro {
@@ -563,6 +602,36 @@ ul{
   .img-analisis{
     width: 75%;
   }
+  .sk-icon-bsz{
+    height: 75px;
+    width: 75px;
+  }
+  .card-icon-bsz{
+    height: 95px;
+    width: 95px;
+    border-radius: 10px;
+    margin: 0px 10px ;
+    background-color: rgb(255, 255, 255);
+  }
+  .card-icon-thorkey{
+    height: 95px;
+    width: 95px;
+    border-radius: 10px;
+    margin: 0em 2em ;
+    background-color: rgb(255, 255, 255);
+  }
+  .card-icon-kyber{
+  height: 95px;
+  width: 120px;
+  margin: 10px 10px ;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+  .sk-icon-kyber{
+    height: 60px;
+    width: 60px; 
+  }
+
 }
 
 /* Breakpoint formato tablet*/
@@ -694,6 +763,50 @@ ul{
   font-size: 30px;
   font-weight: 600;
   font-family: 'Righteous', cursive;
-
 }
+.sk-icon-bsz{
+  height: 75px;
+  width: 75px;
+}
+.card-icon-bsz{
+  height: 95px;
+  width: 95px;
+  border-radius: 10px;
+  margin: 0px 10px ;
+  background-color: rgb(255, 255, 255);
+}
+.card-icon-thorkey{
+  height: 95px;
+  width: 95px;
+  border-radius: 10px;
+  margin: 0px 10px ;
+  background-color: rgb(255, 255, 255);
+}
+.card-icon-kyber{
+  height: 95px;
+  width: 120px;
+  margin: 10px 50px ;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.sk-icon-kyber{
+  height: 50px;
+  width: 50px; 
+}
+}
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 576px) {
+  .card-icon-kyber{
+    height: 95px;
+    width: 120px;
+    margin: 10px 10px ;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .sk-icon-kyber{
+    height: 50px;
+    width: 50px; 
+  }
+
 }

@@ -4,6 +4,7 @@ import Walletfy from './sections/descriptions/Walletfy';
 import Blueocean from './sections/descriptions/Blueocean';
 import Kyber from './sections/descriptions/Kyber';
 import Thorkey from './sections/descriptions/Thorkey';
+import BszStore from './sections/descriptions/BszStore';
 import {
   BrowserRouter,
   Routes,
@@ -20,6 +21,7 @@ function App() {
                   <Route path='/blueocean' element={<Blueocean/>}/>
                   <Route path='/kyber' element={<Kyber/>}/>
                   <Route path='/thorkey' element={<Thorkey/>}/>
+                  <Route path='/bszstore' element={<BszStore/>}/>
 
           </Routes>
      

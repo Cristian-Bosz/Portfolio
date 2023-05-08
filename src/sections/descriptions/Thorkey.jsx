@@ -40,17 +40,17 @@ const Thorkey = () => {
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>
-                         <div className='col-4 card-icon-thorkey mx-4'>
+                         <div className='col-4 card-icon-thorkey'>
                             <motion.img src={wordpress} alt='icono de wordpress' className=" sk-icon my-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>
-                        <div className='col-4 card-icon-thorkey mx-4'>
+                        <div className='col-4 card-icon-thorkey'>
                             <motion.img src={woo} alt='icono de woocommerce' className=" sk-icon my-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>  
-                        <div className='col-4 card-icon-thorkey mx-4'>
+                        <div className='col-4 card-icon-thorkey'>
                             <motion.img src={mercado} alt='icono de mercado pago' className=" sk-icon my-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>

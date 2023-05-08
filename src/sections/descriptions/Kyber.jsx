@@ -38,25 +38,24 @@ const Kyber = () => {
                     <p className='texto-kyber mx-2 mt-4'>Este proyecto es un ecommerce programado en PHP Procedural.</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
-                    <div className='row align-items-center'>
-                         <div className='col mx-2 my-1 card-icon-kyber'>
-                            <motion.img src={html} alt='icono de html' className=" sk-icon m-2"
+                    <div className='row align-items-center justify-content-center'>
+                         <div className='col-5 col-md-3 card-icon-kyber'>
+                            <motion.img src={html} alt='icono de html' className="sk-icon-kyber m-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>
-                        <div className='col mx-2 my-1 card-icon-kyber'>
-                            <motion.img src={css} alt='icono de css' className="sk-icon m-2" 
+                        <div className='col-5 col-md-3 card-icon-kyber'>
+                            <motion.img src={css} alt='icono de css' className="sk-icon-kyber m-2" 
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>
-                        <div className='col mx-2 my-1  card-icon-kyber'>
-                            <motion.img src={php} alt='icono de php' className="sk-icon m-2"
+                        <div className='col-5 col-md-3 card-icon-kyber'>
+                            <motion.img src={php} alt='icono de php' className="sk-icon-kyber m-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
-                     
-                        <div className='col mx-2 my-1 card-icon-kyber'>
-                            <motion.img src={mysql} alt='icono de mysql' className="sk-icon m-2"
+                        </div>              
+                        <div className='col-5 col-md-3 card-icon-kyber'>
+                            <motion.img src={mysql} alt='icono de mysql' className="sk-icon-kyber m-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>
