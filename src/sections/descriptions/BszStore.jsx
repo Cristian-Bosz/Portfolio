@@ -25,8 +25,8 @@ const BszStore = () => {
                     <div className='col-12 col-lg-6 align-self-sm-center my-5'>
                         <h1 className='titulo-bsz fw-bold text-center'>Llevando alegría a tu día a día</h1>
                         <p className='p-home text-center'>Estoy emocionado de compartirles mi último proyecto, un ecommerce desarrollado completamente en React. Este proyecto se enfoca principalmente en el Front-end y el diseño, por lo que no cuenta con una sección de Back-end.  </p>
-                        <a href='https://cristianbosz-bszstore.vercel.app/' Target="_blank"  className='btn btn-success fw-bold text-white'>Visitá la pagina</a>
-                        <a href='https://github.com/Cristian-Bosz/bsz-store' Target="_blank"  className='btn btn-outline-success fw-bold mx-2'>Github</a>
+                        <a href='https://bsz-store-with-sass.vercel.app/' Target="_blank"  className='btn btn-success fw-bold text-white'>Visitá la pagina</a>
+                        <a href='https://github.com/Cristian-Bosz/bsz-store-with-sass' Target="_blank"  className='btn btn-outline-success fw-bold mx-2'>Github</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center'>
                     <img src={mockup} alt='mockup de las interfaces de bsz store' className='w-100'/>
@@ -43,7 +43,7 @@ const BszStore = () => {
         <div className='container bg-pasti-bsz shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='texto-thorkey my-2 mx-2'>Este proyecto fue creado exclusivamente con ReactJS, Bootstrap 5 y CSS.</p>
+                    <p className='texto-thorkey my-2 mx-2'>Este proyecto fue creado exclusivamente con ReactJS, Bootstrap 5 y Sass.</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>
@@ -58,7 +58,7 @@ const BszStore = () => {
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>  
                         <div className='col-2 col-md-4 card-icon-bsz'>
-                            <motion.img src={css} alt='icono de css' className="sk-icon-bsz my-2"
+                            <motion.img src="https://cdn.cdnlogo.com/logos/s/90/sass.svg" alt='icono de css' className="sk-icon-bsz my-2"
                             whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
                         </div>             
@@ -118,7 +118,7 @@ const BszStore = () => {
             <i class="bi bi-brush bsz-icons"></i>
             </div>
             <div className='col-10'>
-                <p>Utiliza componentes de Bootstrap y CSS para crear un diseño personalizado y visualmente atractivo.</p>
+                <p>Utiliza componentes de Bootstrap y SCSS para crear un diseño personalizado y visualmente atractivo.</p>
             </div>
         </div>
         
@@ -129,7 +129,7 @@ const BszStore = () => {
             <i class="bi bi-code bsz-icons"></i>
             </div>
             <div className='col-10'>
-                <p>Demuestra mi habilidad para crear diseños web efectivos y escalables.</p>
+                <p>Utilizo SCSS, para aprovechar el poder de las variables y el anidamiento, lo que permitió un estilo más eficiente y organizado.</p>
             </div>
         </div>
         
