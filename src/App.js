@@ -1,15 +1,16 @@
-import './App.css';
-import Inicio from './Inicio';
-import Walletfy from './sections/descriptions/Walletfy';
-import Blueocean from './sections/descriptions/Blueocean';
-import Kyber from './sections/descriptions/Kyber';
-import Thorkey from './sections/descriptions/Thorkey';
-import BszStore from './sections/descriptions/BszStore';
+import Inicio from './pages/Inicio';
+import Walletfy from './pages/Walletfy';
+import Blueocean from './pages/Blueocean';
+import Kyber from './pages/Kyber';
+import Thorkey from './pages/Thorkey';
+import BszStore from './pages/BszStore';
+import Footer from './components/Footer';
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -22,9 +23,8 @@ function App() {
                   <Route path='/kyber' element={<Kyber/>}/>
                   <Route path='/thorkey' element={<Thorkey/>}/>
                   <Route path='/bszstore' element={<BszStore/>}/>
-
           </Routes>
-     
+      <Footer/>
     </BrowserRouter>
     </div>
   );

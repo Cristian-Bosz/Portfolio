@@ -1,0 +1,163 @@
+.title1-kyber{
+    color: #373737;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+  
+  }
+  .texto-kyber{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  
+.bg-pasti-kyber{
+    background-color: #202020;
+    border-radius: 20px;
+  }
+  .card-icon-kyber{
+    height: 95px;
+    width: 95px;
+    margin: 10px 10px ;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .sk-icon-kyber{
+    height: 60px;
+    width: 60px; 
+  }
+  .li-kyber{
+    padding-left: 20px;
+    margin-bottom: 18px;
+    position: relative;
+    font-size: large;
+    font-family: sans-serif;
+    color: #7e8995;
+  }
+  .title-kyber{
+    color: #373737;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+  
+  }
+  .border-kyber{
+    border-radius: 30px;
+  }
+
+  
+.bi-filetype-sql{
+    color: #494949;
+    font-size: 2rem;
+  }
+  .bi-database{
+    color: #494949;
+    font-size: 2rem;  
+  }
+  .bi-braces{
+    color: #494949;
+    font-size: 2rem;  
+  }
+  .bi-cloud-check{
+    color: #494949;
+    font-size: 2rem;  
+  }
+  .bi-cart-check{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-person-check{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-box-arrow-in-left{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-person-vcard{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-patch-check{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-person-workspace{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-exclamation-triangle{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-cloud-upload{
+      color: #494949;
+    font-size: 2rem;
+  }
+  .bi-database-check{
+    color: #494949;
+    font-size: 2rem;
+  }
+  .bi-columns-gap{
+    color: #494949;
+    font-size: 2rem; 
+  }
+
+  /* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .card-icon-kyber{
+        height: 95px;
+        width: 120px;
+        margin: 10px 10px ;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+      }
+        .sk-icon-kyber{
+          height: 60px;
+          width: 60px; 
+        }
+}
+
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .border-kyber{
+        border: 1px solid rgba(124, 124, 124, 0.523)
+      }
+      .li-kyber{
+        padding-left: 10px;
+        margin-bottom: 18px;
+        position: relative;
+        font-size: large;
+        font-family: sans-serif;
+        color: #7e8995;
+      }
+      .card-icon-kyber{
+        height: 95px;
+        width: 120px;
+        margin: 10px 50px ;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+      }
+      .sk-icon-kyber{
+        height: 50px;
+        width: 50px; 
+      }
+}
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 576px) {
+    .card-icon-kyber{
+      height: 95px;
+      width: 120px;
+      margin: 10px 10px ;
+      border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+    }
+    .sk-icon-kyber{
+      height: 50px;
+      width: 50px; 
+    }
+  
+  }

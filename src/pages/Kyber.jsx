@@ -1,27 +1,26 @@
 import React from 'react'
-import kyber_dis from '../../pics/keyber_dispositivos.png'
-import kyber_admin from '../../pics/kyber_admin.png'
-import kyber_pan from '../../pics/kyber_panel.png'
-import kyber_per from '../../pics/kyber_perfil.png'
+import kyber_dis from '../pics/keyber_dispositivos.png'
+import kyber_admin from '../pics/kyber_admin.png'
+import kyber_pan from '../pics/kyber_panel.png'
+import kyber_per from '../pics/kyber_perfil.png'
 import { motion } from "framer-motion"
-import html from '../../icons/html-1.svg'
-import css from '../../icons/css-3.svg'
-import php from '../../icons/php.svg'
-import bootstrap from '../../icons/bootstrap-5-1.svg'
-import mysql from '../../icons/mysql-6.svg'
-import Footer from '../Footer'
-import kyber_pdf from '../../pdfs/Kyber_compressed.pdf'
+import html from '../icons/html-1.svg'
+import css from '../icons/css-3.svg'
+import php from '../icons/php.svg'
+import mysql from '../icons/mysql-6.svg'
+
+
 const Kyber = () => {
   return (
     <>
-    <a class="btn-wsp" href="/"><i class="bi bi-arrow-left-circle"></i></a>
+    <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
      <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-kyber text-center'>Sables personalizados</h1>
                         <p className='p-home text-center'>Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars. </p>
                         <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>Explora el Github del proyecto</a>
-                        <a href={kyber_pdf} target="_blank" rel="noopener noreferrer" download="Cristian_Bosz_Proyecto_Kyber.pdf" className='btn btn-outline-dark fw-bold mx-2 my-2'>Descargá el PDF</a>
+                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank" className='btn btn-outline-dark fw-bold mx-2 my-2'>Mira el PDF</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
                         <img src={kyber_dis} alt='mockup de la tienda kyber en distintos dispositivos' className='w-100'/>
@@ -238,7 +237,6 @@ const Kyber = () => {
 
     </section>
 
-    <Footer/>
     </>
   )
 }

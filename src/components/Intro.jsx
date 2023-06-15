@@ -1,6 +1,6 @@
 import React from 'react'
 import memoji from '../../src/pics/thumbnail_image2.png' 
-import cv from '../pdfs/CV_Cristian_Bosz_skills.pdf'
+
 const Intro = () => {
   return (
     <>

@@ -1,0 +1,50 @@
+.p-proyecto {    
+    font-size: 18px;
+    line-height: 28px;
+    color: #4B5D72;
+    font-family: sans-serif;
+  }
+  .miniatura{
+    border-radius: 30px;
+  }
+  .miniatura-pic{
+    border-radius: 30px;
+  }
+  .avatar-proyecto{
+    width: 75% !important;
+  }
+  .wallet-h .wallet-li::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    left: 0;
+    top: 13px;
+    height: 2px;
+    background-color: #f6a53a;
+  }
+  .wallet-li {
+    padding-left: 20px;
+    margin-bottom: 18px;
+    position: relative;
+    font-size: large;
+    font-family: sans-serif;
+    color: #929FAD;
+  }
+  .bi-check{
+    color: #bb0497;
+    font-size: 2rem;
+  }
+
+  /* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .avatar-proyecto{
+      width: 40% !important;
+    }
+}
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .avatar-proyecto{
+        width: 75% !important;
+      }
+}

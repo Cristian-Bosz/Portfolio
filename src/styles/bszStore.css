@@ -1,0 +1,67 @@
+
+.titulo-bsz{
+    color: rgb(13, 109, 31) !important;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+  }
+  .bg-pasti-bsz{
+    background-color: rgb(20, 65, 29) ;
+    border-radius: 20px;
+  }
+  .bsz-icons{
+    font-size: 30px;
+    color: rgb(13, 109, 31);
+  }  
+  .card-icon-bsz{
+    height: 95px;
+    width: 95px;
+    border-radius: 10px;
+    margin: 0px 10px ;
+    background-color: rgb(255, 255, 255);
+  }
+  .title1-bsz{
+    color: rgb(13, 109, 31);
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+  }
+  .sk-icon-bsz{
+    height: 75px;
+    width: 75px;
+  }
+
+  /* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {    
+    .sk-icon-bsz{
+      height: 75px;
+      width: 75px;
+    }
+    .card-icon-bsz{
+      height: 95px;
+      width: 95px;
+      border-radius: 10px;
+      margin: 0px 10px ;
+      background-color: rgb(255, 255, 255);
+    }
+  
+  }
+
+  /* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {  
+  
+  .sk-icon-bsz{
+    height: 75px;
+    width: 75px;
+  }
+  .card-icon-bsz{
+    height: 95px;
+    width: 95px;
+    border-radius: 10px;
+    margin: 0px 10px ;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  }

@@ -1,18 +1,14 @@
-import React from 'react'
-import bsz from '../../pics/bzStore-min.jpg'
-import logo from '../../pics/bszstore-logo.png'
-import bootstrap from '../../icons/bootstrap-5-1.svg'
-import css from '../../icons/css-3.svg'
-import react from '../../icons/react-2.svg'
+import logo from '../pics/bszstore-logo.png'
+import bootstrap from '../icons/bootstrap-5-1.svg'
+import react from '../icons/react-2.svg'
 import { motion } from 'framer-motion'
-import mockup from '../../pics/bsz-mockup.png'
-import mockup2 from '../../pics/bsz-mockup2.png'
-import Footer from '../Footer'
+import mockup from '../pics/bsz-mockup.png'
+import mockup2 from '../pics/bsz-mockup2.png'
 
 const BszStore = () => {
   return (
     <>
-       <a class="btn-wsp" href="/"><i class="bi bi-arrow-left-circle"></i></a>
+       <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
     <article className='container my-4'>    
             <div className='bsz-logo'>
             <img src={logo} alt='logo de la tienda' className=''/>
@@ -141,7 +137,6 @@ const BszStore = () => {
    
    </section>
 
-   <Footer/>
     </>
   )
 }

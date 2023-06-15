@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './styles/intro.css';
+import './styles/aboutMe.css';
+import './styles/pastillas.css';
+import './styles/projects.css';
+import './styles/thorkey.css';
+import './styles/blueocean.css';
+import './styles/kyber.css';
+import './styles/walletfy.css';
+import './styles/bszStore.css';
+import './styles/footer.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -1,0 +1,56 @@
+.title-home{
+    font-size: 40px;
+    font-weight: 600;
+    color: #656565;
+    font-family: 'Righteous', cursive;
+    margin: 1em 0em 2em 0em;
+  }
+  .bg-in{
+    background-color: rgb(255, 248, 240);
+    border-radius: 10px 100px / 120px;
+  }
+  .p-home {    
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5D72;
+    font-family: sans-serif;
+  }
+  .p-about {    
+    font-size: 18px;
+    line-height: 28px;
+    color: #4B5D72;
+    font-family: sans-serif;
+  }
+  
+  
+.avatar-about{
+    width: 50% !important;
+  }
+/* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .avatar-about{
+        width: 50% !important;
+      }
+}
+  
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .title-home{
+      font-size: 30px;
+      font-weight: 600;
+      color: #656565;
+      font-family: 'Righteous', cursive;
+      margin: 3em 0 2em 0;
+    }
+    .avatar-about{
+        width: 75% !important;
+    }
+    .p-home {    
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: #4B5D72;
+        font-family: sans-serif;
+      }
+}

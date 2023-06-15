@@ -1,0 +1,83 @@
+.title1-blueocean{
+    color: #f98d00;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+  
+  }
+  .title-blueocean{
+    color: #f98d00;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+  
+  }
+  
+.bg-pasti-blue{
+    background-color: #feeeda;
+    border-radius: 20px;
+  }
+  .texto-blue{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif; 
+  }
+  .btn-blueocean{
+    background-color: #f98d00;
+  }
+  .li-blueocean{
+    padding-left: 20px;
+    margin-bottom: 18px;
+    position: relative;
+    font-size: large;
+    font-family: sans-serif;
+    color: #7e8995;
+  }
+  
+.bi-columns{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  .bi-sd-card{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  .bi-code{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  .bi-window-sidebar{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  .bi-file-earmark-text{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  .bi-cloud-download{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  .bi-pencil-square{
+    color: #e4910b;
+    font-size: 2rem;
+  }
+  
+
+  /* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .title1-blueocean{
+        color: #f98d00;
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Righteous', cursive;
+      
+      }
+      .title-blueocean{
+        color: #f98d00;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Righteous', cursive;
+      }
+}

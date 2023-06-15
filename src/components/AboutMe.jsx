@@ -1,6 +1,6 @@
 import React from 'react'
 import memoji from "../../src/pics/thumbnail_image4.png"
-import cv from '../pdfs/CV_Cristian_Bosz_skills.pdf'
+
 
 const AboutMe = () => {
   return (
@@ -23,7 +23,7 @@ const AboutMe = () => {
 
 
 
-                          <a href={cv} target="_blank" rel="noopener noreferrer" download="CV_Cristian_Bosz.pdf" className='btn btn-danger fw-bold'>Descargá mi CV</a>
+                          <a href="https://drive.google.com/file/d/1QETDe9vhH3UNZChmj-_9VZwf1S7DFX6o/view?usp=sharing" target="_blank"  className='btn btn-danger fw-bold'>Mira mi CV</a>
                         </div>
                     </div>      
                 </div>

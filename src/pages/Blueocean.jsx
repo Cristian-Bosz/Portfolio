@@ -1,16 +1,16 @@
 import React from 'react'
-import bluehome from '../../pics/blueocean_home.png'
-import blueabout from '../../pics/blueocean_about.png'
-import html from '../../icons/html-1.svg'
-import vue from '../../icons/vue-js-1.svg'
-import css from '../../icons/css-3.svg'
+import bluehome from '../pics/blueocean_home.png'
+import blueabout from '../pics/blueocean_about.png'
+import html from '../icons/html-1.svg'
+import vue from '../icons/vue-js-1.svg'
+import css from '../icons/css-3.svg'
 import { motion } from "framer-motion"
-import bluelogo from '../../pics/blueocean.png'
-import Footer from '../Footer'
+import bluelogo from '../pics/blueocean.png'
+
 const Blueocean = () => {
   return (
     <>
-    <a class="btn-wsp" href="/"><i class="bi bi-arrow-left-circle"></i></a>
+    <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
       <img src={bluelogo} alt="logo de blueocean" className='my-5'/>
     <section className='container'>
                 <div className='row my-5'>
@@ -162,7 +162,6 @@ const Blueocean = () => {
 
     </section>
 
-    <Footer/>
     </>
   )
 }

@@ -1,0 +1,47 @@
+.bg-pastilla{
+    border-radius: 30px;
+    border-color: aquamarine !important;
+  }
+  .bg-pastillas{
+    background-color: rgb(255, 248, 240);
+  }
+  .sub-pasti{
+    font-size: 25px;
+    font-weight: 500;
+    color: #393939;
+    font-family: 'Righteous', cursive;
+  }
+  .card-icon{
+    height: 90px;
+    width: 90px;
+    margin-left: 40%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+  }
+  .sk-icon{
+    height: 75px;
+    width: 75px;
+  }
+
+  /* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .card-icon{
+      height: 90px;
+      width: 90px;
+      margin-left: 0%;
+      border-radius: 15px;
+      background-color: rgb(255, 255, 255);
+    }
+
+}
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+ 
+    .card-icon{
+      height: 90px;
+      width: 90px;
+      margin-left: 0%;
+      border-radius: 15px;
+      background-color: rgb(255, 255, 255);
+    }
+}

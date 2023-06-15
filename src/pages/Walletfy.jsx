@@ -1,14 +1,14 @@
 import React from 'react'
-import home from '../../pics/home.png'
-import analisis from '../../pics/home2.png'
-import walletfy from '../../pics/Walletfy_Logo.png'
-import wally from '../../pics/wallyTorta.png'
-import wally2 from '../../pics/wallytips.png'
-import Footer from '../Footer'
+import home from '../pics/home.png'
+import analisis from '../pics/home2.png'
+import walletfy from '../pics/Walletfy_Logo.png'
+import wally from '../pics/wallyTorta.png'
+import wally2 from '../pics/wallytips.png'
+
 const Walletfy = () => {
   return (
     <>
-    <a class="btn-wsp" href="/"><i class="bi bi-arrow-left-circle"></i></a>
+    <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
     <article className='container my-4'>    
             <div className=''>
                 <img src={walletfy} alt="encabezado con el logo de walletfy" className='walletfy-icon'/>
@@ -163,8 +163,6 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
                 </div>
             </article>
 
-            <Footer/>
- 
     </>
     
   )
