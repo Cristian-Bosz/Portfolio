@@ -1,9 +1,6 @@
 .walletfy-icon{
     width: 25%;
   }
-  .mockup-walletfy{
-    display: none;
-  }
   .anuncio {
     background: #242828;
     background-image: url('../pics/tramita.png');
@@ -79,6 +76,9 @@
 
   /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
+  .mockup-walletfy{
+    display: none;
+  }
     .walletfy-icon{
         width: 50%;
       }
