@@ -7,6 +7,7 @@ import tienda from '../pics/tienda.jpg'
 import descrip from '../pics/descrip.jpg'
 import cart from '../pics/cart.jpg'
 import { motion } from 'framer-motion'
+import thorkeyList from '../arrays/thorkeyList'
 
 
 const Thorkey = () => {
@@ -138,89 +139,24 @@ const Thorkey = () => {
 
         <div className='col-12 col-lg-6 my-4'> 
             <ul className='text-start'>
-    <li className='thorkey-li shadow-sm'>
-        <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-globe"></i>
-            </div>
-            <div className='col-10'>
-                <p> Para configurarlo tuvimos que contratar un <strong>hosting y un dominio</strong>, el dominio lo contratamos a través de <b>“DonWeb”</b>, luego el hosting se lo contratamos a <b>“Neolo”.</b></p>
-            </div>
-        </div>
-    </li>
     
-    <li className='thorkey-li shadow-sm'>
-        <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-wordpress"></i>
-            </div>
-            <div className='col-10'>
-                <p>Luego de enlazar el dominio con el hosting procedimos a <strong>instalar WorldPress</strong> a través de “Neolo”. </p>
-            </div>
-        </div>
-        
-    </li>
-    <li className='thorkey-li shadow-sm'>
-    <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-brush"></i>
-            </div>
-            <div className='col-10'>
-                <p>Teniendo WorldPress instalado lo siguiente que hicimos fue <strong>buscar un theme</strong> para nuestra página, el cual nos decidimos con el tema <strong>“Shop Zita”.</strong> </p>
-            </div>
-        </div>
-        
-    </li>
-    <li className='thorkey-li shadow-sm'>
-    <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-plugin"></i>
-            </div>
-            <div className='col-10'>
-                <p>Luego en el trayecto de realizar el trabajo fuimos viendo que en algunas situaciones necesitábamos la ayuda de <strong>plugins externos</strong> para poder realizar otro tipo de acciones para la web, como por ejemplo en el momento de realizar el formulario de contacto utilizamos el <b>pluginWPForms Lite</b> ya que el que venía por defecto con el tema no era posible editarlo. </p>
-            </div>
-        </div>
-        
-    </li>
-    <li className='thorkey-li shadow-sm'>
-    <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-pc-display-horizontal"></i>
-            </div>
-            <div className='col-10'>
-                <p>Por otra parte, al querer realizar la landing recurrimos al <b>PluginOpsLanding Page Builder </b>este contiene varios diseños de landing page, permitiéndonos cambiar los datos y las estructuras a nuestro gusto. </p>
-            </div>
-        </div>
-        
-    </li>
-    <li className='thorkey-li shadow-sm'>
-    <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-cart"></i>
-            </div>
-            <div className='col-10'>
-                <p>Hablando de plugins, para realizar toda la parte de <strong>configuración de ventas</strong> utilizamos los plugins de <strong>MailchimpforWooCommerce, WooCommerceServices, WooCommerce</strong>, estos fueron muy útiles en el momento de configuras las formas de pago y en todo lo relacionado con las ventas. </p>
-            </div>
-        </div>
-        
-    </li>
-    <li className='thorkey-li shadow-sm'>
-    <div className='row'>
-            <div className='col-2 text-center'>
-            <i class="bi bi-lock"></i>
-            </div>
-            <div className='col-10'>
-                <p>Para la parte de <b>seguridad</b> utilizamos el plugin <strong>Really Simple SSL</strong>, más que nada lo utilizamos para tener más seguridad en nuestra pagina, pero también lo utilizamos para que este activo el <b>SSL</b>, ya que sin este no podíamos utilizar las funciones de <b>MercadoPago</b>. </p>
-            </div>
-        </div>
-        
-    </li>
+                { thorkeyList.map(item => (
+                        <li  key={item.id} className='thorkey-li shadow-sm'>
+                                <div className='row'>
+                                    <div className='col-2 text-center li-thorkey-icons'>
+                                        <i className={item.icon}></i>
+                                    </div>
+                                    <div className='col-10'>
+                                        <p>{item.p}</p>
+                                    </div>
+                                </div>
+                        </li>
+                ))}
 
             </ul>
         </div>
 
     </div>
-   
    </section>
 
 <section className='container my-5'>

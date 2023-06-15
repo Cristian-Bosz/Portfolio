@@ -5,7 +5,7 @@ import blueocean from '../../src/pics/blueocean_min2.jpg'
 import thorkey from '../../src/pics/thorkey_min.jpg'
 import bsz from '../../src/pics/bzStore-min.jpg'
 import { motion } from "framer-motion"
-import memoji from "../../src/pics/thumbnail_image3.png"
+
 
 const Projects = () => {
   return (
@@ -50,67 +50,7 @@ const Projects = () => {
         </div>
     
     </section>
-    <article className='container mb-5'>
-          <div className='row align-items-center'>
-            <div className='col-12 col-lg-4'>
-            <img src={memoji} alt="meditando" className='avatar-proyecto'/>
-
-            </div>
-                <div className='col-12 col-lg-8'>
-                    <h2 className='title-home'>Estos proyectos me permitieron ganar experiencia en</h2>
-                    <ul className='text-start'>
-                            <li className='wallet-li shadow-sm'>
-                                <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-check"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold'>Trabajo en equipo</h3> 
-                                    </div>
-                                
-                                </div> 
-                            </li>
-                            <li className='wallet-li shadow-sm'>
-                                <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-check"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold'>Compartir responsabilidades</h3> 
-                                        
-                                    </div>
-                                
-                                </div> 
-                            </li>
-                            <li className='wallet-li shadow-sm'>
-                                <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-check"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold'>Desarrollar tareas con un
-objetivo y un plazo determinado</h3> 
-                                        
-                                    </div>
-                                
-                                </div> 
-                            </li>
-                            <li className='wallet-li shadow-sm'>
-                                <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-check"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold'>Metodologías ágiles</h3> 
-                                      
-                                    </div>
-                                
-                                </div> 
-                            </li>
-                    </ul>
-              </div>
-          </div>
-      </article>
+    
     </>
   )
 }

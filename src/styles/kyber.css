@@ -45,64 +45,12 @@
   .border-kyber{
     border-radius: 30px;
   }
-
   
-.bi-filetype-sql{
+.li-icons-kyber{
     color: #494949;
     font-size: 2rem;
   }
-  .bi-database{
-    color: #494949;
-    font-size: 2rem;  
-  }
-  .bi-braces{
-    color: #494949;
-    font-size: 2rem;  
-  }
-  .bi-cloud-check{
-    color: #494949;
-    font-size: 2rem;  
-  }
-  .bi-cart-check{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-person-check{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-box-arrow-in-left{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-person-vcard{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-patch-check{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-person-workspace{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-exclamation-triangle{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-cloud-upload{
-      color: #494949;
-    font-size: 2rem;
-  }
-  .bi-database-check{
-    color: #494949;
-    font-size: 2rem;
-  }
-  .bi-columns-gap{
-    color: #494949;
-    font-size: 2rem; 
-  }
+
 
   /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {

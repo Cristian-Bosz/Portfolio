@@ -14,6 +14,7 @@ import './styles/kyber.css';
 import './styles/walletfy.css';
 import './styles/bszStore.css';
 import './styles/footer.css';
+import './styles/experience.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

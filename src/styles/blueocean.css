@@ -35,35 +35,11 @@
     color: #7e8995;
   }
   
-.bi-columns{
+.li-blueocean-icons{
     color: #e4910b;
     font-size: 2rem;
   }
-  .bi-sd-card{
-    color: #e4910b;
-    font-size: 2rem;
-  }
-  .bi-code{
-    color: #e4910b;
-    font-size: 2rem;
-  }
-  .bi-window-sidebar{
-    color: #e4910b;
-    font-size: 2rem;
-  }
-  .bi-file-earmark-text{
-    color: #e4910b;
-    font-size: 2rem;
-  }
-  .bi-cloud-download{
-    color: #e4910b;
-    font-size: 2rem;
-  }
-  .bi-pencil-square{
-    color: #e4910b;
-    font-size: 2rem;
-  }
-  
+
 
   /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {

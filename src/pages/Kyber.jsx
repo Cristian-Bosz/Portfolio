@@ -8,6 +8,8 @@ import html from '../icons/html-1.svg'
 import css from '../icons/css-3.svg'
 import php from '../icons/php.svg'
 import mysql from '../icons/mysql-6.svg'
+import kyberList from '../arrays/kyberList'
+
 
 
 const Kyber = () => {
@@ -20,7 +22,7 @@ const Kyber = () => {
                         <h1 className='title1-kyber text-center'>Sables personalizados</h1>
                         <p className='p-home text-center'>Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars. </p>
                         <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>Explora el Github del proyecto</a>
-                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank" className='btn btn-outline-dark fw-bold mx-2 my-2'>Mira el PDF</a>
+                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-outline-dark fw-bold mx-2 my-2'>Mira el PDF</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
                         <img src={kyber_dis} alt='mockup de la tienda kyber en distintos dispositivos' className='w-100'/>
@@ -79,157 +81,19 @@ const Kyber = () => {
                 <ul className='my-5 text-start'>
                     <h3 className='title-kyber my-5'>Requisitos que cumplí</h3>
                     
+                    {kyberList.map(item => (
+                        <li key={item.id} className='lead li-kyber shadow-sm'>
+                        <div className='row'>
+                            <div className='col-2 text-center li-icons-kyber'>
+                            <i className={item.icon}></i>
+                            </div>
+                            <div className='col-10'>
+                              <p>{item.p}</p>  
+                            </div>
+                        </div>
+                        </li>
+                    ))}
 
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-filetype-sql"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p>El DER de la base de datos y su código SQL de creación e inserción de datos.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-database"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p> La web debe conectarse a esa base de datos </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-braces"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p> Uso de las funciones nativas de php <strong>require e include</strong> para el manejo de plantillas. </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-cloud-check"></i> 
-                            </div>
-                            <div className='col-10'>
-                                    <p><strong>Verificación de todos los datos</strong> recibidos por GET y POST desde php.</p>
-                            </div>
-                        </div>   
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                            <i class="bi bi-columns-gap"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p>El <b>CRUD</b> (Create, Read, Update & Delete) de una tabla de la base de datos (en el panel).</p>
-                            </div>
-                        </div>   
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-cart-check"></i>     
-                            </div>
-                            <div className='col-10'>
-                                <p><strong>El carrito funcional</strong>, es decir, elegir un producto/servicio, agregarlo al carrito, visualizar el total y “pagar”. Se recuerda que no hay pasarela de pago, solo la simulación del envío de datos de pago.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-person-check"></i>
-                            </div>
-                            <div className='col-10'>
-                                    <p><strong>Solo el usuario registrado</strong> (no admin) podrá realizar la compra/contratación del producto/servicio.</p>
-                            </div>
-                        </div>    
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-box-arrow-in-left"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p> <strong>Login y verificación</strong>  de usuario admin al panel.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-person-vcard"></i>                 
-                            </div>
-                            <div className='col-10'>
-                                <p> <b>Registro</b> de usuarios.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'> 
-                                <i class="bi bi-patch-check"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p>   <strong>Tener bien validados los ID</strong> que se piden en el ver detalle, de forma tal que si se pide un registro inexistente <strong>muestre un mensaje de error apropiado</strong>.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-person-workspace"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p> Que el <b>usuario</b> registrado <strong>pueda interactuar</strong> con los datos del SQL.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-exclamation-triangle"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p> Todo ABM debe <strong>mostrar un mensaje indicando si se realizó o no la operación.</strong></p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'> 
-                                <i class="bi bi-cloud-upload"></i> 
-                            </div>
-                            <div className='col-10'>
-                                <p> Upload de archivos.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>  
-                                <i class="bi bi-database-check"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p>   Definir el tipo de dato más <b>óptimo</b> de cada campo del SQL.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='lead li-kyber shadow-sm'>
-                        <div className='row'>
-                            <div className='col-2 text-center'>
-                                <i class="bi bi-database-check"></i>
-                            </div>
-                            <div className='col-10'>
-                                <p>Tener bien definidos los campos UNIQUE y NOT NULL del SQL</p>
-                            </div>
-                        </div>
-                    </li>
 
                 </ul>
             </div>

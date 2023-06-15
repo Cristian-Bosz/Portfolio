@@ -1,0 +1,21 @@
+.avatar-proyecto{
+    width: 75% !important;
+  }
+.bi-check{
+    color: #bb0497;
+    font-size: 2rem;
+  }
+
+/* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .avatar-proyecto{
+      width: 40% !important;
+    }
+}
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .avatar-proyecto{
+        width: 75% !important;
+      }
+}

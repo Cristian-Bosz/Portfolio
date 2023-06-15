@@ -4,37 +4,35 @@ import analisis from '../pics/home2.png'
 import walletfy from '../pics/Walletfy_Logo.png'
 import wally from '../pics/wallyTorta.png'
 import wally2 from '../pics/wallytips.png'
+import walletfyList from '../arrays/walletfyList'
 
 const Walletfy = () => {
   return (
     <>
-    <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
-    <article className='container my-4'>    
-            <div className=''>
-                <img src={walletfy} alt="encabezado con el logo de walletfy" className='walletfy-icon'/>
-            </div>
-    </article>
+            <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
+            <article className='container my-4'>    
+                    <div className=''>
+                        <img src={walletfy} alt="encabezado con el logo de walletfy" className='walletfy-icon'/>
+                    </div>
+            </article>
 
-    <section className='container'>
-                <div className='row my-5'>
-                    <div className='col-12 col-lg-6 align-self-sm-center my-5'>
-                        <h1 className='titulo-home text-center'>El aliado de tu bolsillo</h1>
-                        <p className='p-home text-center'>Walletfy es una aplicación de finanzas personales. <br/>
-El objetivo es ayudar al usuario en la organización de sus gastos.<br/>
-Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cuestionarios, un glosario de términos, para que nuestros clientes adopten una conducta financiera y puedan tomar las mejores desiciones. </p>
-                        <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>Probá la app</a>
-                    </div>
-                    <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                        <img src={home} alt='mockup del home de walletfy' className='mockup-walletfy'/>
-                    </div>
-                </div>
-    </section>
+            <section className='container'>
+                        <div className='row my-5'>
+                            <div className='col-12 col-lg-6 align-self-sm-center my-5'>
+                                <h1 className='titulo-home text-center'>El aliado de tu bolsillo</h1>
+                                <p className='p-home text-center'>Walletfy es una aplicación de finanzas personales. <br/>
+                                El objetivo es ayudar al usuario en la organización de sus gastos.<br/>
+                                Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cuestionarios, un glosario de términos, para que nuestros clientes adopten una conducta financiera y puedan tomar las mejores desiciones. </p>
+                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>Probá la app</a>
+                            </div>
+                            <div className='col-12 col-lg-6 d-flex justify-content-center'>
+                                <img src={home} alt='mockup del home de walletfy' className='mockup-walletfy'/>
+                            </div>
+                        </div>
+            </section>
 
     
-
-    
-
-    <section className='container text-center d-none d-lg-block'>
+            <section className='container text-center d-none d-lg-block'>
                 <div className='mt-5 pt-5 mb-5 pb-5'>
                     <div className='row anuncio align-items-center'>
                         <div className='col col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>
@@ -49,122 +47,52 @@ Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cu
             </section>
 
 
-<section className='container-fluid bg-video bg-light'>
-    <h3 className='titulo-tesis text-center pt-5'>Echale un vistazo a la app!</h3>
-    <div className='row justify-content-center align-items-center'>
-    
-        <div className='col-12 col-sm-12 col-md-12 col-lg-3  d-none d-lg-block'>
-            <img src={wally} alt="mascota de la aplicacion con celular" className='my-5'/>
-        </div>
-        <div className='col-12 col-sm-12 col-md-12 col-lg-6'>
-                <div className='ratio ratio-16x9 my-5'>
-                <iframe src="https://www.youtube.com/embed/iLG8qYFFjd0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>    
-        </div>
-        <div className='col-12 col-sm-12 col-md-12 col-lg-3 d-none d-lg-block'>
-            <img src={wally2} alt="mascota de la aplicacion con celular"/>
-        </div>
-    </div>
-</section>
-
-            
-            
+            <section className='container-fluid bg-video bg-light'>
+                <h3 className='titulo-tesis text-center pt-5'>Echale un vistazo a la app!</h3>
+                <div className='row justify-content-center align-items-center'>
+                
+                    <div className='col-12 col-sm-12 col-md-12 col-lg-3  d-none d-lg-block'>
+                        <img src={wally} alt="mascota de la aplicacion con celular" className='my-5'/>
+                    </div>
+                    <div className='col-12 col-sm-12 col-md-12 col-lg-6'>
+                            <div className='ratio ratio-16x9 my-5'>
+                            <iframe src="https://www.youtube.com/embed/iLG8qYFFjd0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>    
+                    </div>
+                    <div className='col-12 col-sm-12 col-md-12 col-lg-3 d-none d-lg-block'>
+                        <img src={wally2} alt="mascota de la aplicacion con celular"/>
+                    </div>
+                </div>
+            </section>
+      
             <article className=' container pt-5 mb-5'>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6'>
                         <img src={analisis} alt="Mockup" className='img-fluid img-analisis'/>
                     </div>
-                    
-
+                
                     <div className='col-12 col-lg-6'>
                         <h2 className='titulo-tesis my-5'>Funcionalidades</h2>
-                        <ul className='text-start'>
-                            <li className='wallet-li shadow-sm'>
-                                <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-activity"></i> 
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold wallet-li-h3'>Seguimiento de todos tus movimientos</h3> 
-                                        
-                                    </div>
-                                
-                                </div> 
-                            </li>
-                            <li className='wallet-li shadow-sm'>
-                                
-                                <div className='row'>
-                                    <div className='col-2 text-center'>
-                                     <i class="bi bi-pie-chart"></i>  
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold wallet-li-h3'>Gráficos detallados </h3>
-                                        
-                                    </div>
-                                
-                                </div> 
-                                 </li>
-                            <li className='wallet-li shadow-sm'>
-                            <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-book"></i>
-                                    </div>
-                                    <div className='col-10'>
-                            <h3 className='fw-bold wallet-li-h3'>Capacitación en el mundo de las finanzas</h3> 
-                           
-                                    </div>
-                                
-                                </div> </li>
-                            <li className='wallet-li shadow-sm'>
-                            <div className='row'>
-                                    <div className='col-2 text-center'>
-                                        <i class="bi bi-journal-text"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold wallet-li-h3'>Cuestionarios</h3>
-                                                                   
-                                    </div>
-                                
-                                </div> </li>
-                            <li className='wallet-li shadow-sm'>
-                            <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-newspaper"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold wallet-li-h3'> Noticias y Novedades del mundo financiero</h3>
-                                                                  
-                                    </div>
-                                
-                                </div></li>
-                                <li className='wallet-li shadow-sm'>
-                            <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-currency-bitcoin"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold wallet-li-h3'>  Seguimiento del mercado de criptomonedas</h3>
-                                                                  
-                                    </div>
-                                
-                                </div></li>  <li className='wallet-li shadow-sm'>
-                            <div className='row'>
-                                    <div className='col-2 text-center'>
-                                    <i class="bi bi-bank"></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <h3 className='fw-bold wallet-li-h3'> Seguimiento de la bolsa de valores</h3>
-                                                                  
-                                    </div>
-                                
-                                </div></li>
+                        <ul className='text-start'>                                                  
+                          {
+                            walletfyList.map(item => (
+                                    <li key={item.id} className='wallet-li shadow-sm'>
+                                        <div className='row'>
+                                            <div className='col-2 text-center li-walletfy-icons'>
+                                                <i className={item.icon}></i> 
+                                            </div>
+                                            <div className='col-10'>
+                                                <p className='fw-bold wallet-li-h3'>{item.p}</p> 
+                                            </div> 
+                                        </div> 
+                                    </li>
+                            ))
+                          }
                         </ul>
                     </div>
                 </div>
             </article>
-
     </>
-    
   )
 }
 
