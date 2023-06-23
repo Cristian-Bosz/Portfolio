@@ -1,0 +1,27 @@
+  .bg-in{
+    background-color: rgb(255, 248, 240);
+    border-radius: 10px 100px / 120px;
+  }
+  .p-about {    
+    font-size: 18px;
+    line-height: 28px;
+    color: #4B5D72;
+  }
+  .avatar-about{
+    width: 50% !important;
+  }
+
+/* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .avatar-about{
+        width: 50% !important;
+      }
+}
+  
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .avatar-about{
+        width: 75% !important;
+    }
+
+}

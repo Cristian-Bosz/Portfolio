@@ -1,32 +1,30 @@
-
-.titulo-bsz{
-    color: rgb(13, 109, 31) !important;
+  .titulo-bsz{
+    color: #157347 !important;
     font-size: 40px;
     line-height: 55px;
     font-weight: 600;
-    font-family: 'Righteous', cursive;
   }
   .bg-pasti-bsz{
-    background-color: rgb(20, 65, 29) ;
-    border-radius: 20px;
+    background-color: #157347 ;
+    border-radius: 20px;  
+      p{
+        color: #fff;
+        @extend .project-tech-stack;
+      }
   }
-  .li-bsz-icons{
-    font-size: 2rem;
-    color: rgb(13, 109, 31);
-  }  
+  .bsz-li{
+    @extend .project-funtionalities;
+      .li-bsz-icons{
+        font-size: 2rem;
+        color: #157347;
+      }  
+  }
   .card-icon-bsz{
     height: 95px;
     width: 95px;
     border-radius: 10px;
     margin: 0px 10px ;
     background-color: rgb(255, 255, 255);
-  }
-  .title1-bsz{
-    color: rgb(13, 109, 31);
-    font-size: 40px;
-    line-height: 55px;
-    font-weight: 600;
-    font-family: 'Righteous', cursive;
   }
   .sk-icon-bsz{
     height: 75px;

@@ -17,7 +17,7 @@ const bszStoreList = [
     {
         id: 4,
         icon: "bi bi-brush",
-        p: "Utiliza componentes de Bootstrap y SCSS para crear un diseño personalizado y visualmente atractivo.",
+        p: "Utiliza componentes de Bootstrap y SASS para crear un diseño personalizado y visualmente atractivo.",
     },
     {
         id: 5,

@@ -15,13 +15,13 @@ const Experience = () => {
                         <ul className='text-start'>                      
                                 {
                                     experience.map(item => (
-                                        <li key={item.id} className='wallet-li shadow-sm'>
+                                        <li key={item.id} className='experience-li shadow-sm'>
                                             <div className='row'>
                                                 <div className='col-2 text-center'>
                                                     <i className={item.icon}></i>
                                                 </div>
                                                 <div className='col-10'>
-                                                    <h3 className='fw-bold'>{item.p}</h3> 
+                                                    <p>{item.p}</p> 
                                                 </div>
                                             </div> 
                                         </li>

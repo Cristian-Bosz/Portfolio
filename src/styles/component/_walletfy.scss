@@ -3,22 +3,19 @@
 }
 .anuncio {
     background: #242828;
-    background-image: url('../pics/tramita.png');
+    background-image: url('../../pics/tramita.png');
     border-radius: 10px;
     max-width: 1200px;
     margin: 0 auto;
     align-items: center;
     padding: 34px 40px;
-    height: 127px;
+      p{
+        color: #fff;
+        @extend .project-tech-stack 
+      }
 }
-.anunciop {
-  color: white;
-  font-family: 'Harmonia';
-  font-size: 20px;
-}
-
 .bg-video{
-    background-image: url('../pics/tramita.png');
+    background-image: url('../../pics/tramita.png');
 }
 .titulo-home {
     font-size: 45px;
@@ -27,33 +24,27 @@
     font-weight: 600;
     text-align: left;
     color: #38b2e7;
-    font-family: 'Righteous', cursive;
 }
 .titulo-tesis{
     font-size: 45px;
     font-weight: 600;
-    color: #38b2e7;
-    font-family: 'Righteous', cursive;
-  
+    color: #38b2e7;  
 }
 .img-analisis{
     width: 75%;
 }
 .wallet-li {
-    padding-left: 20px;
-    margin-bottom: 18px;
-    position: relative;
-    font-size: large;
-    font-family: sans-serif;
-    color: #929FAD;
+    @extend .project-funtionalities;
+      p{
+        margin: 0.5em 0;
+      }
+      .li-walletfy-icons{
+      color: #0577a9;
+      font-size: 2rem;
+      }
 }
-.wallet-li-h3{
-    font-size: 24px;
-}
-.li-walletfy-icons{
-    color: #0577a9;
-    font-size: 2rem;
-}
+
+
 
   /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
@@ -66,7 +57,6 @@
   .wallet-li {
         margin-bottom: 18px;
         position: relative;
-        font-family: sans-serif;
         color: #929FAD;
   }
   .wallet-li-h3{
@@ -90,7 +80,6 @@
         padding-left: 0px;
         margin-bottom: 18px;
         position: relative;
-        font-family: sans-serif;
         color: #929FAD;
       }
       .wallet-li-h3{
@@ -101,13 +90,11 @@
         line-height: 3rem;
         font-weight: 600;
         color: #38b2e7;
-        font-family: 'Righteous', cursive;
         margin-bottom: 1em;
       }    
       .titulo-tesis{
         font-size: 35px;
         font-weight: 600;
         color: #38b2e7;
-        font-family: 'Righteous', cursive;
       }
 }

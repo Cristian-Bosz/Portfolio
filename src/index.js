@@ -1,20 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/component/styles.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import './styles/intro.css';
-import './styles/aboutMe.css';
-import './styles/pastillas.css';
-import './styles/projects.css';
-import './styles/thorkey.css';
-import './styles/blueocean.css';
-import './styles/kyber.css';
-import './styles/walletfy.css';
-import './styles/bszStore.css';
-import './styles/footer.css';
-import './styles/experience.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

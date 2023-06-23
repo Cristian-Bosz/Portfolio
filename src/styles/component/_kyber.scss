@@ -2,19 +2,14 @@
     color: #373737;
     font-size: 45px;
     font-weight: 600;
-    font-family: 'Righteous', cursive;
-  
   }
-  .texto-kyber{
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: sans-serif;
-  }
-  
 .bg-pasti-kyber{
     background-color: #202020;
     border-radius: 20px;
+      p{
+        color: #fff;
+        @extend .project-tech-stack;
+      }
   }
   .card-icon-kyber{
     height: 95px;
@@ -27,29 +22,24 @@
     height: 60px;
     width: 60px; 
   }
-  .li-kyber{
-    padding-left: 20px;
-    margin-bottom: 18px;
-    position: relative;
-    font-size: large;
-    font-family: sans-serif;
-    color: #7e8995;
-  }
-  .title-kyber{
+   .title-kyber{
     color: #373737;
     font-size: 35px;
-    font-weight: 600;
-    font-family: 'Righteous', cursive;
-  
+    font-weight: 600;  
+    margin-bottom: 1em;
+  }
+  .li-kyber{
+    @extend .project-funtionalities;
+      .li-icons-kyber{
+        color: #494949;
+        font-size: 2rem;
+      }
   }
   .border-kyber{
     border-radius: 30px;
   }
   
-.li-icons-kyber{
-    color: #494949;
-    font-size: 2rem;
-  }
+
 
 
   /* Breakpoint  formato pc, arriba de los 991px*/
@@ -61,10 +51,13 @@
         border-radius: 10px;
         background-color: rgb(255, 255, 255);
       }
-        .sk-icon-kyber{
-          height: 60px;
-          width: 60px; 
-        }
+      .sk-icon-kyber{
+        height: 60px;
+        width: 60px; 
+      }
+      .title-kyber{
+        margin-top: 1em;
+      }
 }
 
 
@@ -73,14 +66,7 @@
     .border-kyber{
         border: 1px solid rgba(124, 124, 124, 0.523)
       }
-      .li-kyber{
-        padding-left: 10px;
-        margin-bottom: 18px;
-        position: relative;
-        font-size: large;
-        font-family: sans-serif;
-        color: #7e8995;
-      }
+      
       .card-icon-kyber{
         height: 95px;
         width: 120px;

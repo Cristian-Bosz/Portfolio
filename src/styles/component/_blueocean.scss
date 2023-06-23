@@ -1,0 +1,43 @@
+.title1-blueocean{
+    color: #f98d00;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .title-blueocean{
+    color: #f98d00;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+.bg-pasti-blue{
+    background-color: #feeeda;
+    border-radius: 20px;
+      p{
+        color: #5d5c5c;
+        @extend .project-tech-stack;
+      }
+}
+  
+  .btn-blueocean{
+    background-color: #f98d00;
+  }
+  .li-blueocean{
+    @extend .project-funtionalities;
+      .li-blueocean-icons{
+        color: #e4910b;
+        font-size: 2rem;
+      }
+  }
+  
+
+
+
+  /* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .title1-blueocean{
+        font-size: 35px;
+      }
+      .title-blueocean{
+        font-size: 30px;
+      }
+}

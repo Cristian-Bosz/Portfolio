@@ -20,7 +20,7 @@ const Walletfy = () => {
                         <div className='row my-5'>
                             <div className='col-12 col-lg-6 align-self-sm-center my-5'>
                                 <h1 className='titulo-home text-center'>El aliado de tu bolsillo</h1>
-                                <p className='p-home text-center'>Walletfy es una aplicación de finanzas personales. <br/>
+                                <p className='project-description text-center'>Walletfy es una aplicación de finanzas personales. <br/>
                                 El objetivo es ayudar al usuario en la organización de sus gastos.<br/>
                                 Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cuestionarios, un glosario de términos, para que nuestros clientes adopten una conducta financiera y puedan tomar las mejores desiciones. </p>
                                 <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>Probá la app</a>
@@ -82,7 +82,7 @@ const Walletfy = () => {
                                                 <i className={item.icon}></i> 
                                             </div>
                                             <div className='col-10'>
-                                                <p className='fw-bold wallet-li-h3'>{item.p}</p> 
+                                                <p>{item.p}</p> 
                                             </div> 
                                         </div> 
                                     </li>
