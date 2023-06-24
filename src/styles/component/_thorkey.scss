@@ -2,26 +2,21 @@
     color: #ae7212;
     font-size: 45px;
     font-weight: 600;
-    font-family: 'Righteous', cursive;
 }
-  
 .bg-pasti-thorkey{
     background-color: #ac7c2e ;
     border-radius: 20px;
-  
+      p{
+        color: #fff;
+        @extend .project-tech-stack;
+      }
 }
 .card-icon-thorkey{
     height: 95px;
     width: 95px;
     border-radius: 10px;
     margin: 0em 2em ;
-    background-color: rgb(255, 255, 255);
-}
-.texto-thorkey{
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: sans-serif;
+    background-color: #ffffff;
 }
 .card{
   border-radius: 25% 10%;
@@ -30,23 +25,19 @@
     color:rgb(70, 70, 70);
     font-size: 16px;
     font-weight: 600;
-    font-family: sans-serif;
   }
-  .border-thorkey{
-    border: 1px solid rgba(153, 111, 57, 0.407);
+.border-thorkey{
+    border: 1px solid #996f3968;
     border-radius: 30px;
   }
-  .thorkey-li {
-    padding-left: 20px;
-    margin-bottom: 18px;
-    position: relative;
-    font-size: large;
-    font-family: sans-serif;
-    color: #7e8995;
+.thorkey-li {
+    @extend .project-funtionalities;
+      .li-thorkey-icons{   
+        color: #ac7c2e;
+        font-size: 2rem;
+      }
   }
-  .li-thorkey-icons{   
-    color: #ac7c2e;
-    font-size: 2rem;}
+  
   
 
 /* Breakpoint  formato pc, arriba de los 991px*/
@@ -56,7 +47,7 @@
         width: 95px;
         border-radius: 10px;
         margin: 0em 2em ;
-        background-color: rgb(255, 255, 255);
+        background-color: #ffffff;
       }
       .img-thorkey{
         width: 75% !important;
@@ -70,24 +61,22 @@
         color: #ae7212;
         font-size: 35px;
         font-weight: 600;
-        font-family: 'Righteous', cursive;
         margin-bottom: 1em;
       }
       .p-thorkey{
         color:rgb(70, 70, 70);
         font-size: 16px;
         font-weight: 600;
-        font-family: sans-serif;
       }
       .card-icon-thorkey{
         height: 95px;
         width: 95px;
         border-radius: 10px;
         margin: 0px 10px ;
-        background-color: rgb(255, 255, 255);
+        background-color: #ffffff;
       }
       .border-thorkey{
-        border: 1px solid rgba(146, 85, 5, 0.523)
+        border: 1px solid #92550585
       }
       .img-thorkey{
         width: 100% !important;

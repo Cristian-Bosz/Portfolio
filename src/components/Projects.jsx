@@ -12,7 +12,7 @@ const Projects = () => {
     <>
     <section className='container pt-4 pb-5'>
          <h3 className='title-home m-5'>Estos son mis últimos proyectos</h3>
-         <p className='p-proyecto text-center mt-4 mb-5 mx-4'>He trabajado en varios proyectos personales para mejorar mis habilidades y poner en práctica lo que he aprendido en la escuela.<br/> Me gusta trabajar en proyectos desafiantes que me permitan aplicar mis conocimientos y habilidades, y estoy comprometido a proporcionar soluciones creativas e innovadoras para cualquier problema que se presente. </p>
+         <p className='project-description text-center mt-4 mb-5 mx-4'>Trabajé en varios proyectos personales para mejorar mis habilidades y poner en práctica lo que aprendí en la escuela.<br/> Me gusta trabajar en <strong>proyectos desafiantes</strong> que me permitan aplicar mis conocimientos y habilidades, y estoy comprometido a proporcionar <strong>soluciones creativas e innovadoras</strong> para cualquier problema que se presente. </p>
         <div className="row justify-content-center my-5">
         <motion.div className="col-12 col-lg-5 m-2 miniatura shadow"
              whileHover={{ scale: [null, 1.2, 1.1] }}

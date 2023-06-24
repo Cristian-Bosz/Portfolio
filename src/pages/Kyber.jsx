@@ -20,7 +20,7 @@ const Kyber = () => {
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-kyber text-center'>Sables personalizados</h1>
-                        <p className='p-home text-center'>Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars. </p>
+                        <p className='project-description text-center'>Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars. </p>
                         <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>Explora el Github del proyecto</a>
                         <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-outline-dark fw-bold mx-2 my-2'>Mira el PDF</a>
                     </div>
@@ -36,7 +36,7 @@ const Kyber = () => {
         <div className='container bg-pasti-kyber shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='texto-kyber mx-2 mt-4'>Este proyecto es un ecommerce programado en PHP Procedural.</p>
+                    <p className='mx-2 mt-4'>Este proyecto es un ecommerce programado en PHP Procedural.</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>
@@ -78,8 +78,8 @@ const Kyber = () => {
             <img src={kyber_pan} alt="imagen del panel de productos en la tienda de kyber" className="w-100 border-kyber shadow-sm my-1 d-none d-lg-block"/>
             </div>
             <div className='col-12 col-lg-6'>
-                <ul className='my-5 text-start'>
-                    <h3 className='title-kyber my-5'>Requisitos que cumplí</h3>
+                <ul className='text-start'>
+                    <h3 className='title-kyber'>Requisitos que cumplí</h3>
                     
                     {kyberList.map(item => (
                         <li key={item.id} className='lead li-kyber shadow-sm'>

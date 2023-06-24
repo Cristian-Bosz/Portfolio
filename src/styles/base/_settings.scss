@@ -1,0 +1,91 @@
+//Fonts imports
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+//Variables
+$title-font-family: 'Righteous', cursive;
+$p-font-family: 'Poppins', sans-serif;
+$p-font-color: #656565;
+
+//Basic Structure and Formatting Styles
+.App {
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+p, a{
+    font-family: $p-font-family;
+}
+h1, h2, h3, h4{
+    font-family: $title-font-family;
+}
+.btn-wsp{
+  background: #9d037e;
+  border-radius: 50px;
+  bottom: 30px;
+  box-shadow: 0 1px 10px rgba(0,0,0,.3);
+  color: #fff;
+  font-size: 55px;
+  height: 60px;
+  line-height: 62px;
+  position: fixed;
+  right: 25px;
+  text-align: center;
+  transition: all .3s ease;
+  width: 60px;
+  z-index: 100;
+    :hover{
+        color: #fee2f9;
+    }
+    :focus{
+        color: #fee2f9;
+    }
+}
+
+  
+//Classes
+.title-home{
+    font-size: 40px;
+    font-weight: 600;
+    color: $p-font-color;
+    margin: 1em 0em 2em 0em;
+}
+.project-description {    
+    font-size: 18px;
+    line-height: 30px;
+    margin: 1em 0;
+    color: $p-font-color;
+}
+.project-tech-stack{
+    font-size: 20px;
+    font-weight: 600;
+}
+.project-funtionalities{
+    padding: 0 10px;
+    margin-bottom: 18px;
+    position: relative;
+    font-size: 18px;
+    color: $p-font-color; 
+}
+
+
+
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    ul{
+        padding: 0;
+    }
+    .title-home{
+        font-size: 30px;  
+        margin: 3em 0 2em 0;
+    }
+    .project-description {    
+        font-size: 16px;   
+        margin: 1em 0;
+    }
+}

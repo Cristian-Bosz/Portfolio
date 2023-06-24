@@ -18,7 +18,7 @@ const Thorkey = () => {
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-thorkey text-center'>La música comienza cuando las palabras acaban</h1>
-                        <p className='p-home text-center'>Thorkey es un E-commerce que se dedica a la venta de instrumentos musicales. </p>
+                        <p className='project-description text-center'>Thorkey es un E-commerce que se dedica a la venta de instrumentos musicales. </p>
                         <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn btn-dark fw-bold'>Mira el PDF</a>
                     
                             
@@ -35,7 +35,7 @@ const Thorkey = () => {
         <div className='container bg-pasti-thorkey shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='texto-thorkey my-2 mx-2'>Este proyecto fue creado exclusivamente con Wordpress y plugins como WooCommerce y Mercado Pago.</p>
+                    <p className='my-2 mx-2'>Este proyecto fue creado exclusivamente con Wordpress y plugins como WooCommerce y Mercado Pago.</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>

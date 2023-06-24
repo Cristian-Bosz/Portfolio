@@ -17,7 +17,7 @@ const Blueocean = () => {
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-blueocean text-center'>Cuidemos nuestro planeta</h1>
-                        <p className='p-home text-center'>BlueOcean es una PWA informativa sobre la contaminacion del agua. </p>
+                        <p className='project-description text-center'>BlueOcean es una PWA informativa sobre la contaminacion del agua. </p>
                         <a href='https://cristian-bosz.github.io/blueocean/#/home' Target="_blank" className='btn btn-blueocean fw-bold text-white'>Visitá la web</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
@@ -30,7 +30,7 @@ const Blueocean = () => {
         <div className='container bg-pasti-blue shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='texto-blue my-3 mx-2'>El objetivo de este proyecto es la creación de una PWA realizada con HMTL, CSS y Vue.js 2.6.</p>
+                    <p className='my-3 mx-2'>El objetivo de este proyecto es la creación de una PWA realizada con HMTL, CSS y Vue.js 2.6.</p>
                 </div>
                 <div className='col-12 col-lg-6 col-lg-6 my-5'>
                     <div className='row align-items-end justify-content-center'>
