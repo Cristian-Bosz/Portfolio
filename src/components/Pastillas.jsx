@@ -20,15 +20,16 @@ import jquery from '../../src/icons/jquery-1.svg'
 import { motion } from "framer-motion"
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import { useTranslation } from 'react-i18next'
 
 const Pastillas = () => {
+  const {t} = useTranslation();
+
   return (
     <>
-      
-
 <article className='container'>
     <div className=' row my-5'>
-<h3 className='my-5 title-home'>Skills </h3>
+<h3 className='my-5 title-home'>{t("title-skills")} </h3>
 
     <div className='col-12  bg-pastilla row align-items-start my-4 bg-pastillas shadow-sm'>
       <h4 className='sub-pasti my-3'>Front-end</h4> 
@@ -86,7 +87,7 @@ const Pastillas = () => {
     </div>
 
 <div className='col-12 bg-pastilla  row align-items-start my-4 bg-pastillas shadow-sm'>
-      <h4 className='sub-pasti my-3'>Librerias y frameworks</h4>
+      <h4 className='sub-pasti my-3'>{t("librerias")}</h4>
 
       <div className='col my-2'>
         <div className='card-icon shadow'>
@@ -154,7 +155,7 @@ const Pastillas = () => {
      
 
     <div className='col-12 col-lg-8 bg-pastilla row align-items-center my-4 bg-pastillas shadow-sm'>
-      <h4 className='sub-pasti'>Diseño</h4>
+      <h4 className='sub-pasti'>{t("diseño")}</h4>
       <div className='col my-2'>
         <div className='card-icon shadow'>
         <Tippy content="Photoshop"><motion.img src={photoshop} alt="icono de photoshop" className='sk-icon m-2'  whileHover={{ scale: [null, 1.2, 1.1] }}
