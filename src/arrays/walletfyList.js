@@ -2,37 +2,37 @@ const walletfyList = [
     {
         id: 1,
         icon: "bi bi-activity",
-        p: "Seguimiento de todos tus movimientos",
+        p: "walletfy.movements",
     },
     {
         id: 2,
         icon: "bi bi-pie-chart",
-        p: "Gráficos detallados",
+        p: "walletfy.graphics",
     },
     {
         id: 3,
         icon: "bi bi-book",
-        p: "Capacitación en el mundo de las finanzas",
+        p: "walletfy.education",
     },
     {
         id: 4,
         icon: "bi bi-journal-text",
-        p: "Cuestionarios",
+        p: "walletfy.cuestionaries",
     },
     {
         id: 5,
         icon: "bi bi-newspaper",
-        p: "Noticias y Novedades del mundo financiero",
+        p: "walletfy.news",
     },
     {
         id: 6,
         icon: "bi bi-currency-bitcoin",
-        p: "Seguimiento del mercado de criptomonedas",
+        p: "walletfy.criptos",
     },
     {
         id: 7,
         icon: "bi bi-bank",
-        p: "Seguimiento de la bolsa de valores",
+        p: "walletfy.stock",
     },
 ]
 
