@@ -6,9 +6,11 @@ const Navbar = () => {
     const {t, i18n} = useTranslation();
     const changeLanguageToEnglish  = () =>{
       i18n.changeLanguage("en");
+      localStorage.setItem('language', 'en');
     }
     const changeLanguageToSpanish = () => {
         i18n.changeLanguage('es');
+        localStorage.setItem('language', 'es');
       };
   return (
     <>
