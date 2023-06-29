@@ -7,8 +7,11 @@ import css from '../icons/css-3.svg'
 import { motion } from "framer-motion"
 import bluelogo from '../pics/blueocean.png'
 import blueoceanList from '../arrays/blueoceanList'
+import { useTranslation } from 'react-i18next'
 
 const Blueocean = () => {
+  const {t} = useTranslation();
+
   return (
     <>
     <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
@@ -16,9 +19,9 @@ const Blueocean = () => {
     <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
-                        <h1 className='title1-blueocean text-center'>Cuidemos nuestro planeta</h1>
-                        <p className='project-description text-center'>BlueOcean es una PWA informativa sobre la contaminacion del agua. </p>
-                        <a href='https://cristian-bosz.github.io/blueocean/#/home' Target="_blank" className='btn btn-blueocean fw-bold text-white'>Visitá la web</a>
+                        <h1 className='title1-blueocean text-center'>{t("blueocean.title")}</h1>
+                        <p className='project-description text-center'>{t("blueocean.description")}</p>
+                        <a href='https://cristian-bosz.github.io/blueocean/#/home' Target="_blank" className='btn btn-blueocean fw-bold text-white'>{t("blueocean.button")}</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
                         <img src={bluehome} alt='mockup del sitio web de blueocean en formato tablet'/>
@@ -30,7 +33,7 @@ const Blueocean = () => {
         <div className='container bg-pasti-blue shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='my-3 mx-2'>El objetivo de este proyecto es la creación de una PWA realizada con HMTL, CSS y Vue.js 2.6.</p>
+                    <p className='my-3 mx-2'>{t("blueocean.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6 col-lg-6 my-5'>
                     <div className='row align-items-end justify-content-center'>
@@ -65,7 +68,7 @@ const Blueocean = () => {
             </div>
             <div className='col-12 col-lg-6'>
                 <ul className='my-5 text-start'>
-                    <h3 className='title-blueocean my-5'>Requisitos que cumplí</h3>    
+                    <h3 className='title-blueocean my-5'>{t("blueocean.title2")}</h3>    
                     {
                         blueoceanList.map(item => (
                             <li key={item.id} className='lead li-blueocean shadow-sm'>
@@ -75,7 +78,7 @@ const Blueocean = () => {
                                 
                                     </div>
                                     <div className='col-10'>
-                                            <p>{item.p}</p>
+                                            <p>{t(item.p)}</p>
                                     </div>
                                 </div>                              
                             </li>

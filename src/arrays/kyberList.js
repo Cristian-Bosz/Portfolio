@@ -2,77 +2,77 @@ const kyberList = [
     {
         id: 1,
         icon: "bi bi-filetype-sql",
-        p: "El DER de la base de datos y su código SQL de creación e inserción de datos.",
+        p: "kyber.1",
       },
       {
         id: 2,
         icon: "bi bi-database",
-        p: "La web debe conectarse a esa base de datos",
+        p: "kyber.2",
       },  
       {
         id: 3,
         icon: "bi bi-braces",
-        p: "Uso de las funciones nativas de php require e include para el manejo de plantillas.",
+        p: "kyber.3",
       },  
       {
         id: 4,
         icon: "bi bi-cloud-check",
-        p: "Verificación de todos los datos recibidos por GET y POST desde php.",
+        p: "kyber.4",
       },  
       {
         id: 5,
         icon: "bi bi-columns-gap",
-        p: "El CRUD (Create, Read, Update & Delete) de una tabla de la base de datos (en el panel).",
+        p: "kyber.5",
       },  
       {
         id: 6,
         icon: "bi bi-cart-check",
-        p: "El carrito funcional, es decir, elegir un producto/servicio, agregarlo al carrito, visualizar el total y “pagar”. Se recuerda que no hay pasarela de pago, solo la simulación del envío de datos de pago.",
+        p: "kyber.6",
       },  
       {
         id: 7,
         icon: "bi bi-person-check",
-        p: "Solo el usuario registrado (no admin) podrá realizar la compra/contratación del producto/servicio.",
+        p: "kyber.7",
       },  
       {
         id: 8,
         icon: "bi bi-box-arrow-in-left",
-        p: "Login y verificación de usuario admin al panel.",
+        p: "kyber.8",
       },  
       {
         id: 9,
         icon:"bi bi-person-vcard",
-        p: "Registro de usuarios.",
+        p: "kyber.9",
       },  
       {
         id: 10,
         icon: "bi bi-patch-check",
-        p: "Tener bien validados los ID que se piden en el ver detalle, de forma tal que si se pide un registro inexistente muestre un mensaje de error apropiado",
+        p: "kyber.10",
       },
       {
         id: 11,
         icon: "bi bi-person-workspace",
-        p: "Que el usuario registrado pueda interactuar con los datos del SQL.",
+        p: "kyber.11",
       },
       {
         id: 12,
         icon: "bi bi-exclamation-triangle",
-        p: "Todo ABM debe mostrar un mensaje indicando si se realizó o no la operación.",
+        p: "kyber.12",
       },
       {
         id: 13,
         icon: "bi bi-cloud-upload",
-        p: "Upload de archivos.",
+        p: "kyber.13",
       },
       {
         id: 14,
         icon: "bi bi-database-check",
-        p: "Definir el tipo de dato más óptimo de cada campo del SQL.",
+        p: "kyber.14",
       },
       {
         id: 15,
         icon: "bi bi-database-check",
-        p: "Tener bien definidos los campos UNIQUE y NOT NULL del SQL",
+        p: "kyber.15",
       },
       
 ]

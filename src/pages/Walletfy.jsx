@@ -5,8 +5,12 @@ import walletfy from '../pics/Walletfy_Logo.png'
 import wally from '../pics/wallyTorta.png'
 import wally2 from '../pics/wallytips.png'
 import walletfyList from '../arrays/walletfyList'
+import { useTranslation } from 'react-i18next'
+import TextConvert from '../components/TextConvert'
 
 const Walletfy = () => {
+  const {t} = useTranslation();
+
   return (
     <>
             <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
@@ -19,11 +23,10 @@ const Walletfy = () => {
             <section className='container'>
                         <div className='row my-5'>
                             <div className='col-12 col-lg-6 align-self-sm-center my-5'>
-                                <h1 className='titulo-home text-center'>El aliado de tu bolsillo</h1>
-                                <p className='project-description text-center'>Walletfy es una aplicación de finanzas personales. <br/>
-                                El objetivo es ayudar al usuario en la organización de sus gastos.<br/>
-                                Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cuestionarios, un glosario de términos, para que nuestros clientes adopten una conducta financiera y puedan tomar las mejores desiciones. </p>
-                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>Probá la app</a>
+                                <h1 className='titulo-home text-center'>{t("walletfy.title")}</h1>
+                                <p className='project-description text-center'>{t("walletfy.description")} </p>
+                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>{t("walletfy.button")}</a>
+                                <a href='https://landing-walletfy.vercel.app/' Target="_blank"  className='btn fw-bold mx-1 btn-landing'>{t("walletfy.button2")}</a>
                             </div>
                             <div className='col-12 col-lg-6 d-flex justify-content-center'>
                                 <img src={home} alt='mockup del home de walletfy' className='mockup-walletfy'/>
@@ -39,7 +42,8 @@ const Walletfy = () => {
                             <img src={walletfy} alt="logo" className='w-50' />
                         </div>
                         <div className='col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'>
-                            <p className='anunciop'>Walletfy fue desarrollada con <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript</b>, <b>React.js</b>, <b>Api's</b>, <b>Firebase</b>, <b>Material UI</b> y <b>Bootstrap</b>.</p>
+                            <p className='anunciop'><TextConvert text={t("walletfy.tools")} /></p>
+                            
                         </div>
                         
                     </div>
@@ -48,7 +52,7 @@ const Walletfy = () => {
 
 
             <section className='container-fluid bg-video bg-light'>
-                <h3 className='titulo-tesis text-center pt-5'>Echale un vistazo a la app!</h3>
+                <h3 className='titulo-tesis text-center pt-5'>{t("walletfy.title2")}</h3>
                 <div className='row justify-content-center align-items-center'>
                 
                     <div className='col-12 col-sm-12 col-md-12 col-lg-3  d-none d-lg-block'>
@@ -72,7 +76,7 @@ const Walletfy = () => {
                     </div>
                 
                     <div className='col-12 col-lg-6'>
-                        <h2 className='titulo-tesis my-5'>Funcionalidades</h2>
+                        <h2 className='titulo-tesis my-5'>{t("walletfy.title3")}</h2>
                         <ul className='text-start'>                                                  
                           {
                             walletfyList.map(item => (
@@ -82,7 +86,7 @@ const Walletfy = () => {
                                                 <i className={item.icon}></i> 
                                             </div>
                                             <div className='col-10'>
-                                                <p>{item.p}</p> 
+                                                <p>{t(item.p)}</p> 
                                             </div> 
                                         </div> 
                                     </li>

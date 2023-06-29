@@ -9,22 +9,24 @@ import css from '../icons/css-3.svg'
 import php from '../icons/php.svg'
 import mysql from '../icons/mysql-6.svg'
 import kyberList from '../arrays/kyberList'
-
+import { useTranslation } from 'react-i18next'
 
 
 const Kyber = () => {
+  const {t} = useTranslation();
+
   return (
     <>
     <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
      <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
-                        <h1 className='title1-kyber text-center'>Sables personalizados</h1>
-                        <p className='project-description text-center'>Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars. </p>
-                        <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>Explora el Github del proyecto</a>
-                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-outline-dark fw-bold mx-2 my-2'>Mira el PDF</a>
+                        <h1 className='title1-kyber text-center'>{t("kyber.title")}</h1>
+                        <p className='project-description text-center'>{t("kyber.description")} </p>
+                        <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>{t("kyber.button1")}</a>
+                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-outline-dark fw-bold mx-2 my-2'>{t("kyber.button2")}</a>
                     </div>
-                    <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
+                    <div className='col-12 col-lg-6 d-flex justify-content-center'>
                         <img src={kyber_dis} alt='mockup de la tienda kyber en distintos dispositivos' className='w-100'/>
                     </div>
                 </div>
@@ -36,7 +38,7 @@ const Kyber = () => {
         <div className='container bg-pasti-kyber shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='mx-2 mt-4'>Este proyecto es un ecommerce programado en PHP Procedural.</p>
+                    <p className='mx-2 mt-4'>{t("kyber.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>
@@ -79,7 +81,7 @@ const Kyber = () => {
             </div>
             <div className='col-12 col-lg-6'>
                 <ul className='text-start'>
-                    <h3 className='title-kyber'>Requisitos que cumplí</h3>
+                    <h3 className='title-kyber'>{t("kyber.title2")}</h3>
                     
                     {kyberList.map(item => (
                         <li key={item.id} className='lead li-kyber shadow-sm'>
@@ -88,7 +90,7 @@ const Kyber = () => {
                             <i className={item.icon}></i>
                             </div>
                             <div className='col-10'>
-                              <p>{item.p}</p>  
+                              <p>{t(item.p)}</p>  
                             </div>
                         </div>
                         </li>

@@ -1,8 +1,11 @@
 import React from 'react'
 import memoji from "../../src/pics/thumbnail_image3.png"
 import experience from '../arrays/experienceList'
+import { useTranslation } from 'react-i18next'
 
 const Experience = () => {
+  const {t} = useTranslation();
+
   return (
     <>
       <article className='container mb-5'>
@@ -11,7 +14,7 @@ const Experience = () => {
                 <img src={memoji} alt="meditando" className='avatar-proyecto'/>
                 </div>
                 <div className='col-12 col-lg-8'>
-                        <h2 className='title-home'>Estos proyectos me permitieron ganar experiencia en</h2>
+                        <h2 className='title-home'>{t("experience.title")}</h2>
                         <ul className='text-start'>                      
                                 {
                                     experience.map(item => (
@@ -21,7 +24,7 @@ const Experience = () => {
                                                     <i className={item.icon}></i>
                                                 </div>
                                                 <div className='col-10'>
-                                                    <p>{item.p}</p> 
+                                                    <p>{t(item.p)}</p> 
                                                 </div>
                                             </div> 
                                         </li>

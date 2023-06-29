@@ -1,0 +1,118 @@
+{
+    "intro": {
+        "intro": "Hi! I'm Cristian Bösz, welcome!",
+        "subintro": "Front-end Developer Jr"
+    },
+    "about":{
+        "title": "About me",
+        "p1": "I am 23 years old and a passionate **Front-End Developer Jr** with a keen interest in web development and creating **unique and engaging user experiences.** While I am new to the industry, I have a solid foundation in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in my career as a developer.",
+        "p2": "I am a **dedicated, responsible, and collaborative** worker, who thrives in a team environment and easily adapts to any work setting. I am **motivated** and always seeking to improve my skills and expand my knowledge of the latest technologies and trends in the web development industry.",
+        "p3": "I am excited to embark on my web development career and I am actively seeking opportunities to work on **exciting and challenging** projects that allow me to **grow and enhance my skills as a developer.**",
+        "cv": "Check out my CV"
+    },
+    "skills":{
+        "title": "Skills",
+        "librerias": "Libreries and frameworks",
+        "diseño": "Design"
+    },
+    "projects":{
+        "title": "These are my last projects",
+        "subtitle": "I have worked on several personal projects to enhance my skills and put into practice what I learned in school. I enjoy working on **challenging projects** that allow me to apply my knowledge and skills, and I am committed to providing **creative and innovative solutions** for any problem that arises. "
+    },
+    "experience":{
+        "title": "These projects allowed me to gain experience in",
+        "1": "Teamwork",
+        "2": "Share responsabilities",
+        "3": "Develop tasks with a specific objective and deadline",
+        "4": "Agile methodologies (scrum)"
+    },
+    "footer":{
+        "title": "Get in touch with me",
+        "p": "If you're looking for a passionate and motivated junior front-end web developer, please don't hesitate to reach out. I would love to discuss your projects and how we can work together to create exceptional user experiences for your website."
+    },
+    "bsz":{
+        "title": "Bringing joy to your everyday life",
+        "description": "I'm thrilled to share my latest project with you, a fully React-based e-commerce website. This project primarily focuses on front-end development and design, as it doesn't include a back-end section.",
+        "button1": "Check out the store",
+        "tools": "This project was created exclusively using ReactJS, Bootstrap 5, and Sass",
+        "title2": "Discover the highlights of my project",
+        "1": "It is fully developed in React, showcasing my skills in this popular front-end library.",
+        "2": "It features a simple and intuitive user interface, displaying 20 products on the page with clickable links for more detailed information about each product.",
+        "3": "It is fully responsive, ensuring that users can access and navigate the website optimally on any device.",
+        "4": "It utilizes Bootstrap components and SASS to create a custom design that is visually appealing.",
+        "5": "I use SCSS, which helps me create styles more efficiently and in an organized manner by utilizing variables and nesting."
+    },
+    "walletfy":{
+        "title": "Your pocket's ally",
+        "description": "Walletfy is a personal finance application. Its goal is to assist users in organizing their expenses. Additionally, we aim to empower users with financial content such as tips, quizzes, and a glossary of terms, so that our customers can adopt sound financial habits and make informed decisions.",
+        "button": "Try out the app",
+        "button2": "Landing page",
+        "tools": "Walletfy was developed using **HTML5**, **CSS3**, **JavaScript**, **React.js**, **Api's**, **Firebase**, **Material UI** and **Bootstrap**.",
+        "title2": "Take a look at the app!",
+        "title3": "Funcionalities",
+        "1": "Track all your transactions",
+        "2": "Detailed graphs",
+        "3": "Financial education",
+        "4": "Quizzes",
+        "5": "Financial news and updates",
+        "6": "Cryptocurrency market tracking",
+        "7": "Stock market monitoring"
+    },
+    "kyber":{
+        "title": "Custom Lightsabers",
+        "description": "Kyber is a digital store dedicated to the sale of Star Wars lightsaber replicas.",
+        "button1": "Explore the project's GitHub",
+        "button2": "View the PDF",
+        "tools": "This project is an ecommerce website developed in Procedural PHP.",
+        "title2": "Requirements I fulfilled",
+        "1": "The Entity-Relationship Diagram (ERD) of the database and its SQL code for creation and data insertion.",
+        "2": "The website should connect to that database.",
+        "3": "Usage of native PHP functions require and include for template handling.",
+        "4": "Validation of all data received via GET and POST from PHP.",
+        "5": "CRUD (Create, Read, Update & Delete) operations on a database table (in the admin panel).",
+        "6": "Functional cart feature, allowing users to choose a product/service, add it to the cart, view the total, and 'checkout'. Note that there is no payment gateway, only simulation of payment data submission.",
+        "7": "Only registered users (non-admin) can make a purchase/booking of a product/service.",
+        "8": "Login and verification of admin user for the admin panel.",
+        "9": "User registration functionality.",
+        "10": "Proper validation of requested ID for displaying details, showing an appropriate error message if an invalid record is requested.",
+        "11": "Allow registered users to interact with SQL data.",
+        "12": "Display a message indicating the success or failure of any Create, Read, Update, or Delete operation (CRUD).",
+        "13": "File uploads.",
+        "14": "Defining the most appropriate data type for each field in the SQL.",
+        "15": "Properly defining UNIQUE and NOT NULL constraints on SQL fields."   
+    },
+    "blueocean":{
+        "title": "Let's Take Care of Our Planet",
+        "description": "BlueOcean is an informative PWA about water pollution.",
+        "button": "Visit the Website",
+        "tools": "The objective of this project is to create a PWA using HTML, CSS, and Vue.js 2.6.",
+        "title2": "Requirements I Met",
+        "1": "It must have a CRUD functionality for users to manipulate data.",
+        "2": "Use of HTML5's LocalStorage API to allow users to manipulate data (save, delete, update, etc.). Therefore, the application should offer the same functionalities to users whether they have an internet connection or not.",
+        "3": "It should have at least 4 navigable links representing the content of each component's template within the router-view.",
+        "4": "The application's design should reflect a unique and customized style that suits the product.",
+        "5": "Configuration file (manifest) with the necessary data for app configuration (icons, display, orientation, start_url, name, etc.). Both the icon and splash should be representative of the app.",
+        "6": "Through the manifest, the app should be installable and provide the best possible user experience.",
+        "7": "The service worker should allow us to configure the app's behavior and leverage its lifecycle for resource caching."   
+    },
+    "thorkey":{
+        "title": "Music begins where words end",
+        "description": "Thorkey is an E-commerce store dedicated to selling musical instruments.",
+        "button": "View the PDF",
+        "tools": "This project was exclusively created using WordPress and plugins such as WooCommerce and Mercado Pago.",
+        "title2": "Theme",
+        "title3": "Plugins",
+        "title4": "Site Configurations",
+        "1": "To set it up, we had to purchase hosting and a domain. We got the domain through 'DonWeb' and the hosting from 'Neolo'.",
+        "2": "After linking the domain with the hosting, we proceeded to install WordPress through 'Neolo'.",
+        "3": "Once WordPress was installed, the next step was to find a theme for our website. We chose the 'Shop Zita' theme.",
+        "4": "During the project, we realized that in some situations we needed the help of external plugins to perform certain actions on the website. For example, when creating the contact form, we used the WPForms Lite plugin since the default one provided by the theme was not editable.",
+        "5": "Furthermore, for creating the landing page, we used the PluginOps Landing Page Builder. It offers various pre-designed landing page layouts that we could customize according to our needs.",
+        "6": "Speaking of plugins, we utilized Mailchimp for WooCommerce, WooCommerce Services, and WooCommerce for all the sales configuration. These plugins were very helpful in setting up payment methods and managing sales-related tasks.",
+        "7": "For security purposes, we employed the Really Simple SSL plugin. It not only enhanced the security of our website but also allowed us to activate SSL, which was necessary for using Mercado Pago functionalities.",
+        "title5": "Site Expectations",
+        "p1": "Regarding the chosen theme, we can say that we **fully utilized** its features and we are highly satisfied with it. It is very comprehensive.",
+        "p2": "On our website, we **implemented different product sections for sale,** such as various categories of pianos and guitars. This allows us to offer a **wide range of products** to our customers.",
+        "p3": "Our site aims to be a **user-friendly e-commerce platform,** fulfilling all our customers' desires and **providing them with the best experience when purchasing instruments.**"  
+    }
+}

@@ -10,12 +10,25 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Navbar from './components/Navbar';
+import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 
 function App() {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage) {
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, [i18n]);
+
   return (
     <div className="App">
-      <BrowserRouter>   
+      <BrowserRouter>  
+        <Navbar/> 
            <Routes>
                   <Route path='/' element={<Inicio/>}/>
                   <Route path='/walletfy' element={<Walletfy/>}/>

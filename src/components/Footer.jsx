@@ -1,6 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
+
 const Footer = () => {
+  const {t} = useTranslation();
+
   return (
     <>
      <footer className='container-fluid'>
@@ -8,9 +12,8 @@ const Footer = () => {
         <div className='row align-items-start'>
       
           <div className='col-12'>
-           <h3 className='ft-title mt-5 mb-3 '>Contactame en mis redes</h3>
-           <p className='p-footer text-center mt-5 mb-3'>Si estás buscando a un desarrollador web front-end junior apasionado y motivado, por favor no dudes en contactarme. <br/>
-           Me encantaría discutir tus proyectos y cómo podemos trabajar juntos para crear experiencias de usuario excepcionales para tu sitio web.</p>
+           <h3 className='ft-title mt-5 mb-3 '>{t("footer.title")}</h3>
+           <p className='p-footer text-center mt-5 mb-3'>{t("footer.p")}</p>
             <div className='row align-items-start justify-content-center mb-5 mt-4'>
              
               <div className='col-1 social-icon'>

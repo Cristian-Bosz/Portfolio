@@ -1,0 +1,118 @@
+{
+    "intro":{
+        "intro": "¡Hola! Soy Cristian Bösz, bienvenido/a!",
+        "subintro": "Desarrollador Front-end y Back-end JR"
+    },
+    "about":{
+        "title": "Sobre mí",
+        "p1": "Tengo 23 años y soy un **Desarrollador Web Front-End Junior** apasionado por el desarrollo web y la creación de **experiencias de usuario únicas y atractivas**. Si bien soy nuevo en la industria, tengo una sólida formación en HTML, CSS y JavaScript, y estoy emocionado por seguir aprendiendo y creciendo en mi carrera como desarrollador.",
+        "p2": "Soy un trabajador **comprometido, responsable y colaborativo**, que trabaja bien en equipo y se adapta fácilmente a cualquier ambiente de trabajo. Estoy **motivado** y siempre busco mejorar mis habilidades y ampliar mi conocimiento sobre las últimas tecnologías y tendencias en la industria del desarrollo web.",
+        "p3": "Estoy emocionado por comenzar mi carrera en el desarrollo web y estoy buscando oportunidades para trabajar en proyectos **emocionantes y desafiantes** que me permitan **crecer y mejorar como desarrollador**.",
+        "cv": "Mira mi CV"
+    },
+    "skills":{
+        "title": "Habilidades",
+        "librerias": "Librerias y frameworks",
+        "diseño": "Diseño"
+    },
+    "projects":{
+        "title": "Estos son mis últimos proyectos",
+        "subtitle": "Trabajé en varios proyectos personales para mejorar mis habilidades y poner en práctica lo que aprendí en la escuela. Me gusta trabajar en **proyectos desafiantes** que me permitan aplicar mis conocimientos y habilidades, y estoy comprometido a proporcionar **soluciones creativas e innovadoras** para cualquier problema que se presente. "
+    },
+    "experience":{
+        "title": "Estos proyectos me permitieron ganar experiencia en",
+        "1": "Trabajo en equipo",
+        "2": "Compartir responsabilidades",
+        "3": "Desarrollar tareas con un objetivo y un plazo determinado",
+        "4": "Metodologías ágiles (scrum)"
+    },
+    "footer":{
+        "title": "Contactame en mis redes",
+        "p": "Si estás buscando a un desarrollador web front-end junior apasionado y motivado, por favor no dudes en contactarme. Me encantaría discutir tus proyectos y cómo podemos trabajar juntos para crear experiencias de usuario excepcionales para tu sitio web."
+    },
+    "bsz":{
+        "title": "Llevando alegría a tu día a día",
+        "description": "Estoy emocionado de compartirles mi último proyecto, un ecommerce desarrollado completamente en React. Este proyecto se enfoca principalmente en el Front-end y el diseño, por lo que no cuenta con una sección de Back-end.",
+        "button1": "Visita la tienda",
+        "tools": "Este proyecto fue creado exclusivamente con ReactJS, Bootstrap 5 y Sass.",
+        "title2": "Conocé lo mejor de mi proyecto ",
+        "1": "Está desarrollada completamente en React, demostrando mi habilidad en esta popular biblioteca de frontend.",
+        "2": "Tiene una interfaz de usuario simple e intuitiva, con 20 productos mostrados en la página y enlaces clickables a información más detallada sobre cada producto.",
+        "3": "Es completamente responsiva, asegurando que los usuarios puedan acceder y navegar por el sitio web de manera óptima en cualquier dispositivo.",
+        "4": "Utiliza componentes de Bootstrap y SASS para crear un diseño personalizado y visualmente atractivo.",
+        "5": "Utilizo SCSS, para aprovechar el poder de las variables y el anidamiento, lo que permitió un estilo más eficiente y organizado."
+    },
+    "walletfy":{
+        "title": "El aliado de tu bolsillo",
+        "description": "Walletfy es una aplicación de finanzas personales. El objetivo es ayudar al usuario en la organización de sus gastos. Ademas, buscamos capacitar al usuario con contenido financiero como consejos, cuestionarios, un glosario de términos, para que nuestros clientes adopten una conducta financiera y puedan tomar las mejores desiciones.",
+        "button": "Probá la app",
+        "button2": "Landing page",
+        "tools": "Walletfy fue desarrollada con **HTML5**, **CSS3**, **JavaScript**, **React.js**, **Api's**, **Firebase**, **Material UI** y **Bootstrap**.",
+        "title2": "¡Echale un vistazo a la app!",
+        "title3": "Funcionalidades",
+        "1": "Seguimiento de todos tus movimientos",
+        "2": "Gráficos detallados",
+        "3": "Capacitación en el mundo de las finanzas",
+        "4": "Cuestionarios",
+        "5": "Noticias y novedades del mundo financiero",
+        "6": "Seguimiento del mercado de criptomonedas",
+        "7": "Seguimiento de la bolsa de valores"
+    },
+    "kyber":{
+        "title": "Sables personalizados",
+        "description": "Kyber es una tienda digital que se dedica a la venta de réplicas de sables de luz de star wars.",
+        "button1": "Explora el Github del proyecto",
+        "button2": "Mira el PDF",
+        "tools": "Este proyecto es un ecommerce programado en PHP Procedural.",
+        "title2": "Requisitos que cumplí",
+        "1": "El DER de la base de datos y su código SQL de creación e inserción de datos.",
+        "2": "La web debe conectarse a esa base de datos",
+        "3": "Uso de las funciones nativas de php require e include para el manejo de plantillas.",
+        "4": "Verificación de todos los datos recibidos por GET y POST desde php.",
+        "5": "El CRUD (Create, Read, Update & Delete) de una tabla de la base de datos (en el panel).",
+        "6": "El carrito funcional, es decir, elegir un producto/servicio, agregarlo al carrito, visualizar el total y “pagar”. Se recuerda que no hay pasarela de pago, solo la simulación del envío de datos de pago.",
+        "7": "Solo el usuario registrado (no admin) podrá realizar la compra/contratación del producto/servicio.",
+        "8": "Login y verificación de usuario admin al panel.",
+        "9": "Registro de usuarios.",
+        "10": "Tener bien validados los ID que se piden en el ver detalle, de forma tal que si se pide un registro inexistente muestre un mensaje de error apropiado",
+        "11": "Que el usuario registrado pueda interactuar con los datos del SQL.",
+        "12": "Todo ABM debe mostrar un mensaje indicando si se realizó o no la operación.",
+        "13": "Upload de archivos.",
+        "14": "Definir el tipo de dato más óptimo de cada campo del SQL.",
+        "15": "Tener bien definidos los campos UNIQUE y NOT NULL del SQL" 
+    },
+    "blueocean": {    
+        "title": "Cuidemos nuestro planeta",
+        "description": "BlueOcean es una PWA informativa sobre la contaminacion del agua.",
+        "button": "Visitá la web",
+        "tools": "El objetivo de este proyecto es la creación de una PWA realizada con HMTL, CSS y Vue.js 2.6.",
+        "title2": "Requisitos que cumplí",
+        "1": "Debe tener un ABM para que el usuario pueda manipular datos.",
+        "2": "Uso de la Api LocalStorage de HTML5, para darle la posibilidad al usuario manipular datos (guardar, borrar, actualizar, etc). Por lo tanto, la aplicación tiene que ofrecer las mismas funcionalidades al usuario si tiene o no tiene red para interactuar con la misma.",
+        "3": "Debe poseer como mínimo 4 vínculos navegables. Representando el contenido de cada template de los componentes dentro de router-view.",
+        "4": "El diseño de la aplicación debe reflejar un estilo propio, personalizado acorde al producto.",
+        "5": "Archivo de configuración manifest con los datos necesarios para la configuración de la app. (icons, display, orientation, start_url, name etc.). Tanto el icono como el splash deben ser representativos de la app en cuestión.",
+        "6": "Por medio del manifest se debe poder instalar y brindarle al usuario la mejor experiencia posible.",
+        "7": "El Service worker debe permitirnos configurar el comportamiento de la app y aprovechar su ciclo de vida para realizar el cache de recursos."
+    },
+    "thorkey":{    
+        "title": "La música comienza cuando las palabras acaban",
+        "description": "Thorkey es un E-commerce que se dedica a la venta de instrumentos musicales.",
+        "button": "Mira el PDF",
+        "tools": "Este proyecto fue creado exclusivamente con Wordpress y plugins como WooCommerce y Mercado Pago.",
+        "title2": "Tema",
+        "title3": "Plugins",
+        "title4": "Configuraciones del sitio",
+        "1": "Para configurarlo tuvimos que contratar un hosting y un dominio, el dominio lo contratamos a través de “DonWeb”, luego el hosting se lo contratamos a “Neolo”.",
+        "2": "Luego de enlazar el dominio con el hosting procedimos a instalar WorldPress a través de 'Neolo'.",
+        "3": "Teniendo WorldPress instalado lo siguiente que hicimos fue buscar un theme para nuestra página, el cual nos decidimos con el tema 'Shop Zita'.",
+        "4": "Luego en el trayecto de realizar el trabajo fuimos viendo que en algunas situaciones necesitábamos la ayuda de plugins externos para poder realizar otro tipo de acciones para la web, como por ejemplo en el momento de realizar el formulario de contacto utilizamos el pluginWPForms Lite ya que el que venía por defecto con el tema no era posible editarlo.",
+        "5": "Por otra parte, al querer realizar la landing recurrimos al PluginOpsLanding Page Builder este contiene varios diseños de landing page, permitiéndonos cambiar los datos y las estructuras a nuestro gusto.",
+        "6": "Hablando de plugins, para realizar toda la parte de configuración de ventas utilizamos los plugins de MailchimpforWooCommerce, WooCommerceServices, WooCommerce, estos fueron muy útiles en el momento de configuras las formas de pago y en todo lo relacionado con las ventas.",
+        "7": "Para la parte de seguridad utilizamos el plugin Really Simple SSL, más que nada lo utilizamos para tener más seguridad en nuestra pagina, pero también lo utilizamos para que este activo el SSL, ya que sin este no podíamos utilizar las funciones de MercadoPago",
+        "title5": "Expectativas del sitio",
+        "p1": "Hablando del Theme elegido, podemos decir que lo **“exprimimos” al máximo** ya que utilizamos todas sus funciones y estamos muy satisfechos ya que este es muy completo. ",
+        "p2": "En nuestra página **aplicamos distintos tipos de secciones de productos a vender,** como por ejemplo distintas categorías de piano y guitarras, teniendo así un **amplio catalogo de productos** a ofrecer a nuestros clientes. ",
+        "p3": "Las funciones que esperamos de nuestro sitio es que sea un **ecommerce cómodo para la gente,** cumpliendo todos los deseos de nuestros clientes **ofreciéndoles lo mejor en el momento de realizar compras de instrumentos.**"
+    }
+}
