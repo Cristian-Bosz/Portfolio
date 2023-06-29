@@ -23,9 +23,9 @@ const BszStore = () => {
         <section className='container'>
                     <div className='row my-5'>
                         <div className='col-12 col-lg-6 align-self-sm-center my-5'>
-                            <h1 className='titulo-bsz fw-bold text-center'>{t("bsz-title")}</h1>
-                            <p className='project-description text-center'>{t("bsz-description")}</p>
-                            <a href='https://bsz-store-with-sass.vercel.app/' Target="_blank"  className='btn btn-success fw-bold text-white'>{t("bsz-button1")}</a>
+                            <h1 className='titulo-bsz fw-bold text-center'>{t("bsz.title")}</h1>
+                            <p className='project-description text-center'>{t("bsz.description")}</p>
+                            <a href='https://bsz-store-with-sass.vercel.app/' Target="_blank"  className='btn btn-success fw-bold text-white'>{t("bsz.button1")}</a>
                             <a href='https://github.com/Cristian-Bosz/bsz-store-with-sass' Target="_blank"  className='btn btn-outline-success fw-bold mx-2'>Github</a>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
@@ -40,7 +40,7 @@ const BszStore = () => {
             <div className='container bg-pasti-bsz shadow'>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6'>
-                        <p className='my-2 mx-2'>{t("bsz-tools")}</p>
+                        <p className='my-2 mx-2'>{t("bsz.tools")}</p>
                     </div>
                     <div className='col-12 col-lg-6 my-5'>
                         <div className='row align-items-center justify-content-center'>
@@ -67,7 +67,7 @@ const BszStore = () => {
 
                
         <section className='container my-5'>
-            <h2 className='mt-5 mb-4 titulo-bsz'>{t("bsz-title2")}</h2>
+            <h2 className='mt-5 mb-4 titulo-bsz'>{t("bsz.title2")}</h2>
             <div className='row'>
                 <div className='col-12 col-lg-6 my-4'>
                 <img src={mockup2} alt='mockup de la tienda en distintos dispositivos' className='w-100'/> 

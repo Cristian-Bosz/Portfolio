@@ -14,9 +14,9 @@ const Projects = () => {
   return (
     <>
     <section className='container pt-4 pb-5'>
-         <h3 className='title-home m-5'>{t("title-project")}</h3>
+         <h3 className='title-home m-5'>{t("projects.title")}</h3>
          <p className='project-description text-center mt-4 mb-5 mx-4'>
-          <TextConvert text={t("sub-project")} />
+          <TextConvert text={t("projects.subtitle")} />
          </p>         
 
         <div className="row justify-content-center my-5">

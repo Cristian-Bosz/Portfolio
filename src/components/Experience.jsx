@@ -14,7 +14,7 @@ const Experience = () => {
                 <img src={memoji} alt="meditando" className='avatar-proyecto'/>
                 </div>
                 <div className='col-12 col-lg-8'>
-                        <h2 className='title-home'>{t("title-exp")}</h2>
+                        <h2 className='title-home'>{t("experience.title")}</h2>
                         <ul className='text-start'>                      
                                 {
                                     experience.map(item => (

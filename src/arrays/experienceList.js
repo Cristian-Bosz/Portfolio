@@ -2,22 +2,22 @@ const experience = [
     {
         id: 1,
         icon: "bi bi-check",
-        p: "experience.teamwork",
+        p: "experience.1",
     },
     {
         id: 2,
         icon: "bi bi-check",
-        p: "experience.responsabilities",
+        p: "experience.2",
     },
     {
         id: 3,
         icon: "bi bi-check",
-        p: "experience.task",
+        p: "experience.3",
     },
     {
         id: 4,
         icon: "bi bi-check",
-        p: "experience.metodologies",
+        p: "experience.4",
     },
 ]
 

@@ -21,12 +21,12 @@ const Kyber = () => {
      <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
-                        <h1 className='title1-kyber text-center'>{t("kyber-title")}</h1>
-                        <p className='project-description text-center'>{t("kyber-description")} </p>
-                        <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>{t("kyber-button1")}</a>
-                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-outline-dark fw-bold mx-2 my-2'>{t("kyber-button2")}</a>
+                        <h1 className='title1-kyber text-center'>{t("kyber.title")}</h1>
+                        <p className='project-description text-center'>{t("kyber.description")} </p>
+                        <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>{t("kyber.button1")}</a>
+                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-outline-dark fw-bold mx-2 my-2'>{t("kyber.button2")}</a>
                     </div>
-                    <div className='col-12 col-lg-6 d-flex justify-content-center d-none d-lg-block'>
+                    <div className='col-12 col-lg-6 d-flex justify-content-center'>
                         <img src={kyber_dis} alt='mockup de la tienda kyber en distintos dispositivos' className='w-100'/>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Kyber = () => {
         <div className='container bg-pasti-kyber shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='mx-2 mt-4'>{t("kyber-tools")}</p>
+                    <p className='mx-2 mt-4'>{t("kyber.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>
@@ -81,7 +81,7 @@ const Kyber = () => {
             </div>
             <div className='col-12 col-lg-6'>
                 <ul className='text-start'>
-                    <h3 className='title-kyber'>{t("kyber-title2")}</h3>
+                    <h3 className='title-kyber'>{t("kyber.title2")}</h3>
                     
                     {kyberList.map(item => (
                         <li key={item.id} className='lead li-kyber shadow-sm'>

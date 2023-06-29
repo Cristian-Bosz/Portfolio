@@ -12,8 +12,8 @@ const Footer = () => {
         <div className='row align-items-start'>
       
           <div className='col-12'>
-           <h3 className='ft-title mt-5 mb-3 '>{t("footer-title")}</h3>
-           <p className='p-footer text-center mt-5 mb-3'>{t("p-footer")}</p>
+           <h3 className='ft-title mt-5 mb-3 '>{t("footer.title")}</h3>
+           <p className='p-footer text-center mt-5 mb-3'>{t("footer.p")}</p>
             <div className='row align-items-start justify-content-center mb-5 mt-4'>
              
               <div className='col-1 social-icon'>

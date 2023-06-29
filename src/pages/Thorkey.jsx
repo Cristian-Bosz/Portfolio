@@ -21,9 +21,9 @@ const Thorkey = () => {
           <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
-                        <h1 className='title1-thorkey text-center'>{t("thorkey-title")}</h1>
-                        <p className='project-description text-center'>{t("thorkey-description")}</p>
-                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn btn-dark fw-bold'>{t("thorkey-button")}</a>
+                        <h1 className='title1-thorkey text-center'>{t("thorkey.title")}</h1>
+                        <p className='project-description text-center'>{t("thorkey.description")}</p>
+                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn btn-dark fw-bold'>{t("thorkey.button")}</a>
                     
                             
                       
@@ -39,7 +39,7 @@ const Thorkey = () => {
         <div className='container bg-pasti-thorkey shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='my-2 mx-2'>{t("thorkey-tools")}</p>
+                    <p className='my-2 mx-2'>{t("thorkey.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6 my-5'>
                     <div className='row align-items-center justify-content-center'>
@@ -70,7 +70,7 @@ const Thorkey = () => {
 
    <article className='container'>
    
-        <h2 className='mt-5 mb-4 title1-thorkey'>{t("thorkey-title2")}</h2>
+        <h2 className='mt-5 mb-4 title1-thorkey'>{t("thorkey.title2")}</h2>
         <div className='row'> 
             <div className='col-12 mb-5'>
                 <div className='row justify-content-center'>
@@ -84,7 +84,7 @@ const Thorkey = () => {
    </article>
 
    <article className='container'>
-    <h2 className='mt-5 mb-4 title1-thorkey'> {t("thorkey-title3")}</h2>
+    <h2 className='mt-5 mb-4 title1-thorkey'> {t("thorkey.title3")}</h2>
     <div className='row'>
         <div className='col-12 my-3'>
             <div className='row justify-content-center align-items-center'>
@@ -132,7 +132,7 @@ const Thorkey = () => {
    </article>
 
    <section className='container my-5'>
-    <h2 className='mt-5 mb-4 title1-thorkey'>{t("thorkey-title4")} </h2>
+    <h2 className='mt-5 mb-4 title1-thorkey'>{t("thorkey.title4")} </h2>
     <div className='row'>
         <div className='col-12 col-lg-6 my-4'>
             
@@ -164,14 +164,14 @@ const Thorkey = () => {
    </section>
 
 <section className='container my-5'>
-<h2 className='mt-5 mb-4 title1-thorkey'>{t("thorkey-title5")} </h2>
+<h2 className='mt-5 mb-4 title1-thorkey'>{t("thorkey.title5")} </h2>
 
 <div className='row align-items-start'>
     <div className='col-12 col-lg-6'> 
         <div className='thorkey-li text-start my-4'>
-        <p><TextConvert text={t("thorkey-p1")}/></p>
-        <p><TextConvert text={t("thorkey-p2")}/></p>
-        <p><TextConvert text={t("thorkey-p3")}/></p>
+        <p><TextConvert text={t("thorkey.p1")}/></p>
+        <p><TextConvert text={t("thorkey.p2")}/></p>
+        <p><TextConvert text={t("thorkey.p3")}/></p>
         
     </div>
  </div>

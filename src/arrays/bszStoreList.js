@@ -2,27 +2,27 @@ const bszStoreList = [
     {
         id: 1,
         icon: "bi bi-globe",
-        p: "bsz.develop",
+        p: "bsz.1",
     },
     {
         id: 2,
         icon: "bi bi-columns",
-        p: "bsz.interface",
+        p: "bsz.2",
     },
     {
         id: 3,
         icon: "bi bi-aspect-ratio",
-        p: "bsz.responsive",
+        p: "bsz.3",
     },
     {
         id: 4,
         icon: "bi bi-brush",
-        p: "bsz.design",
+        p: "bsz.4",
     },
     {
         id: 5,
         icon: "bi bi-code",
-        p: "bsz.sass",
+        p: "bsz.5",
     },
 ]
 

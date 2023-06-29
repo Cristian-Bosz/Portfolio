@@ -15,8 +15,8 @@ const Intro = () => {
                   <div className='my-5'>
                         <img src={memoji} alt="memoji" className='w-25 rounded-circle border border-3 bg-white shadow-lg avatar-perfil'/>
 
-                                  <h3 className='titulo-intro'>{t("intro")}</h3>
-                                  <h4 className='sub-intro'>{t("subintro")}</h4>
+                                  <h3 className='titulo-intro'>{t("intro.intro")}</h3>
+                                  <h4 className='sub-intro'>{t("intro.subintro")}</h4>
                                 
                     </div>
               </div>

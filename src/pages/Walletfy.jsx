@@ -23,9 +23,10 @@ const Walletfy = () => {
             <section className='container'>
                         <div className='row my-5'>
                             <div className='col-12 col-lg-6 align-self-sm-center my-5'>
-                                <h1 className='titulo-home text-center'>{t("walletfy-title")}</h1>
-                                <p className='project-description text-center'>{t("walletfy-description")} </p>
-                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>{t("walletfy-button")}</a>
+                                <h1 className='titulo-home text-center'>{t("walletfy.title")}</h1>
+                                <p className='project-description text-center'>{t("walletfy.description")} </p>
+                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>{t("walletfy.button")}</a>
+                                <a href='https://landing-walletfy.vercel.app/' Target="_blank"  className='btn fw-bold mx-1 btn-landing'>{t("walletfy.button2")}</a>
                             </div>
                             <div className='col-12 col-lg-6 d-flex justify-content-center'>
                                 <img src={home} alt='mockup del home de walletfy' className='mockup-walletfy'/>
@@ -41,7 +42,7 @@ const Walletfy = () => {
                             <img src={walletfy} alt="logo" className='w-50' />
                         </div>
                         <div className='col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'>
-                            <p className='anunciop'><TextConvert text={t("walletfy-tools")} /></p>
+                            <p className='anunciop'><TextConvert text={t("walletfy.tools")} /></p>
                             
                         </div>
                         
@@ -51,7 +52,7 @@ const Walletfy = () => {
 
 
             <section className='container-fluid bg-video bg-light'>
-                <h3 className='titulo-tesis text-center pt-5'>{t("walletfy-title2")}</h3>
+                <h3 className='titulo-tesis text-center pt-5'>{t("walletfy.title2")}</h3>
                 <div className='row justify-content-center align-items-center'>
                 
                     <div className='col-12 col-sm-12 col-md-12 col-lg-3  d-none d-lg-block'>
@@ -75,7 +76,7 @@ const Walletfy = () => {
                     </div>
                 
                     <div className='col-12 col-lg-6'>
-                        <h2 className='titulo-tesis my-5'>{t("walletfy-title3")}</h2>
+                        <h2 className='titulo-tesis my-5'>{t("walletfy.title3")}</h2>
                         <ul className='text-start'>                                                  
                           {
                             walletfyList.map(item => (
