@@ -1,5 +1,5 @@
 .title1-kyber{
-    color: #373737;
+    color: var(--kyber-font-color);
     font-size: 45px;
     font-weight: 600;
   }
@@ -23,7 +23,7 @@
     width: 60px; 
   }
    .title-kyber{
-    color: #373737;
+    color: var(--kyber-font-color);
     font-size: 35px;
     font-weight: 600;  
     margin-bottom: 1em;
@@ -31,7 +31,7 @@
   .li-kyber{
     @extend .project-funtionalities;
       .li-icons-kyber{
-        color: #494949;
+        color: var(--kyber-icon-color);
         font-size: 2rem;
       }
   }

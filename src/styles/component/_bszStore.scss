@@ -1,5 +1,5 @@
   .titulo-bsz{
-    color: #157347 !important;
+    color: var(--bsz-font-color-green);
     font-size: 40px;
     line-height: 55px;
     font-weight: 600;
@@ -16,7 +16,7 @@
     @extend .project-funtionalities;
       .li-bsz-icons{
         font-size: 2rem;
-        color: #157347;
+        color: var(--bsz-font-color-green);
       }  
   }
   .card-icon-bsz{

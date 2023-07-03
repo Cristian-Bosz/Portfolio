@@ -51,7 +51,7 @@ const Walletfy = () => {
             </section>
 
 
-            <section className='container-fluid bg-video bg-light'>
+            <section className='container-fluid bg-video'>
                 <h3 className='titulo-tesis text-center pt-5'>{t("walletfy.title2")}</h3>
                 <div className='row justify-content-center align-items-center'>
                 
@@ -80,7 +80,7 @@ const Walletfy = () => {
                         <ul className='text-start'>                                                  
                           {
                             walletfyList.map(item => (
-                                    <li key={item.id} className='wallet-li shadow-sm'>
+                                    <li key={item.id} className='wallet-li'>
                                         <div className='row'>
                                             <div className='col-2 text-center li-walletfy-icons'>
                                                 <i className={item.icon}></i> 
