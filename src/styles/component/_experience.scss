@@ -3,11 +3,12 @@
   }
 .experience-li{
   @extend .project-funtionalities;
+  border-radius: 5px;
     p{
       font-size: 22px;
       font-weight: 600;
       margin: 0.5em 0;
-      color: #818181;
+      color: var(--experience-li-p);
     }
     .bi-check{
       color: #bb0497;

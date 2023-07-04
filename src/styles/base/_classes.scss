@@ -1,0 +1,37 @@
+ //Classes
+.title-home{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--p-font-color);
+    margin: 1em 0em 2em 0em;
+}
+.project-description {    
+    font-size: 18px;
+    line-height: 30px;
+    margin: 1em 0;
+    color: var(--p-font-color);
+}
+.project-tech-stack{
+    font-size: 20px;
+    font-weight: 600;
+}
+.project-funtionalities{
+    padding: 0 10px;
+    margin-bottom: 18px;
+    position: relative;
+    font-size: 18px;
+    color: var(--p-font-color); 
+}
+
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .title-home{
+        font-size: 30px;  
+        margin: 3em 0 2em 0;
+    }
+    .project-description {    
+        font-size: 16px;   
+        margin: 1em 0;
+    }
+}

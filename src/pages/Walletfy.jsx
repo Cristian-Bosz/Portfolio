@@ -51,7 +51,7 @@ const Walletfy = () => {
             </section>
 
 
-            <section className='container-fluid bg-video bg-light'>
+            <section className='container-fluid bg-video'>
                 <h3 className='titulo-tesis text-center pt-5'>{t("walletfy.title2")}</h3>
                 <div className='row justify-content-center align-items-center'>
                 
@@ -70,13 +70,14 @@ const Walletfy = () => {
             </section>
       
             <article className=' container pt-5 mb-5'>
+                <h2 className='titulo-tesis my-5'>{t("walletfy.title3")}</h2>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6'>
                         <img src={analisis} alt="Mockup" className='img-fluid img-analisis'/>
                     </div>
                 
                     <div className='col-12 col-lg-6'>
-                        <h2 className='titulo-tesis my-5'>{t("walletfy.title3")}</h2>
+                        
                         <ul className='text-start'>                                                  
                           {
                             walletfyList.map(item => (

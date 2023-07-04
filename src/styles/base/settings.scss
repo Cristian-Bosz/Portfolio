@@ -1,0 +1,59 @@
+//Fonts
+@import './fonts';
+//Classes
+@import './classes';
+//Variables
+@import './variables';
+
+//Basic Structure and Formatting Styles
+.App {
+    text-align: center;
+    background:  var(--body-background);
+}
+body {
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+p, a{
+    font-family: $p-font-family;
+}
+a:hover {
+    color: inherit;
+}
+h1, h2, h3, h4{
+    font-family: $title-font-family;
+}
+.btn-wsp{
+  background: #9d037e;
+  border-radius: 50px;
+  bottom: 30px;
+  box-shadow: 0 1px 10px rgba(0,0,0,.3);
+  color: #fff;
+  font-size: 55px;
+  height: 60px;
+  line-height: 62px;
+  position: fixed;
+  right: 25px;
+  text-align: center;
+  transition: all .3s ease;
+  width: 60px;
+  z-index: 100;
+    :hover{
+        color: #fee2f9;
+    }
+    :focus{
+        color: #fee2f9;
+    }
+}
+
+ 
+
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    ul{
+        padding: 0;
+    }
+}
