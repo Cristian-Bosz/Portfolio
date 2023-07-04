@@ -3,6 +3,17 @@
     font-size: 45px;
     font-weight: 600;
 }
+.btn-thorkey{
+  color: var(--btn-thorkey-color);
+  background-color: var(--btn-thorkey-bg);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  &:hover{
+    color: #ffffff;
+    background-color: #5f4516;
+  }
+}
 .bg-pasti-thorkey{
     background-color: #ac7c2e ;
     border-radius: 20px;

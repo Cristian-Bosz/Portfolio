@@ -23,7 +23,7 @@ const Thorkey = () => {
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-thorkey text-center'>{t("thorkey.title")}</h1>
                         <p className='project-description text-center'>{t("thorkey.description")}</p>
-                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn btn-dark fw-bold'>{t("thorkey.button")}</a>
+                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn-thorkey fw-bold'>{t("thorkey.button")}</a>
                     
                             
                       

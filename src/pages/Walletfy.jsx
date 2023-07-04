@@ -70,17 +70,18 @@ const Walletfy = () => {
             </section>
       
             <article className=' container pt-5 mb-5'>
+                <h2 className='titulo-tesis my-5'>{t("walletfy.title3")}</h2>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6'>
                         <img src={analisis} alt="Mockup" className='img-fluid img-analisis'/>
                     </div>
                 
                     <div className='col-12 col-lg-6'>
-                        <h2 className='titulo-tesis my-5'>{t("walletfy.title3")}</h2>
+                        
                         <ul className='text-start'>                                                  
                           {
                             walletfyList.map(item => (
-                                    <li key={item.id} className='wallet-li'>
+                                    <li key={item.id} className='wallet-li shadow-sm'>
                                         <div className='row'>
                                             <div className='col-2 text-center li-walletfy-icons'>
                                                 <i className={item.icon}></i> 
