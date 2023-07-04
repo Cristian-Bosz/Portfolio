@@ -21,6 +21,10 @@ $p-font-family: 'Poppins', sans-serif;
     --btn-thorkey-color: #ffffff;
     --btn-kyber-bg: #f9f9f9;
     --btn-kyber-color: #2d2d2d;
+    --border-wrapper-skills: 5px solid #bfc0bf;
+    --skills-filter-img: grayscale(100%);
+    --skills-opacity-img: 0.5;
+
 }
 
 [data-theme="dark"]{
@@ -41,4 +45,8 @@ $p-font-family: 'Poppins', sans-serif;
     --btn-thorkey-color: #ffffff;
     --btn-kyber-bg: #e5e5e5;
     --btn-kyber-color: #2d2d2d;
+    --border-wrapper-skills: 5px solid #D8E2DC;
+    --skills-filter-img: grayscale(0%);
+    --skills-opacity-img: 1;
+
 }
