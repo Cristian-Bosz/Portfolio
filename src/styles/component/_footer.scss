@@ -35,7 +35,9 @@ footer{
   
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
-
+  .ft-title{
+    font-size: 30px;
+  }
     .social-icon{
       margin: 0em 1em 0em 1em;
     }
@@ -45,3 +47,14 @@ footer{
     }
   
   }
+
+  /* Breakpoint formato tablet*/
+@media screen and (max-width: 576px) {
+  .ft-title{
+    font-size: 24px;
+  }
+  .p-footer{
+    font-size: 18px;
+  }
+
+}

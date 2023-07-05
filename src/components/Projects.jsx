@@ -15,11 +15,11 @@ const Projects = () => {
     <>
     <section className='container pt-4 pb-5'>
          <h3 className='title-home m-5'>{t("projects.title")}</h3>
-         <p className='project-description text-center mt-4 mb-5 mx-4'>
+         <p className='project-subtitle'>
           <TextConvert text={t("projects.subtitle")} />
          </p>         
 
-        <div className="row justify-content-center my-5">
+        <div className="row justify-content-center my-5 projects-wrapper">
         <motion.div className="col-12 col-lg-5 m-2 miniatura shadow"
              whileHover={{ scale: [null, 1.2, 1.1] }}
              transition={{  type: "spring", stiffness: 400, damping: 20 }}>  

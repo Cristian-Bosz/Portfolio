@@ -10,7 +10,7 @@ import php from '../icons/php.svg'
 import mysql from '../icons/mysql-6.svg'
 import kyberList from '../arrays/kyberList'
 import { useTranslation } from 'react-i18next'
-
+import kyberlogo from '../pics/kyber-logo.png'
 
 const Kyber = () => {
   const {t} = useTranslation();
@@ -18,13 +18,17 @@ const Kyber = () => {
   return (
     <>
     <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
+    <article className='container my-4'>        
+                <img src={kyberlogo} alt='logo de la tienda kyber'/>
+    </article> 
+     
      <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-kyber text-center'>{t("kyber.title")}</h1>
                         <p className='project-description text-center'>{t("kyber.description")} </p>
-                        <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark fw-bold mx-2'>{t("kyber.button1")}</a>
-                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn-kyber fw-bold mx-2 my-2'>{t("kyber.button2")}</a>
+                        <a href='https://github.com/Cristian-Bosz/kyber' Target="_blank" className='btn btn-dark btn-app fw-bold mx-2'>{t("kyber.button1")}</a>
+                        <a href="https://drive.google.com/file/d/1XSazpClQ7FSJoA9rHPorFpKNbVsDuZbz/view?usp=sharing" target="_blank"  rel="noreferrer" className='btn btn-kyber btn-app fw-bold mx-2 my-2'>{t("kyber.button2")}</a>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center'>
                         <img src={kyber_dis} alt='mockup de la tienda kyber en distintos dispositivos' className='w-100'/>

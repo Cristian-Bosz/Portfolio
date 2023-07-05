@@ -68,7 +68,9 @@
         width: 60px; 
       }
       .title-kyber{
-        margin-top: 1em;
+        font-size: 35px;
+        text-align: center;
+        margin: 2em 0;
       }
 }
 
@@ -78,7 +80,9 @@
     .border-kyber{
         border: 1px solid rgba(124, 124, 124, 0.523)
       }
-      
+      .title1-kyber{
+        font-size: 30px;
+      }
       .card-icon-kyber{
         height: 95px;
         width: 120px;
@@ -90,10 +94,23 @@
         height: 50px;
         width: 50px; 
       }
+      .title-kyber{
+        font-size: 30px;
+        text-align: center;
+        margin: 2em 0;
+      }
+      .li-kyber{
+          .li-icons-kyber{
+            font-size: 1.8rem;
+          }
+      }
 }
 
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 576px) {
+  .title1-kyber{
+    font-size: 24px;
+  }
     .card-icon-kyber{
       height: 95px;
       width: 120px;
@@ -105,5 +122,14 @@
       height: 50px;
       width: 50px; 
     }
-  
+    .title-kyber{
+      font-size: 24px;
+      text-align: center;
+      margin: 2em 0;
+    }
+    .li-kyber{
+      .li-icons-kyber{
+        font-size: 1.5rem;
+      }
+  }
   }

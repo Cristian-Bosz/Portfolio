@@ -14,10 +14,7 @@ const BszStore = () => {
     <>
        <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
         <article className='container my-4'>    
-                <div className='bsz-logo'>
-                <img src={logo} alt='logo de la tienda' className=''/>
-
-                </div>
+                <img src={logo} alt='logo de la tienda'/>
         </article>
 
         <section className='container'>
@@ -25,8 +22,8 @@ const BszStore = () => {
                         <div className='col-12 col-lg-6 align-self-sm-center my-5'>
                             <h1 className='titulo-bsz fw-bold text-center'>{t("bsz.title")}</h1>
                             <p className='project-description text-center'>{t("bsz.description")}</p>
-                            <a href='https://bsz-store-with-sass.vercel.app/' Target="_blank"  className='btn btn-success fw-bold text-white'>{t("bsz.button1")}</a>
-                            <a href='https://github.com/Cristian-Bosz/bsz-store-with-sass' Target="_blank"  className='btn btn-outline-success fw-bold mx-2'>Github</a>
+                            <a href='https://bsz-store-with-sass.vercel.app/' Target="_blank"  className='btn btn-success btn-app fw-bold'>{t("bsz.button1")}</a>
+                            <a href='https://github.com/Cristian-Bosz/bsz-store-with-sass' Target="_blank"  className='btn btn-outline-success btn-app fw-bold mx-2'>Github</a>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
                         <img src={mockup} alt='mockup de las interfaces de bsz store' className='w-100'/>

@@ -15,7 +15,10 @@ const Blueocean = () => {
   return (
     <>
     <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
-      <img src={bluelogo} alt="logo de blueocean" className='my-5'/>
+    <article className='container my-4'>    
+                    <img src={bluelogo} alt="logo de blueocean"/>
+    </article> 
+      
     <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>

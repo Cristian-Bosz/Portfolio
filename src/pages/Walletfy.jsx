@@ -25,7 +25,7 @@ const Walletfy = () => {
                             <div className='col-12 col-lg-6 align-self-sm-center my-5'>
                                 <h1 className='titulo-home text-center'>{t("walletfy.title")}</h1>
                                 <p className='project-description text-center'>{t("walletfy.description")} </p>
-                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info fw-bold text-white'>{t("walletfy.button")}</a>
+                                <a href='https://walletfy-ad0ab.web.app' Target="_blank"  className='btn btn-info btn-app fw-bold text-white'>{t("walletfy.button")}</a>
                                 <a href='https://landing-walletfy.vercel.app/' Target="_blank"  className='btn fw-bold mx-1 btn-landing'>{t("walletfy.button2")}</a>
                             </div>
                             <div className='col-12 col-lg-6 d-flex justify-content-center'>

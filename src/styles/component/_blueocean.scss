@@ -33,9 +33,35 @@
   /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
     .title1-blueocean{
-        font-size: 35px;
+        font-size: 30px;
       }
       .title-blueocean{
         font-size: 30px;
+        text-align: center;
       }
+      .li-blueocean{
+          .li-blueocean-icons{
+            color: #e4910b;
+            font-size: 1.8rem;
+          }
+    }
+}
+
+  /* Breakpoint formato mobile*/
+  @media screen and (max-width: 576px) {
+    .title1-blueocean{
+        font-size: 24px;
+      }
+      .title-blueocean{
+        font-size: 24px;
+      }
+      .li-blueocean{
+          .li-blueocean-icons{
+            color: #e4910b;
+            font-size: 1.5rem;
+          }
+    }
+    .btn-blueocean{
+      font-size: 14px;
+  }
 }

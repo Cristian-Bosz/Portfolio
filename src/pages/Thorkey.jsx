@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 import thorkeyList from '../arrays/thorkeyList'
 import { useTranslation } from 'react-i18next'
 import TextConvert from '../components/TextConvert'
-
+import thorkey_logo from '../pics/thorkey_logo.png'
 
 const Thorkey = () => {
   const {t} = useTranslation();
@@ -18,12 +18,16 @@ const Thorkey = () => {
   return (
     <>
     <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
+        <article className='container my-4'>    
+                <img src={thorkey_logo} alt='logo de la tienda thorkey'/>
+        </article>
+          
           <section className='container'>
                 <div className='row my-5'>
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-thorkey text-center'>{t("thorkey.title")}</h1>
                         <p className='project-description text-center'>{t("thorkey.description")}</p>
-                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn-thorkey fw-bold'>{t("thorkey.button")}</a>
+                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn btn-thorkey fw-bold'>{t("thorkey.button")}</a>
                     
                             
                       

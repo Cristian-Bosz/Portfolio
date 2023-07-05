@@ -69,10 +69,12 @@
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
     .title1-thorkey{
-        color: #ae7212;
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 30px;
         margin-bottom: 1em;
+      }
+      .btn-thorkey{
+        padding: 10px 20px;
+        font-size: 16px;
       }
       .p-thorkey{
         color:rgb(70, 70, 70);
@@ -92,5 +94,34 @@
       .img-thorkey{
         width: 100% !important;
       }
+      .thorkey-li {
+          .li-thorkey-icons{   
+            color: #ac7c2e;
+            font-size: 1.8rem;
+          }
+      }
     
+}
+
+/* Breakpoint formato mobile*/
+@media screen and (max-width: 576px) {
+  .title1-thorkey{
+      font-size: 24px;
+      margin-bottom: 1em;
+    }
+    .btn-thorkey{
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+    .p-thorkey{
+      color:rgb(70, 70, 70);
+      font-size: 14px;
+      font-weight: 600;
+    }  
+    .thorkey-li {
+      .li-thorkey-icons{   
+        color: #ac7c2e;
+        font-size: 1.5rem;
+      }
+  }
 }
