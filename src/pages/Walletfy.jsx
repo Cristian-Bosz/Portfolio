@@ -7,6 +7,12 @@ import wally2 from '../pics/wallytips.png'
 import walletfyList from '../arrays/walletfyList'
 import { useTranslation } from 'react-i18next'
 import TextConvert from '../components/TextConvert'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/animations/scale-extreme.css';
+import 'tippy.js/dist/tippy.css';
+import libreriesPills from '../arrays/libreriesPills'
+import frontendPills from '../arrays/frontendPills'
+import backendPills from '../arrays/backendPills'
 
 const Walletfy = () => {
   const {t} = useTranslation();
@@ -35,17 +41,53 @@ const Walletfy = () => {
             </section>
 
     
-            <section className='container text-center d-none d-lg-block'>
-                <div className='mt-5 pt-5 mb-5 pb-5'>
-                    <div className='row anuncio align-items-center'>
-                        <div className='col col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>
-                            <img src={walletfy} alt="logo" className='w-50' />
-                        </div>
-                        <div className='col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'>
-                            <p className='anunciop'><TextConvert text={t("walletfy.tools")} /></p>
-                            
-                        </div>
-                        
+            <section className='container text-center'>
+                <div className='my-5'>
+                    <div className='row bg-walletfy-pasti align-items-center'>
+
+                    <div className='col-12 col-lg-6'>
+                        <p><TextConvert text={t("walletfy.tools")} /></p>
+                    </div>
+            
+                     
+                    <div className='col-12 col-lg-6'>
+                    <div className="wrapper-walletfy-pill">    
+                        <ul>
+                            {
+                            frontendPills.map(item=> (
+                                <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                </li>
+                                </Tippy>
+                            ))
+                            } 
+                             {
+                            libreriesPills.slice(0,2).map(item=> (
+                                <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                </li>
+                                </Tippy>
+                            ))
+                            }  
+                               {
+                            [backendPills.slice(3)[0]].map(item=> (
+                                <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                </li>
+                                </Tippy>
+                            ))
+                            }  
+                        </ul>        
+                
+                                     
+                    </div> 
+                    </div>
+
+
+
+
+
+
                     </div>
                 </div>    
             </section>

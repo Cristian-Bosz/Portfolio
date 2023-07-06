@@ -3,7 +3,7 @@
     font-size: 45px;
     font-weight: 600;
   }
-  .btn-kyber{
+.btn-kyber{
     color: var(--btn-kyber-color);
     background-color: var(--btn-kyber-bg);
     text-decoration: none;
@@ -14,7 +14,7 @@
       color: #ffffff;
       background-color: #2d2d2d;
     }
-  }
+}
 .bg-pasti-kyber{
     background-color: #202020;
     border-radius: 20px;
@@ -23,76 +23,186 @@
         @extend .project-tech-stack;
       }
   }
-  .card-icon-kyber{
-    height: 95px;
-    width: 95px;
-    margin: 10px 10px ;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-  }
-  .sk-icon-kyber{
-    height: 60px;
-    width: 60px; 
-  }
-   .title-kyber{
+
+.title-kyber{
     color: var(--kyber-font-color);
     font-size: 35px;
     font-weight: 600;  
     margin-bottom: 1em;
-  }
-  .li-kyber{
+}
+.li-kyber{
     @extend .project-funtionalities;
       .li-icons-kyber{
         color: var(--kyber-icon-color);
         font-size: 2rem;
       }
-  }
-  .border-kyber{
+}
+.border-kyber{
     border-radius: 30px;
   }
-  
 
 
+  //Pills
+  .wrapper-kyber-pill ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+  }
+  .wrapper-kyber-pill ul li {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: var(--border-wrapper-skills);
+    transition: all 0.5s ease;
+    background-color: #ffffffdd;
+  }
+  .wrapper-kyber-pill ul li img{
+    width:30px;
+    margin-bottom: 10px;
+    opacity: var(--skills-opacity-img);
+    pointer-events: none;
+  }
 
-  /* Breakpoint  formato pc, arriba de los 991px*/
+ /*html*/
+.wrapper-kyber-pill ul li:hover.border-html {
+  border: 5px solid #e34f26;
+  box-shadow: 0 0 15px #e34f26;
+  transition: all 0.3s ease;
+}
+.wrapper-kyber-pill ul li .icon-html {
+  width: 45px;
+}
+.wrapper-kyber-pill ul li:hover .icon-html {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/*css*/
+.wrapper-kyber-pill ul li:hover.border-css {
+  border: 5px solid #1b73ba;
+  box-shadow: 0 0 15px #1b73ba;
+  transition: all 0.3s ease;
+}
+.wrapper-kyber-pill ul li .icon-css {
+  width: 45px;
+}
+.wrapper-kyber-pill ul li:hover .icon-css {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* bootstrap */
+.wrapper-kyber-pill ul li:hover.border-bootstrap {
+  border: 5px solid #7952b3;
+  box-shadow: 0 0 15px #7952b3;
+  transition: all 0.3s ease;
+}
+.wrapper-kyber-pill ul li .i-bootstrap {
+  width: 45px;
+}
+.wrapper-kyber-pill ul li:hover .i-bootstrap {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* php */
+.wrapper-kyber-pill ul li:hover.border-php {
+  border: 5px solid #8993be;
+  box-shadow: 0 0 15px #8993be;
+  transition: all 0.3s ease;
+}
+.wrapper-kyber-pill ul li .i-php {
+  width: 45px;
+}
+.wrapper-kyber-pill ul li:hover .i-php {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* mysql */
+.wrapper-kyber-pill ul li:hover.border-mysql {
+  border: 5px solid #0d5d72;
+  box-shadow: 0 0 15px #0d5d72;
+  transition: all 0.3s ease;
+}
+.wrapper-kyber-pill ul li .i-mysql {
+  width: 45px;
+}
+.wrapper-kyber-pill ul li:hover .i-mysql {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+
+/* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 1200px) {
+  .wrapper-kyber-pill ul li {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+  }
+  .wrapper-kyber-pill ul li .icon-html {
+    width: 40px;
+  }
+  .wrapper-kyber-pill ul li .icon-css {
+    width: 40px;
+  }
+  .wrapper-kyber-pill ul li .i-bootstrap {
+    width: 40px;
+  }
+  .wrapper-kyber-pill ul li .i-php {
+    width: 40px;
+  }
+  .wrapper-kyber-pill ul li .i-mysql {
+    width: 40px;
+  }
+}
+/* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
-    .card-icon-kyber{
-        height: 95px;
-        width: 120px;
-        margin: 10px 10px ;
-        border-radius: 10px;
-        background-color: rgb(255, 255, 255);
-      }
-      .sk-icon-kyber{
-        height: 60px;
-        width: 60px; 
-      }
       .title-kyber{
         font-size: 35px;
         text-align: center;
         margin: 2em 0;
+      }
+      .bg-pasti-kyber{
+        p{
+          margin: 2em 1em 1em 1em;
+        }
+      }
+      .wrapper-kyber-pill ul li {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+      }
+      .wrapper-kyber-pill ul li .icon-html {
+        width: 40px;
+      }
+      .wrapper-kyber-pill ul li .icon-css {
+        width: 40px;
+      }
+      .wrapper-kyber-pill ul li .i-bootstrap {
+        width: 40px;
+      }
+      .wrapper-kyber-pill ul li .i-php {
+        width: 40px;
+      }
+      .wrapper-kyber-pill ul li .i-mysql {
+        width: 40px;
       }
 }
 
 
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
-    .border-kyber{
+      .border-kyber{
         border: 1px solid rgba(124, 124, 124, 0.523)
       }
       .title1-kyber{
         font-size: 30px;
-      }
-      .card-icon-kyber{
-        height: 95px;
-        width: 120px;
-        margin: 10px 50px ;
-        border-radius: 5px;
-        background-color: rgb(255, 255, 255);
-      }
-      .sk-icon-kyber{
-        height: 50px;
-        width: 50px; 
       }
       .title-kyber{
         font-size: 30px;
@@ -104,32 +214,71 @@
             font-size: 1.8rem;
           }
       }
+      .bg-pasti-kyber{
+        p{
+          margin: 2em 0 1em 0;
+        }
+      }
+      .wrapper-kyber-pill ul li {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+      }
+      .wrapper-kyber-pill ul li .icon-html {
+        width: 35px;
+      }
+      .wrapper-kyber-pill ul li .icon-css {
+        width: 35px;
+      }
+      .wrapper-kyber-pill ul li .i-bootstrap {
+        width: 35px;
+      }
+      .wrapper-kyber-pill ul li .i-php {
+        width: 35px;
+      }
+      .wrapper-kyber-pill ul li .i-mysql {
+        width: 35px;
+      }
 }
 
-/* Breakpoint formato tablet*/
+/* Breakpoint formato mobile*/
 @media screen and (max-width: 576px) {
   .title1-kyber{
     font-size: 24px;
   }
-    .card-icon-kyber{
-      height: 95px;
-      width: 120px;
-      margin: 10px 10px ;
-      border-radius: 5px;
-      background-color: rgb(255, 255, 255);
-    }
-    .sk-icon-kyber{
-      height: 50px;
-      width: 50px; 
-    }
-    .title-kyber{
+  .title-kyber{
       font-size: 24px;
       text-align: center;
       margin: 2em 0;
-    }
-    .li-kyber{
+  }
+  .li-kyber{
       .li-icons-kyber{
         font-size: 1.5rem;
       }
   }
+  .bg-pasti-kyber{
+    p{
+      margin: 2em 0 0 0;
+    }
   }
+  .wrapper-kyber-pill ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+  }
+  .wrapper-kyber-pill ul li .icon-html {
+    width: 30px;
+  }
+  .wrapper-kyber-pill ul li .icon-css {
+    width: 30px;
+  }
+  .wrapper-kyber-pill ul li .i-bootstrap {
+    width: 30px;
+  }
+  .wrapper-kyber-pill ul li .i-php {
+    width: 30px;
+  }
+  .wrapper-kyber-pill ul li .i-mysql {
+    width: 30px;
+  }
+}

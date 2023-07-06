@@ -1,13 +1,14 @@
 import React from 'react'
 import bluehome from '../pics/blueocean_home.png'
 import blueabout from '../pics/blueocean_about.png'
-import html from '../icons/html-1.svg'
-import vue from '../icons/vue-js-1.svg'
-import css from '../icons/css-3.svg'
-import { motion } from "framer-motion"
 import bluelogo from '../pics/blueocean.png'
 import blueoceanList from '../arrays/blueoceanList'
 import { useTranslation } from 'react-i18next'
+import frontendPills from '../arrays/frontendPills'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/animations/scale-extreme.css';
+import 'tippy.js/dist/tippy.css';
+import libreriesPills from '../arrays/libreriesPills'
 
 const Blueocean = () => {
   const {t} = useTranslation();
@@ -36,32 +37,33 @@ const Blueocean = () => {
         <div className='container bg-pasti-blue shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='my-3 mx-2'>{t("blueocean.tools")}</p>
+                    <p>{t("blueocean.tools")}</p>
                 </div>
-                <div className='col-12 col-lg-6 col-lg-6 my-5'>
-                    <div className='row align-items-end justify-content-center'>
-                         <div className='col-3'>
-                            <motion.img src={html} alt="icono de html" className="w-50"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
-                        <div className='col-3'>
-                            <motion.img src={css} alt="icono de css" className="w-50" 
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
-                        <div className='col-3'>
-                            <motion.img src={vue} alt="icono de vue" className="w-50"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
+                <div className='col-12 col-lg-6'>
+                    <div className="wrapper-blueocean-pill">    
+                        <ul>
+                            {
+                                frontendPills.slice(0,2).map(item => (
+                                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                </li>
+                                </Tippy>
+                                ))
+                            }
+                             {
+                                [libreriesPills.slice(4)[0]].map(item => (
+                                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                </li>
+                                </Tippy>
+                                ))
+                            }
+                        </ul>
                     </div>
-                       
                 </div>
               
             </div>
         </div>
-
     </article>
 
     <section className='container'>

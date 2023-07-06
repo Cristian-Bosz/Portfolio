@@ -1,7 +1,4 @@
 import thorkey from '../pics/thorkey.png'
-import wordpress from '../icons/wordpress.svg'
-import woo from '../icons/woocommerce.svg'
-import mercado from '../icons/mpago.png' 
 import about from '../pics/aboutus.jpg'
 import tienda from '../pics/tienda.jpg'
 import descrip from '../pics/descrip.jpg'
@@ -11,6 +8,10 @@ import thorkeyList from '../arrays/thorkeyList'
 import { useTranslation } from 'react-i18next'
 import TextConvert from '../components/TextConvert'
 import thorkey_logo from '../pics/thorkey_logo.png'
+import cmsPills from '../arrays/cmsPills'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/animations/scale-extreme.css';
+import 'tippy.js/dist/tippy.css';
 
 const Thorkey = () => {
   const {t} = useTranslation();
@@ -43,27 +44,22 @@ const Thorkey = () => {
         <div className='container bg-pasti-thorkey shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='my-2 mx-2'>{t("thorkey.tools")}</p>
+                    <p>{t("thorkey.tools")}</p>
                 </div>
-                <div className='col-12 col-lg-6 my-5'>
-                    <div className='row align-items-center justify-content-center'>
-                         <div className='col-4 card-icon-thorkey'>
-                            <motion.img src={wordpress} alt='icono de wordpress' className=" sk-icon my-2"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
-                        <div className='col-4 card-icon-thorkey'>
-                            <motion.img src={woo} alt='icono de woocommerce' className=" sk-icon my-2"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>  
-                        <div className='col-4 card-icon-thorkey'>
-                            <motion.img src={mercado} alt='icono de mercado pago' className=" sk-icon my-2"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>  
-                     
-                     </div>
+                <div className='col-12 col-lg-6'>
+                    <div className="wrapper-thorkey-pill">    
+                        <ul>
+                            {
+                                cmsPills.map(item => (
+                                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                    <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                    </li>
+                                    </Tippy>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                 
                        
                 </div>
               

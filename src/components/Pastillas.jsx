@@ -7,6 +7,7 @@ import backendPills from '../arrays/backendPills'
 import libreriesPills from '../arrays/libreriesPills'
 import teamworkPills from '../arrays/teamworkPills';
 import designPills from '../arrays/designPills';
+import cmsPills from '../arrays/cmsPills';
 
 const Pastillas = () => {
   const {t} = useTranslation();
@@ -68,7 +69,7 @@ const Pastillas = () => {
           </ul>
       </div>
 
-      <div className='col-12'>  
+      <div className='col-12 col-md-6'>  
         <h4 className='sub-pasti my-3'>{t("skills.diseño")}</h4> 
         <ul>
         {
@@ -77,6 +78,18 @@ const Pastillas = () => {
             <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/></li>
           </Tippy>
           ))
+          }  
+        </ul>
+      </div>
+      <div className='col-12 col-md-6'>  
+        <h4 className='sub-pasti my-3'>CMS</h4> 
+        <ul>
+          {
+            cmsPills.slice(0,2).map(item=> (
+              <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+              <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/></li>
+            </Tippy>
+            ))
           }  
         </ul>
       </div>

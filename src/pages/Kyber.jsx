@@ -3,14 +3,15 @@ import kyber_dis from '../pics/keyber_dispositivos.png'
 import kyber_admin from '../pics/kyber_admin.png'
 import kyber_pan from '../pics/kyber_panel.png'
 import kyber_per from '../pics/kyber_perfil.png'
-import { motion } from "framer-motion"
-import html from '../icons/html-1.svg'
-import css from '../icons/css-3.svg'
-import php from '../icons/php.svg'
-import mysql from '../icons/mysql-6.svg'
 import kyberList from '../arrays/kyberList'
 import { useTranslation } from 'react-i18next'
 import kyberlogo from '../pics/kyber-logo.png'
+import frontendPills from '../arrays/frontendPills'
+import backendPills from '../arrays/backendPills'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/animations/scale-extreme.css';
+import 'tippy.js/dist/tippy.css';
+import libreriesPills from '../arrays/libreriesPills'
 
 const Kyber = () => {
   const {t} = useTranslation();
@@ -42,30 +43,37 @@ const Kyber = () => {
         <div className='container bg-pasti-kyber shadow'>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
-                    <p className='mx-2 mt-4'>{t("kyber.tools")}</p>
+                    <p>{t("kyber.tools")}</p>
                 </div>
-                <div className='col-12 col-lg-6 my-5'>
-                    <div className='row align-items-center justify-content-center'>
-                         <div className='col-5 col-md-3 card-icon-kyber'>
-                            <motion.img src={html} alt='icono de html' className="sk-icon-kyber m-2"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
-                        <div className='col-5 col-md-3 card-icon-kyber'>
-                            <motion.img src={css} alt='icono de css' className="sk-icon-kyber m-2" 
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
-                        <div className='col-5 col-md-3 card-icon-kyber'>
-                            <motion.img src={php} alt='icono de php' className="sk-icon-kyber m-2"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>              
-                        <div className='col-5 col-md-3 card-icon-kyber'>
-                            <motion.img src={mysql} alt='icono de mysql' className="sk-icon-kyber m-2"
-                            whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                        </div>
+                <div className='col-12 col-lg-6'>
+                    <div className="wrapper-kyber-pill">    
+                        <ul>
+                            {
+                                frontendPills.slice(0,2).map(item => (
+                                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                    <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                    </li>
+                                    </Tippy>
+                                ))
+                            }
+                            {
+                                [libreriesPills.slice(1)[0]].map(item => (
+                                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                    <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                    </li>
+                                    </Tippy>
+                                ))
+                            }
+                            
+                            {
+                              backendPills.slice(0,2).map(item => (
+                                <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                </li>
+                                </Tippy>
+                              ))
+                            }
+                        </ul>
                     </div>
                        
                 </div>

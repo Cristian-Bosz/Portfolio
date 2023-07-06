@@ -22,13 +22,6 @@
         @extend .project-tech-stack;
       }
 }
-.card-icon-thorkey{
-    height: 95px;
-    width: 95px;
-    border-radius: 10px;
-    margin: 0em 2em ;
-    background-color: #ffffff;
-}
 .card{
   border-radius: 25% 10%;
 }
@@ -48,20 +41,139 @@
         font-size: 2rem;
       }
   }
-  
-  
 
+  //Pills
+  .wrapper-thorkey-pill ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+  }
+  .wrapper-thorkey-pill ul li {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: var(--border-wrapper-skills);
+    transition: all 0.5s ease;
+    background-color: #ffffffdd;
+  }
+  .wrapper-thorkey-pill ul li img{
+    width:30px;
+    margin-bottom: 10px;
+    opacity: var(--skills-opacity-img);
+    pointer-events: none;
+  }
+
+
+/*wordpress*/
+.wrapper-thorkey-pill ul li:hover.border-wp {
+  border: 5px solid #21759b;
+  box-shadow: 0 0 15px #21759b;
+  transition: all 0.3s ease;
+}
+.wrapper-thorkey-pill ul li .i-wp {
+  width: 45px;
+}
+.wrapper-thorkey-pill ul li:hover .i-wp {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/*wooCommerce*/
+.wrapper-thorkey-pill ul li:hover.border-woo {
+  border: 5px solid #9b5c8f;
+  box-shadow: 0 0 15px #9b5c8f;
+  transition: all 0.3s ease;
+}
+.wrapper-thorkey-pill ul li .i-woo {
+  width: 45px;
+}
+.wrapper-thorkey-pill ul li:hover .i-woo {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/*mercado pago*/
+.wrapper-thorkey-pill ul li:hover.border-mercado {
+  border: 5px solid #04a6e9;
+  box-shadow: 0 0 15px #04a6e9;
+  transition: all 0.3s ease;
+}
+.wrapper-thorkey-pill ul li .i-mercado {
+  width: 45px;
+}
+.wrapper-thorkey-pill ul li:hover .i-mercado {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/*elementor*/
+.wrapper-thorkey-pill ul li:hover.border-elementor {
+  border: 5px solid #bd3264;
+  box-shadow: 0 0 15px #bd3264;
+  transition: all 0.3s ease;
+}
+.wrapper-thorkey-pill ul li .i-elementor {
+  width: 45px;
+}
+.wrapper-thorkey-pill ul li:hover .i-elementor {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .wrapper-thorkey-pill ul li {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+  }
+  .wrapper-thorkey-pill ul li .i-wp {
+    width: 40px;
+  }
+  .wrapper-thorkey-pill ul li .i-woo {
+    width: 40px;
+  }
+  .wrapper-thorkey-pill ul li .i-mercado {
+    width: 40px;
+  }
+  .wrapper-thorkey-pill ul li .i-elementor {
+    width: 40px;
+  }
+
+}
 /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
-    .card-icon-thorkey{
-        height: 95px;
-        width: 95px;
-        border-radius: 10px;
-        margin: 0em 2em ;
-        background-color: #ffffff;
-      }
       .img-thorkey{
         width: 75% !important;
+      }
+      .bg-pasti-thorkey{
+        p{
+          margin: 2em 1em 1em 1em;
+        }
+      }
+      .wrapper-thorkey-pill ul li {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+      }
+      .wrapper-thorkey-pill ul li .i-wp {
+        width: 40px;
+      }
+      .wrapper-thorkey-pill ul li .i-woo {
+        width: 40px;
+      }
+      .wrapper-thorkey-pill ul li .i-mercado {
+        width: 40px;
+      }
+      .wrapper-thorkey-pill ul li .i-elementor {
+        width: 40px;
       }
 
 }
@@ -81,13 +193,7 @@
         font-size: 16px;
         font-weight: 600;
       }
-      .card-icon-thorkey{
-        height: 95px;
-        width: 95px;
-        border-radius: 10px;
-        margin: 0px 10px ;
-        background-color: #ffffff;
-      }
+     
       .border-thorkey{
         border: 1px solid #92550585
       }
@@ -99,6 +205,28 @@
             color: #ac7c2e;
             font-size: 1.8rem;
           }
+      }
+      .bg-pasti-thorkey{
+        p{
+          margin: 2em 0 0 0;
+        }
+      }
+      .wrapper-thorkey-pill ul li {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+      }
+      .wrapper-thorkey-pill ul li .i-wp {
+        width: 35px;
+      }
+      .wrapper-thorkey-pill ul li .i-woo {
+        width: 35px;
+      }
+      .wrapper-thorkey-pill ul li .i-mercado {
+        width: 35px;
+      }
+      .wrapper-thorkey-pill ul li .i-elementor {
+        width: 35px;
       }
     
 }
@@ -123,5 +251,27 @@
         color: #ac7c2e;
         font-size: 1.5rem;
       }
+  }
+  .bg-pasti-thorkey{
+      p{
+        margin: 2em 0 0 0;
+      }
+  }
+  .wrapper-thorkey-pill ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+  }
+  .wrapper-thorkey-pill ul li .i-wp {
+    width: 30px;
+  }
+  .wrapper-thorkey-pill ul li .i-woo {
+    width: 30px;
+  }
+  .wrapper-thorkey-pill ul li .i-mercado {
+    width: 30px;
+  }
+  .wrapper-thorkey-pill ul li .i-elementor {
+    width: 30px;
   }
 }

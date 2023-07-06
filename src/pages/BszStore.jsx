@@ -1,11 +1,12 @@
 import logo from '../pics/bszstore-logo.png'
-import bootstrap from '../icons/bootstrap-5-1.svg'
-import react from '../icons/react-2.svg'
-import { motion } from 'framer-motion'
 import mockup from '../pics/bsz-mockup.png'
 import mockup2 from '../pics/bsz-mockup2.png'
 import bszStoreList from '../arrays/bszStoreList'
 import { useTranslation } from 'react-i18next'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/animations/scale-extreme.css';
+import 'tippy.js/dist/tippy.css';
+import libreriesPills from '../arrays/libreriesPills'
 
 const BszStore = () => {
   const {t} = useTranslation();
@@ -37,27 +38,27 @@ const BszStore = () => {
             <div className='container bg-pasti-bsz shadow'>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6'>
-                        <p className='my-2 mx-2'>{t("bsz.tools")}</p>
+                        <p>{t("bsz.tools")}</p>
                     </div>
-                    <div className='col-12 col-lg-6 my-5'>
-                        <div className='row align-items-center justify-content-center'>
-                            <div className='col-2 col-md-4 card-icon-bsz'>
-                                <motion.img src={react} alt='icono de react' className=" sk-icon-bsz my-2"
-                                whileHover={{ scale: [null, 1.2, 1.1] }}
-                                transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                            </div>
-                            <div className='col-2 col-md-4 card-icon-bsz'>
-                                <motion.img src={bootstrap} alt='icono de bootstrap' className="sk-icon-bsz my-2"
-                                whileHover={{ scale: [null, 1.2, 1.1] }}
-                                transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                            </div>  
-                            <div className='col-2 col-md-4 card-icon-bsz'>
-                                <motion.img src="https://cdn.cdnlogo.com/logos/s/90/sass.svg" alt='icono de css' className="sk-icon-bsz my-2"
-                                whileHover={{ scale: [null, 1.2, 1.1] }}
-                                transition={{  type: "spring", stiffness: 400, damping: 20 }}/>
-                            </div>             
-                        </div>                  
-                    </div>       
+            
+                     
+                    <div className='col-12 col-lg-6'>
+                    <div className="wrapper-bsz-pill">    
+            <ul>
+                {
+                libreriesPills.slice(0, 3).map(item=> (
+                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                    <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                    </li>
+                    </Tippy>
+                ))
+                }  
+            </ul>        
+                
+                                     
+                    </div> 
+                    </div>
+
                 </div>
             </div>
         </article>
