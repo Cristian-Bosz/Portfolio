@@ -11,7 +11,7 @@ const Experience = () => {
       <article className='container mb-5'>
             <div className='row align-items-center'>      
                 <div className='col-12 col-lg-4'>
-                <img src={memoji} alt="meditando" className='avatar-proyecto'/>
+                <img src={memoji} alt="meditando" className='avatar-proyecto no-drag'/>
                 </div>
                 <div className='col-12 col-lg-8'>
                         <h2 className='title-home'>{t("experience.title")}</h2>
