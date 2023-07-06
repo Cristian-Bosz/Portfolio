@@ -1,46 +1,327 @@
-.bg-pastilla{
-    border-radius: 30px;
-    border-color: aquamarine !important;
-  }
-  .bg-pastillas{
-    background-color: rgb(255, 248, 240);
-  }
-  .sub-pasti{
+.sub-pasti{
     font-size: 25px;
     font-weight: 500;
-    color: #393939;
-  }
-  .card-icon{
-    height: 90px;
-    width: 90px;
-    margin-left: 40%;
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-  }
-  .sk-icon{
-    height: 75px;
-    width: 75px;
-  }
-
-  /* Breakpoint  formato pc, arriba de los 991px*/
-@media screen and (max-width: 992px) {
-    .card-icon{
-      height: 90px;
-      width: 90px;
-      margin-left: 0%;
-      border-radius: 15px;
-      background-color: rgb(255, 255, 255);
-    }
-
+    color: var(--p-font-color)
 }
-/* Breakpoint formato tablet*/
-@media screen and (max-width: 768px) {
- 
-    .card-icon{
-      height: 90px;
-      width: 90px;
-      margin-left: 0%;
-      border-radius: 15px;
-      background-color: rgb(255, 255, 255);
-    }
+.wrapper ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  justify-content: center;
+  margin: 1em 0 3em 0;
+}
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: var(--border-wrapper-skills);
+  transition: all 0.5s ease;
+  background-color: #ffffffdd;
+}
+.wrapper ul li img{
+  width:30px;
+  margin-bottom: 10px;
+  opacity: var(--skills-opacity-img);
+  pointer-events: none;
+}
+
+/*html*/
+.wrapper ul li:hover.border-html {
+  border: 5px solid #e34f26;
+  box-shadow: 0 0 15px #e34f26;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .icon-html {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/*css*/
+.wrapper ul li:hover.border-css {
+  border: 5px solid #1b73ba;
+  box-shadow: 0 0 15px #1b73ba;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .icon-css {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* javascript */
+.wrapper ul li:hover.border-js {
+  border: 5px solid #e9ca32;
+  box-shadow: 0 0 15px #e9ca32;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .icon-js {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* php */
+.wrapper ul li:hover.border-php {
+  border: 5px solid #8993be;
+  box-shadow: 0 0 15px #8993be;
+  transition: all 0.3s ease;
+}
+
+.wrapper ul li:hover .i-php {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* mysql */
+.wrapper ul li:hover.border-mysql {
+  border: 5px solid #0d5d72;
+  box-shadow: 0 0 15px #0d5d72;
+  transition: all 0.3s ease;
+}
+
+.wrapper ul li:hover .i-mysql {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* laravel */
+.wrapper ul li:hover.border-laravel {
+  border: 5px solid #f95945;
+  box-shadow: 0 0 15px #f95945;
+  transition: all 0.3s ease;
+}
+
+.wrapper ul li:hover .i-laravel {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* firebase */
+.wrapper ul li:hover.border-firebase {
+  border: 5px solid #fcca3f;
+  box-shadow: 0 0 15px #fcca3f;
+  transition: all 0.3s ease;
+}
+
+.wrapper ul li:hover .i-firebase {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* react */
+.wrapper ul li:hover.border-react {
+  border: 5px solid #61dafb;
+  box-shadow: 0 0 15px #61dafb;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-react {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* bootstrap */
+.wrapper ul li:hover.border-bootstrap {
+  border: 5px solid #7952b3;
+  box-shadow: 0 0 15px #7952b3;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-bootstrap {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* sass */
+.wrapper ul li:hover.border-sass {
+  border: 5px solid #cf649a;
+  box-shadow: 0 0 15px #cf649a;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-sass {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* jquery */
+.wrapper ul li:hover.border-jquery {
+  border: 5px solid #4f7fac;
+  box-shadow: 0 0 15px #4f7fac;
+  transition: all 0.3s ease;
+}
+.wrapper ul li .i-jquery {
+  width: 45px;
+}
+.wrapper ul li:hover .i-jquery {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* vue */
+.wrapper ul li:hover.border-vue {
+  border: 5px solid #4dba87;
+  box-shadow: 0 0 15px #4dba87;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-vue {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* fm */
+.wrapper ul li:hover.border-fm {
+  border: 5px solid #59529d;
+  box-shadow: 0 0 15px #59529d;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-fm {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* git */
+.wrapper ul li:hover.border-git {
+  border: 5px solid #de4c36;
+  box-shadow: 0 0 15px #de4c36;
+  transition: all 0.3s ease;
+}
+.wrapper ul li .i-git {
+  width: 35px;
+}
+.wrapper ul li:hover .i-git {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* github */
+.wrapper ul li:hover.border-github {
+  border: 5px solid #161614;
+  box-shadow: 0 0 15px #161614;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-github {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* filezilla */
+.wrapper ul li:hover.border-filezilla {
+  border: 5px solid #b50000;
+  box-shadow: 0 0 15px #b50000;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-filezilla {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* slack */
+.wrapper ul li:hover.border-slack {
+  border: 5px solid #32ac8a;
+  box-shadow: 0 0 15px #32ac8a;
+  transition: all 0.3s ease;
+}
+.wrapper ul li .i-slack {
+  width: 45px;
+}
+.wrapper ul li:hover .i-slack {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* ph */
+.wrapper ul li:hover.border-ph {
+  border: 5px solid #31a8ff;
+  box-shadow: 0 0 15px #31a8ff;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-ph {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* ai */
+.wrapper ul li:hover.border-ai {
+  border: 5px solid #ff9a00;
+  box-shadow: 0 0 15px #ff9a00;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-ai {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* pr */
+.wrapper ul li:hover.border-pr {
+  border: 5px solid #99f;
+  box-shadow: 0 0 15px #99f;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-pr {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* ae */
+.wrapper ul li:hover.border-ae {
+  border: 5px solid #99f;
+  box-shadow: 0 0 15px #99f;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-ae {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+ /*wordpress*/
+ .wrapper ul li:hover.border-wp {
+  border: 5px solid #21759b;
+  box-shadow: 0 0 15px #21759b;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-wp {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/*wooCommerce*/
+.wrapper ul li:hover.border-woo {
+  border: 5px solid #9b5c8f;
+  box-shadow: 0 0 15px #9b5c8f;
+  transition: all 0.3s ease;
+}
+.wrapper ul li:hover .i-woo {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+
+
+/* media queries */
+@media screen and (max-width: 1400px){
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width: 992px){
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px){
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width: 640px){
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width: 576px){
+  .sub-pasti{
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 340px){
+  .wrapper {
+    width: 150px;
+  }
+  .wrapper ul li{
+      margin:15px;
+  }
 }

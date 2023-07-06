@@ -1,5 +1,5 @@
 .avatar-proyecto{
-    width: 75% !important;
+    width: 75%;
   }
 .experience-li{
   @extend .project-funtionalities;
@@ -20,13 +20,43 @@
 /* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
     .avatar-proyecto{
-      width: 40% !important;
+      width: 50%;
     }
+    .experience-li{
+      p{
+        font-size: 20px;
+      }
+      .bi-check{
+        font-size: 2rem;
+      }
+  }
 }
 
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
     .avatar-proyecto{
-        width: 75% !important;
+        width: 60%;
       }
+      .experience-li{
+          p{
+            font-size: 18px;
+          }
+          .bi-check{
+            font-size: 2rem;
+          }
+      }
+}
+/* Breakpoint formato mobile*/
+@media screen and (max-width: 576px) {
+  .avatar-proyecto{
+    width: 50%;
+  }
+  .experience-li{
+      p{
+        font-size: 16px;
+      }
+      .bi-check{
+        font-size: 1.8rem;
+      }
+  }
 }

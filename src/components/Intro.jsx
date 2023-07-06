@@ -13,7 +13,7 @@ const Intro = () => {
       <div className='row'>
               <div className='col-12 bg-intro2'>
                   <div className='my-5'>
-                        <img src={memoji} alt="memoji" className='w-25 rounded-circle border border-3 bg-white shadow-lg avatar-perfil'/>
+                        <img src={memoji} alt="memoji" className='w-25 rounded-circle border border-3 bg-white shadow-lg avatar-perfil no-drag'/>
 
                                   <h3 className='titulo-intro'>{t("intro.intro")}</h3>
                                   <h4 className='sub-intro'>{t("intro.subintro")}</h4>

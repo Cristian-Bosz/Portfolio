@@ -3,7 +3,7 @@
     font-size: 45px;
     font-weight: 600;
   }
-  .btn-kyber{
+.btn-kyber{
     color: var(--btn-kyber-color);
     background-color: var(--btn-kyber-bg);
     text-decoration: none;
@@ -14,96 +14,94 @@
       color: #ffffff;
       background-color: #2d2d2d;
     }
-  }
+}
 .bg-pasti-kyber{
     background-color: #202020;
     border-radius: 20px;
       p{
         color: #fff;
         @extend .project-tech-stack;
+        margin: 1em 0 1em 0;
       }
   }
-  .card-icon-kyber{
-    height: 95px;
-    width: 95px;
-    margin: 10px 10px ;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-  }
-  .sk-icon-kyber{
-    height: 60px;
-    width: 60px; 
-  }
-   .title-kyber{
+
+.title-kyber{
     color: var(--kyber-font-color);
     font-size: 35px;
     font-weight: 600;  
     margin-bottom: 1em;
-  }
-  .li-kyber{
+}
+.li-kyber{
     @extend .project-funtionalities;
       .li-icons-kyber{
         color: var(--kyber-icon-color);
         font-size: 2rem;
       }
-  }
-  .border-kyber{
+}
+.border-kyber{
     border-radius: 30px;
   }
-  
 
 
 
-  /* Breakpoint  formato pc, arriba de los 991px*/
+/* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
-    .card-icon-kyber{
-        height: 95px;
-        width: 120px;
-        margin: 10px 10px ;
-        border-radius: 10px;
-        background-color: rgb(255, 255, 255);
-      }
-      .sk-icon-kyber{
-        height: 60px;
-        width: 60px; 
-      }
       .title-kyber{
-        margin-top: 1em;
+        font-size: 35px;
+        text-align: center;
+        margin: 2em 0;
+      }
+      .bg-pasti-kyber{
+        p{
+          margin: 2em 1em 1em 1em;
+        }
       }
 }
 
 
 /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
-    .border-kyber{
+      .border-kyber{
         border: 1px solid rgba(124, 124, 124, 0.523)
       }
-      
-      .card-icon-kyber{
-        height: 95px;
-        width: 120px;
-        margin: 10px 50px ;
-        border-radius: 5px;
-        background-color: rgb(255, 255, 255);
+      .title1-kyber{
+        font-size: 30px;
       }
-      .sk-icon-kyber{
-        height: 50px;
-        width: 50px; 
+      .title-kyber{
+        font-size: 30px;
+        text-align: center;
+        margin: 2em 0;
+      }
+      .li-kyber{
+          .li-icons-kyber{
+            font-size: 1.8rem;
+          }
+      }
+      .bg-pasti-kyber{
+        p{
+          margin: 2em 0 1em 0;
+        }
       }
 }
 
-/* Breakpoint formato tablet*/
+/* Breakpoint formato mobile*/
 @media screen and (max-width: 576px) {
-    .card-icon-kyber{
-      height: 95px;
-      width: 120px;
-      margin: 10px 10px ;
-      border-radius: 5px;
-      background-color: rgb(255, 255, 255);
-    }
-    .sk-icon-kyber{
-      height: 50px;
-      width: 50px; 
-    }
-  
+  .title1-kyber{
+    font-size: 24px;
   }
+  .title-kyber{
+      font-size: 24px;
+      text-align: center;
+      margin: 2em 0;
+  }
+  .li-kyber{
+      .li-icons-kyber{
+        font-size: 1.5rem;
+      }
+  }
+  .bg-pasti-kyber{
+    p{
+      margin: 2em 0 0 0;
+    }
+  }
+}

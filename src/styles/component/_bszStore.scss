@@ -1,65 +1,68 @@
-  .titulo-bsz{
+.titulo-bsz{
     color: var(--bsz-font-color-green);
     font-size: 40px;
     line-height: 55px;
     font-weight: 600;
-  }
-  .bg-pasti-bsz{
+}
+.bg-pasti-bsz{
     background-color: #157347 ;
     border-radius: 20px;  
       p{
         color: #fff;
         @extend .project-tech-stack;
+        margin: 1em 0 1em 0;
       }
-  }
-  .bsz-li{
+}
+.bsz-li{
     @extend .project-funtionalities;
       .li-bsz-icons{
         font-size: 2rem;
         color: var(--bsz-font-color-green);
       }  
   }
-  .card-icon-bsz{
-    height: 95px;
-    width: 95px;
-    border-radius: 10px;
-    margin: 0px 10px ;
-    background-color: rgb(255, 255, 255);
-  }
-  .sk-icon-bsz{
-    height: 75px;
-    width: 75px;
-  }
 
-  /* Breakpoint  formato pc, arriba de los 991px*/
+
+/* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {    
-    .sk-icon-bsz{
-      height: 75px;
-      width: 75px;
+  .bg-pasti-bsz{
+    p{
+      margin: 2em 1em 1em 1em;
     }
-    .card-icon-bsz{
-      height: 95px;
-      width: 95px;
-      border-radius: 10px;
-      margin: 0px 10px ;
-      background-color: rgb(255, 255, 255);
-    }
-  
   }
+}
 
-  /* Breakpoint formato tablet*/
+/* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {  
-  
-  .sk-icon-bsz{
-    height: 75px;
-    width: 75px;
+  .titulo-bsz{
+    font-size: 30px;
   }
-  .card-icon-bsz{
-    height: 95px;
-    width: 95px;
-    border-radius: 10px;
-    margin: 0px 10px ;
-    background-color: rgb(255, 255, 255);
+  .bsz-li{
+      .li-bsz-icons{
+        font-size: 1.8rem;
+        color: var(--bsz-font-color-green);
+      }  
   }
-  
+  .bg-pasti-bsz{
+    p{
+      margin: 2em 0 1em 0;
+    }
   }
+}
+
+ /* Breakpoint formato mobile*/
+ @media screen and (max-width: 576px) {  
+  .titulo-bsz{
+    font-size: 24px;
+  }
+  .bsz-li{
+      .li-bsz-icons{
+        font-size: 1.5rem;
+        color: var(--bsz-font-color-green);
+      }  
+  }
+  .bg-pasti-bsz{
+      p{
+        margin: 2em 0 1em 0;
+      }
+  }  
+}

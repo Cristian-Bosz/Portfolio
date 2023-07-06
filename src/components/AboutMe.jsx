@@ -14,7 +14,7 @@ const AboutMe = () => {
               <h3 className='title-home mt-5'>{t("about.title")}</h3>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6 my-5'>
-                      <img src={memoji} alt="programando" className='avatar-about'/>
+                      <img src={memoji} alt="programando" className='avatar-about no-drag'/>
                     </div>
                     <div className='col-12 col-lg-6 bg-in'>
                         <div className='my-5'>

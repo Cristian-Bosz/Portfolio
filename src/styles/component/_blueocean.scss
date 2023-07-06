@@ -17,6 +17,7 @@
       p{
         color: #5d5c5c;
         @extend .project-tech-stack;
+        margin: 1em 0 1em 0;
       }
 }
 .li-blueocean{
@@ -26,16 +27,176 @@
         font-size: 2rem;
       }
 }
+
+  //Pills
+  .wrapper-blueocean-pill ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+  }
+  .wrapper-blueocean-pill ul li {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: var(--border-wrapper-skills);
+    transition: all 0.5s ease;
+    background-color: #ffffffdd;
+  }
+  .wrapper-blueocean-pill ul li img{
+    width:30px;
+    margin-bottom: 10px;
+    opacity: var(--skills-opacity-img);
+    pointer-events: none;
+  }
+
+ /*html*/
+.wrapper-blueocean-pill ul li:hover.border-html {
+  border: 5px solid #e34f26;
+  box-shadow: 0 0 15px #e34f26;
+  transition: all 0.3s ease;
+}
+.wrapper-blueocean-pill ul li .icon-html {
+  width: 45px;
+}
+.wrapper-blueocean-pill ul li:hover .icon-html {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/*css*/
+.wrapper-blueocean-pill ul li:hover.border-css {
+  border: 5px solid #1b73ba;
+  box-shadow: 0 0 15px #1b73ba;
+  transition: all 0.3s ease;
+}
+.wrapper-blueocean-pill ul li .icon-css {
+  width: 45px;
+}
+.wrapper-blueocean-pill ul li:hover .icon-css {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+/* vue */
+.wrapper-blueocean-pill ul li:hover.border-vue {
+  border: 5px solid #4dba87;
+  box-shadow: 0 0 15px #4dba87;
+  transition: all 0.3s ease;
+}
+.wrapper-blueocean-pill ul li .i-vue {
+  width: 45px;
+}
+.wrapper-blueocean-pill ul li:hover .i-vue {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+  @media screen and (max-width: 1200px){
+    .bg-pasti-blue{
+      p{
+        margin: 0 1em 0 1em;
+      }
+    }
+  }
+  /* Breakpoint  formato pc, arriba de los 991px*/
+  @media screen and (max-width: 992px) {
+    .bg-pasti-blue{
+      p{
+        margin: 2em 1em 1em 1em;
+      }
+    }
+    .wrapper-blueocean-pill ul li {
+      width: 85px;
+      height: 85px;
+      line-height: 85px;
+    }
+    .wrapper-blueocean-pill ul li .icon-html {
+      width: 40px;
+    }
+    .wrapper-blueocean-pill ul li .icon-css {
+      width: 40px;
+    }
+    .wrapper-blueocean-pill ul li .i-vue {
+      width: 40px;
+    }
   
-
-
-
+  }
   /* Breakpoint formato tablet*/
 @media screen and (max-width: 768px) {
     .title1-blueocean{
-        font-size: 35px;
+        font-size: 30px;
       }
       .title-blueocean{
         font-size: 30px;
+        text-align: center;
+      }
+      .li-blueocean{
+          .li-blueocean-icons{
+            color: #e4910b;
+            font-size: 1.8rem;
+          }
+      }
+      .bg-pasti-blue{
+        p{
+          margin: 2em 0 1em 0;
+        }
+      }
+      .wrapper-blueocean-pill ul li {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+      }
+      .wrapper-blueocean-pill ul li .icon-html {
+        width: 35px;
+      }
+      .wrapper-blueocean-pill ul li .icon-css {
+        width: 35px;
+      }
+      .wrapper-blueocean-pill ul li .i-vue {
+        width: 35px;
+      }
+}
+
+  /* Breakpoint formato mobile*/
+  @media screen and (max-width: 576px) {
+      .title1-blueocean{
+        font-size: 24px;
+      }
+      .title-blueocean{
+        font-size: 24px;
+      }
+      .li-blueocean{
+          .li-blueocean-icons{
+            color: #e4910b;
+            font-size: 1.5rem;
+          }
+      }
+      .btn-blueocean{
+        font-size: 14px;
+      }
+      .bg-pasti-blue{
+          p{
+            margin: 2em 0 1em 0;
+          }
+      }
+      .wrapper-blueocean-pill ul li {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+      }
+      .wrapper-blueocean-pill ul li .icon-html {
+        width: 30px;
+      }
+      .wrapper-blueocean-pill ul li .icon-css {
+        width: 30px;
+      }
+      .wrapper-blueocean-pill ul li .i-vue {
+        width: 30px;
       }
 }

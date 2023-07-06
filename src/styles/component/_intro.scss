@@ -63,3 +63,22 @@
         width: 50% !important;
       }
 }
+
+/* Breakpoint formato mobile*/
+@media screen and (max-width: 576px) {
+  .titulo-intro {
+      font-size: 30px;
+      line-height: 55px;
+      font-weight: 600;
+      color: var(--intro-font-color);
+      margin-top: 1em;
+    }
+    .sub-intro{
+      font-size: 22px;
+      line-height: 55px;
+      font-weight: 600;
+      color: var(--intro-font-color);
+      margin-top: 1em;
+    }
+
+}

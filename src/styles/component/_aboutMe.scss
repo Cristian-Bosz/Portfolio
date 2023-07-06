@@ -1,11 +1,12 @@
   .bg-in{
-    background-color: rgb(255, 248, 240);
+    background-color: var(--aboutme-bg-p);
     border-radius: 10px 100px / 120px;
   }
   .p-about {    
     font-size: 18px;
-    line-height: 28px;
-    color: #4B5D72;
+    line-height: 30px;
+    color: var(--p-font-color);
+    text-align: center;
   }
   .avatar-about{
     width: 50% !important;
@@ -142,5 +143,17 @@
     .avatar-about{
         width: 75%;
     }
-
+    .p-about {    
+      font-size: 16px;
+    }
+}
+/* Breakpoint formato mobile*/
+@media screen and (max-width: 576px) {
+  .p-about {    
+    font-size: 14px;
+    text-align: start;
+  }
+  .btn-cv {
+    font-size: 16px;
+  }
 }
