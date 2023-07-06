@@ -46,7 +46,7 @@ const Kyber = () => {
                     <p>{t("kyber.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6'>
-                    <div className="wrapper-kyber-pill">    
+                    <div className="wrapper-toolpills-projects">    
                         <ul>
                             {
                                 frontendPills.slice(0,2).map(item => (

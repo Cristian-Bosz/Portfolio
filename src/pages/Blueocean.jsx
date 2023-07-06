@@ -40,7 +40,7 @@ const Blueocean = () => {
                     <p>{t("blueocean.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6'>
-                    <div className="wrapper-blueocean-pill">    
+                    <div className="wrapper-toolpills-projects">    
                         <ul>
                             {
                                 frontendPills.slice(0,2).map(item => (

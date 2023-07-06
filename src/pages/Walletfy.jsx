@@ -51,7 +51,7 @@ const Walletfy = () => {
             
                      
                     <div className='col-12 col-lg-6'>
-                    <div className="wrapper-walletfy-pill">    
+                    <div className="wrapper-toolpills-projects">    
                         <ul>
                             {
                             frontendPills.map(item=> (

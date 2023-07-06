@@ -43,19 +43,17 @@ const BszStore = () => {
             
                      
                     <div className='col-12 col-lg-6'>
-                    <div className="wrapper-bsz-pill">    
-            <ul>
-                {
-                libreriesPills.slice(0, 3).map(item=> (
-                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
-                    <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
-                    </li>
-                    </Tippy>
-                ))
-                }  
-            </ul>        
-                
-                                     
+                        <div className="wrapper-toolpills-projects">    
+                            <ul>
+                                {
+                                libreriesPills.slice(0, 3).map(item=> (
+                                    <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                    <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
+                                    </li>
+                                    </Tippy>
+                                ))
+                                }  
+                            </ul>                                             
                     </div> 
                     </div>
 

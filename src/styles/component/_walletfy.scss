@@ -53,140 +53,8 @@
 
 }
 
-  //Pills
-  .wrapper-walletfy-pill ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    vertical-align: middle;
-    justify-content: center;
-    margin: 2em 0 2em 0;
-  }
-  .wrapper-walletfy-pill ul li {
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    margin: 0 10px;
-    margin-top: 10px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 50%;
-    border: var(--border-wrapper-skills);
-    transition: all 0.5s ease;
-    background-color: #ffffffdd;
-  }
-  .wrapper-walletfy-pill ul li img{
-    width:30px;
-    margin-bottom: 10px;
-    opacity: var(--skills-opacity-img);
-    pointer-events: none;
-  }
 
- /*html*/
-.wrapper-walletfy-pill ul li:hover.border-html {
-  border: 5px solid #e34f26;
-  box-shadow: 0 0 15px #e34f26;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .icon-html {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .icon-html {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-/*css*/
-.wrapper-walletfy-pill ul li:hover.border-css {
-  border: 5px solid #1b73ba;
-  box-shadow: 0 0 15px #1b73ba;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .icon-css {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .icon-css {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-/* javascript */
-.wrapper-walletfy-pill ul li:hover.border-js {
-  border: 5px solid #e9ca32;
-  box-shadow: 0 0 15px #e9ca32;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .icon-js {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .icon-js {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-/* react */
-.wrapper-walletfy-pill ul li:hover.border-react {
-  border: 5px solid #61dafb;
-  box-shadow: 0 0 15px #61dafb;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .i-react {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .i-react {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-/* bootstrap */
-.wrapper-walletfy-pill ul li:hover.border-bootstrap {
-  border: 5px solid #7952b3;
-  box-shadow: 0 0 15px #7952b3;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .i-bootstrap {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .i-bootstrap {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-/* sass */
-.wrapper-walletfy-pill ul li:hover.border-sass {
-  border: 5px solid #cf649a;
-  box-shadow: 0 0 15px #cf649a;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .i-sass {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .i-sass {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-/* firebase */
-.wrapper-walletfy-pill ul li:hover.border-firebase {
-  border: 5px solid #fcca3f;
-  box-shadow: 0 0 15px #fcca3f;
-  transition: all 0.3s ease;
-}
-.wrapper-walletfy-pill ul li .i-firebase {
-  width: 45px;
-}
-.wrapper-walletfy-pill ul li:hover .i-firebase {
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-
-
-/* Breakpoint */
-@media screen and (max-width: 1400px){
-  .wrapper-walletfy-pill ul li{
-      margin-top: 10px;
-  }
-}
-@media screen and (max-width: 1200px){
-  .wrapper-walletfy-pill ul li{
-      margin-top: 10px;
-  }
-}
-  /* Breakpoint  formato pc, arriba de los 991px*/
+/* Breakpoint  formato pc, arriba de los 991px*/
 @media screen and (max-width: 992px) {
     .mockup-walletfy{
       display: none;
@@ -209,30 +77,6 @@
         p{
           margin: 2em 1em 1em 1em;
         }
-    }
-    .wrapper-walletfy-pill ul li {
-      width: 85px;
-      height: 85px;
-      line-height: 85px;
-      margin-top: 10px;
-    }
-    .wrapper-walletfy-pill ul li .icon-html {
-      width: 40px;
-    }
-    .wrapper-walletfy-pill ul li .icon-css {
-      width: 40px;
-    }
-    .wrapper-walletfy-pill ul li .icon-js {
-      width: 40px;
-    }
-    .wrapper-walletfy-pill ul li .i-react {
-      width: 40px;
-    }
-    .wrapper-walletfy-pill ul li .i-bootstrap {
-      width: 40px;
-    }
-    .wrapper-walletfy-pill ul li .i-firebase {
-      width: 40px;
     }
 }
 
@@ -276,30 +120,6 @@
           margin: 2em 0 1em 0;
         }
       }
-      .wrapper-walletfy-pill ul li {
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        margin-top: 10px;
-      }
-      .wrapper-walletfy-pill ul li .icon-html {
-        width: 35px;
-      }
-      .wrapper-walletfy-pill ul li .icon-css {
-        width: 35px;
-      }
-      .wrapper-walletfy-pill ul li .icon-js {
-        width: 35px;
-      }
-      .wrapper-walletfy-pill ul li .i-react {
-        width: 35px;
-      }
-      .wrapper-walletfy-pill ul li .i-bootstrap {
-        width: 35px;
-      }
-      .wrapper-walletfy-pill ul li .i-firebase {
-        width: 35px;
-      }
 }
 
 /* Breakpoint formato mobile*/
@@ -332,29 +152,5 @@
       .btn-landing{
         font-size: 14px;
         margin: 1em 0;
-      }
-      .wrapper-walletfy-pill ul li {
-        width: 75px;
-        height: 75px;
-        line-height: 75px;
-        margin-top: 10px;
-      }
-      .wrapper-walletfy-pill ul li .icon-html {
-        width: 30px;
-      }
-      .wrapper-walletfy-pill ul li .icon-css {
-        width: 30px;
-      }
-      .wrapper-walletfy-pill ul li .icon-js {
-        width: 30px;
-      }
-      .wrapper-walletfy-pill ul li .i-react {
-        width: 30px;
-      }
-      .wrapper-walletfy-pill ul li .i-bootstrap {
-        width: 30px;
-      }
-      .wrapper-walletfy-pill ul li .i-firebase {
-        width: 30px;
       }
 }

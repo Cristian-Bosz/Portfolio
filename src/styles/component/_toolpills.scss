@@ -1,0 +1,715 @@
+
+//Toolips classes
+.wrapper-toolpills-projects ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+  }
+  .wrapper-toolpills-projects ul li {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: var(--border-wrapper-skills);
+    transition: all 0.5s ease;
+    background-color: #ffffffdd;
+  }
+  .wrapper-toolpills-projects ul li img{
+    width:30px;
+    margin-bottom: 10px;
+    opacity: var(--skills-opacity-img);
+    pointer-events: none;
+  }
+  
+  /*html*/
+  .wrapper-toolpills-projects ul li:hover.border-html {
+    border: 5px solid #e34f26;
+    box-shadow: 0 0 15px #e34f26;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .icon-html {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .icon-html {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /*css*/
+  .wrapper-toolpills-projects ul li:hover.border-css {
+    border: 5px solid #1b73ba;
+    box-shadow: 0 0 15px #1b73ba;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .icon-css {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .icon-css {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* javascript */
+  .wrapper-toolpills-projects ul li:hover.border-js {
+    border: 5px solid #e9ca32;
+    box-shadow: 0 0 15px #e9ca32;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .icon-js {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .icon-js {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* php */
+  .wrapper-toolpills-projects ul li:hover.border-php {
+    border: 5px solid #8993be;
+    box-shadow: 0 0 15px #8993be;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-php {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-php {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* mysql */
+  .wrapper-toolpills-projects ul li:hover.border-mysql {
+    border: 5px solid #0d5d72;
+    box-shadow: 0 0 15px #0d5d72;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-mysql {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-mysql {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* laravel */
+  .wrapper-toolpills-projects ul li:hover.border-laravel {
+    border: 5px solid #f95945;
+    box-shadow: 0 0 15px #f95945;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-laravel {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-laravel {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* firebase */
+  .wrapper-toolpills-projects ul li:hover.border-firebase {
+    border: 5px solid #fcca3f;
+    box-shadow: 0 0 15px #fcca3f;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-firebase {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-firebase {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* react */
+  .wrapper-toolpills-projects ul li:hover.border-react {
+    border: 5px solid #61dafb;
+    box-shadow: 0 0 15px #61dafb;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-react {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-react {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* bootstrap */
+  .wrapper-toolpills-projects ul li:hover.border-bootstrap {
+    border: 5px solid #7952b3;
+    box-shadow: 0 0 15px #7952b3;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-bootstrap {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-bootstrap {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* sass */
+  .wrapper-toolpills-projects ul li:hover.border-sass {
+    border: 5px solid #cf649a;
+    box-shadow: 0 0 15px #cf649a;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-sass {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-sass {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* jquery */
+  .wrapper-toolpills-projects ul li:hover.border-jquery {
+    border: 5px solid #4f7fac;
+    box-shadow: 0 0 15px #4f7fac;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-jquery {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-jquery {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* vue */
+  .wrapper-toolpills-projects ul li:hover.border-vue {
+    border: 5px solid #4dba87;
+    box-shadow: 0 0 15px #4dba87;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-vue {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-vue {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* fm */
+  .wrapper-toolpills-projects ul li:hover.border-fm {
+    border: 5px solid #59529d;
+    box-shadow: 0 0 15px #59529d;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-fm {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-fm {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* git */
+  .wrapper-toolpills-projects ul li:hover.border-git {
+    border: 5px solid #de4c36;
+    box-shadow: 0 0 15px #de4c36;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-git {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-git {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* github */
+  .wrapper-toolpills-projects ul li:hover.border-github {
+    border: 5px solid #161614;
+    box-shadow: 0 0 15px #161614;
+    transition: all 0.3s ease;
+  }  
+  .wrapper-toolpills-projects ul li .i-github {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-github {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* filezilla */
+  .wrapper-toolpills-projects ul li:hover.border-filezilla {
+    border: 5px solid #b50000;
+    box-shadow: 0 0 15px #b50000;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-filezilla {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-filezilla {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* slack */
+  .wrapper-toolpills-projects ul li:hover.border-slack {
+    border: 5px solid #32ac8a;
+    box-shadow: 0 0 15px #32ac8a;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-slack {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-slack {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* ph */
+  .wrapper-toolpills-projects ul li:hover.border-ph {
+    border: 5px solid #31a8ff;
+    box-shadow: 0 0 15px #31a8ff;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-ph {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-ph {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* ai */
+  .wrapper-toolpills-projects ul li:hover.border-ai {
+    border: 5px solid #ff9a00;
+    box-shadow: 0 0 15px #ff9a00;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-ai {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-ai {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* pr */
+  .wrapper-toolpills-projects ul li:hover.border-pr {
+    border: 5px solid #99f;
+    box-shadow: 0 0 15px #99f;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-pr {
+    width:45px;
+    }
+  .wrapper-toolpills-projects ul li:hover .i-pr {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /* ae */
+  .wrapper-toolpills-projects ul li:hover.border-ae {
+    border: 5px solid #99f;
+    box-shadow: 0 0 15px #99f;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-ae {
+    width:45px;
+    }  
+  .wrapper-toolpills-projects ul li:hover .i-ae {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /*wordpress*/
+.wrapper-toolpills-projects ul li:hover.border-wp {
+    border: 5px solid #21759b;
+    box-shadow: 0 0 15px #21759b;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-wp {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-wp {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /*wooCommerce*/
+  .wrapper-toolpills-projects ul li:hover.border-woo {
+    border: 5px solid #9b5c8f;
+    box-shadow: 0 0 15px #9b5c8f;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-woo {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-woo {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /*mercado pago*/
+  .wrapper-toolpills-projects ul li:hover.border-mercado {
+    border: 5px solid #04a6e9;
+    box-shadow: 0 0 15px #04a6e9;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-mercado {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-mercado {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /*elementor*/
+  .wrapper-toolpills-projects ul li:hover.border-elementor {
+    border: 5px solid #bd3264;
+    box-shadow: 0 0 15px #bd3264;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-elementor {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-elementor {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+
+.tippy-box[data-theme~='skill-html'] {
+    background-color: #e34f26;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='css'] {
+    background-color: #1b73ba;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='js'] {
+    background-color: #e9ca32;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='php'] {
+    background-color: #8993be;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='mysql'] {
+    background-color: #0d5d72;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='laravel'] {
+    background-color: #f95945;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='firebase'] {
+    background-color: #fcca3f;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='react'] {
+    background-color: #61dafb;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='bootstrap'] {
+    background-color: #7952b3;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='sass'] {
+    background-color: #cf649a;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='jquery'] {
+    background-color: #4f7fac;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='vue'] {
+    background-color: #4dba87;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='fm'] {
+    background-color: #59529d;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='git'] {
+    background-color: #de4c36;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='github'] {
+    background-color: #161614;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='filezilla'] {
+    background-color: #b50000;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='slack'] {
+    background-color: #32ac8a;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='ph'] {
+    background-color: #31a8ff;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='ai'] {
+    background-color: #ff9a00;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='pr'] {
+    background-color: #99f;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='ae'] {
+    background-color: #99f;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='wp'] {
+    background-color: #21759b;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='woo'] {
+    background-color: #9b5c8f;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='mercado'] {
+    background-color: #04a6e9;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='elementor'] {
+    background-color: #bd3264;
+    color: #ffffff;
+  }
+  
+
+/* Breakpoint*/
+@media screen and (max-width: 992px) {
+    .wrapper-toolpills-projects ul li {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+    }
+    .wrapper-toolpills-projects ul li .icon-html {
+        width:40px;
+    } 
+    .wrapper-toolpills-projects ul li .icon-css {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .icon-js {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-php {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-mysql {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-laravel {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-firebase {
+        width:40px;
+    } 
+    .wrapper-toolpills-projects ul li .i-react {
+        width:40px;
+    } 
+    .wrapper-toolpills-projects ul li .i-bootstrap {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-sass {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-jquery {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-vue {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-fm {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-git {
+        width:40px;
+    } 
+    .wrapper-toolpills-projects ul li .i-github {
+        width:40px;
+    } 
+    .wrapper-toolpills-projects ul li .i-filezilla {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-slack {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ph {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ai {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-pr {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ae {
+        width:40px;
+    }
+    .wrapper-toolpills-projects ul li .i-wp {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-woo {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-mercado {
+        width:40px;
+    }   
+    .wrapper-toolpills-projects ul li .i-elementor {
+        width:40px;
+    }   
+}
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .wrapper-toolpills-projects ul li {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .wrapper-toolpills-projects ul li .icon-html {
+        width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .icon-css {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .icon-js {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-php {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-mysql {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-laravel {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-firebase {
+        width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .i-react {
+        width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .i-bootstrap {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-sass {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-jquery {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-vue {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-fm {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-git {
+        width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .i-github {
+        width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .i-filezilla {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-slack {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ph {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ai {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-pr {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ae {
+        width:35px;
+    }
+    .wrapper-toolpills-projects ul li .i-wp {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-woo {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-mercado {
+        width:35px;
+    }   
+    .wrapper-toolpills-projects ul li .i-elementor {
+        width:35px;
+    }   
+}
+
+/* Breakpoint formato mobile*/
+@media screen and (max-width: 576px) {
+    .wrapper-toolpills-projects ul li {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+    .wrapper-toolpills-projects ul li .icon-html {
+        width:30px;
+    } 
+    .wrapper-toolpills-projects ul li .icon-css {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .icon-js {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-php {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-mysql {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-laravel {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-firebase {
+        width:30px;
+    } 
+    .wrapper-toolpills-projects ul li .i-react {
+        width:30px;
+    } 
+    .wrapper-toolpills-projects ul li .i-bootstrap {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-sass {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-jquery {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-vue {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-fm {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-git {
+        width:30px;
+    } 
+    .wrapper-toolpills-projects ul li .i-github {
+        width:30px;
+    } 
+    .wrapper-toolpills-projects ul li .i-filezilla {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-slack {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ph {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ai {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-pr {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-ae {
+        width:30px;
+    }
+    .wrapper-toolpills-projects ul li .i-wp {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-woo {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-mercado {
+        width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-elementor {
+        width:30px;
+    }   
+}

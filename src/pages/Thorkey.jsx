@@ -47,7 +47,7 @@ const Thorkey = () => {
                     <p>{t("thorkey.tools")}</p>
                 </div>
                 <div className='col-12 col-lg-6'>
-                    <div className="wrapper-thorkey-pill">    
+                    <div className="wrapper-toolpills-projects">    
                         <ul>
                             {
                                 cmsPills.map(item => (

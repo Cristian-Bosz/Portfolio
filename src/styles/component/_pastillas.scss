@@ -260,107 +260,25 @@
   opacity: 1;
   transition: all 0.3s ease;
 }
-
-
-.tippy-box[data-theme~='skill-html'] {
-  background-color: #e34f26;
-  color: #ffffff;
+ /*wordpress*/
+ .wrapper ul li:hover.border-wp {
+  border: 5px solid #21759b;
+  box-shadow: 0 0 15px #21759b;
+  transition: all 0.3s ease;
 }
-.tippy-box[data-theme~='css'] {
-  background-color: #1b73ba;
-  color: #ffffff;
+.wrapper ul li:hover .i-wp {
+  opacity: 1;
+  transition: all 0.3s ease;
 }
-.tippy-box[data-theme~='js'] {
-  background-color: #e9ca32;
-  color: #ffffff;
+/*wooCommerce*/
+.wrapper ul li:hover.border-woo {
+  border: 5px solid #9b5c8f;
+  box-shadow: 0 0 15px #9b5c8f;
+  transition: all 0.3s ease;
 }
-.tippy-box[data-theme~='php'] {
-  background-color: #8993be;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='mysql'] {
-  background-color: #0d5d72;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='laravel'] {
-  background-color: #f95945;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='firebase'] {
-  background-color: #fcca3f;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='react'] {
-  background-color: #61dafb;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='bootstrap'] {
-  background-color: #7952b3;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='sass'] {
-  background-color: #cf649a;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='jquery'] {
-  background-color: #4f7fac;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='vue'] {
-  background-color: #4dba87;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='fm'] {
-  background-color: #59529d;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='git'] {
-  background-color: #de4c36;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='github'] {
-  background-color: #161614;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='filezilla'] {
-  background-color: #b50000;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='slack'] {
-  background-color: #32ac8a;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='ph'] {
-  background-color: #31a8ff;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='ai'] {
-  background-color: #ff9a00;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='pr'] {
-  background-color: #99f;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='ae'] {
-  background-color: #99f;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='wp'] {
-  background-color: #21759b;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='woo'] {
-  background-color: #9b5c8f;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='mercado'] {
-  background-color: #04a6e9;
-  color: #ffffff;
-}
-.tippy-box[data-theme~='elementor'] {
-  background-color: #bd3264;
-  color: #ffffff;
+.wrapper ul li:hover .i-woo {
+  opacity: 1;
+  transition: all 0.3s ease;
 }
 
 
