@@ -88,43 +88,43 @@ const Thorkey = () => {
     <div className='row'>
         <div className='col-12 my-3'>
             <div className='row justify-content-center align-items-center'>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>BackWPup </p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Elementor</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Really Simple SSL</p></motion.div>
-                <motion.div className='col-4 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>WPForms Lite</p></motion.div>
-                <motion.div className='col-4 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>SuperProgressive Web Apps</p></motion.div>
             </div>
         </div>
         <div className='col-12 my-3'>
         <div className='row justify-content-center align-items-center'>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>ZitaSite Library</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>PluginOpsLanding Page Builder</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Mercado Pago PaymentsforWooCommerce</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>MailchimpforWooCommerce</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>WooCommerceServices</p></motion.div>
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Mercado Pago Payments forWooCommerce</p></motion.div>
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Mailchimp forWooCommerce</p></motion.div>
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>WooCommerce Services</p></motion.div>
             </div>
         </div>
         <div className='col-12 my-3'>
         <div className='row justify-content-center align-items-center'>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>WooCommerce</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Jetpack</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>iThemes Security</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
-                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Google AdsforWooCommerce</p></motion.div>
-                <motion.div className='col-3 col-lg-2 card shadow me-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
+                            transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Google Ads forWooCommerce</p></motion.div>
+                <motion.div className='col-5 col-sm-4 col-md-4 col-lg-2 card shadow mx-1 my-1' whileHover={{ scale: [null, 1.2, 1.1] }}
                             transition={{  type: "spring", stiffness: 400, damping: 20 }}><p className='my-3 p-thorkey'>Facebook forWooCommerce</p></motion.div>
             </div>
         </div>
