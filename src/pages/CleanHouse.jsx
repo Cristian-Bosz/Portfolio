@@ -7,12 +7,13 @@ import Tippy from '@tippyjs/react';
 import 'tippy.js/animations/scale-extreme.css';
 import 'tippy.js/dist/tippy.css';
 import { t } from 'i18next'
+import TextConvert from '../components/TextConvert'
 import cmsPills from '../arrays/cmsPills'
 
 const CleanHouse = () => {
+    const {t} = useTranslation();
 
     const idsToInclude = [1, 5, 6];
-
     const cmsToDisplay = cmsPills
       .filter(item => idsToInclude.includes(item.id))
       .map(item => ({
@@ -36,10 +37,9 @@ const CleanHouse = () => {
         <section className='container'>
                     <div className='row my-5'>
                         <div className='col-12 col-lg-6 align-self-sm-center my-5'>
-                            <h1 className='titulo-clean fw-bold text-center'>Calidad, precisión y confianza en cada rincón</h1>
-                            <p className='project-description text-center'>Mi enfoque al crear Clean House ha sido avanzar en mi conocimiento y destreza en el desarrollo web, particularmente en la plataforma WordPress. Este proyecto representa un espacio donde puedo aplicar creatividad y técnica para construir un sitio web efectivo y atractivo.
-</p>
-                            <a href='https://cleanhouse.wuaze.com/' Target="_blank" className='btn btn-clean fw-bold'>Visitá el sitio</a>
+                            <h1 className='titulo-clean fw-bold text-center'>{t("cleanhouse.title")}</h1>
+                            <p className='project-description text-center'>{t("cleanhouse.description")}</p>
+                            <a href='https://cleanhouse.wuaze.com/' Target="_blank" className='btn btn-clean fw-bold'>{t("cleanhouse.button1")}</a>
                             
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
@@ -54,7 +54,7 @@ const CleanHouse = () => {
             <div className='container bg-pasti-clean shadow'>
                 <div className='row align-items-center'>
                     <div className='col-12 col-lg-6'>
-                        <p>Este proyecto fue creado con Wordpress</p>
+                        <p>{t("cleanhouse.tools")}</p>
                     </div>
             
                      
@@ -78,7 +78,7 @@ const CleanHouse = () => {
 
                
         <section className='container my-5'>
-            <h2 className='mt-5 mb-4 titulo-clean'>Conocé los Detalles Clave de mi Página</h2>
+            <h2 className='mt-5 mb-4 titulo-clean'>{t("cleanhouse.title2")}</h2>
             <div className='row'>
                 <div className='col-12 col-lg-6 my-4'>
                 <img src={mockup2} alt='mockup de la tienda en distintos dispositivos' className='w-100'/> 
@@ -93,7 +93,7 @@ const CleanHouse = () => {
                                             <i class={item.icon}></i>
                                         </div>
                                         <div className='col-10'>
-                                            <p>{t(item.p)}</p>
+                                        <TextConvert text={t(item.p)} />
                                         </div>
                                     </div>
                                 </li>
