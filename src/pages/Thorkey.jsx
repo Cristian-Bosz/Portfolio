@@ -15,7 +15,7 @@ import 'tippy.js/dist/tippy.css';
 
 const Thorkey = () => {
   const {t} = useTranslation();
-
+ 
   return (
     <>
     <a className="btn-wsp" href="/"><i className="bi bi-arrow-left-circle"></i></a>
@@ -28,7 +28,7 @@ const Thorkey = () => {
                     <div className='col-12 col-lg-6 align-self-sm-center'>
                         <h1 className='title1-thorkey text-center'>{t("thorkey.title")}</h1>
                         <p className='project-description text-center'>{t("thorkey.description")}</p>
-                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" className='btn btn-thorkey fw-bold'>{t("thorkey.button")}</a>
+                        <a href="https://drive.google.com/file/d/1ovvRBV7cprll6x2wqSwLYBq7PxAD0lj2/view?usp=sharing" target="_blank" rel="noreferrer" className='btn btn-thorkey fw-bold'>{t("thorkey.button")}</a>
                     
                             
                       
@@ -50,7 +50,7 @@ const Thorkey = () => {
                     <div className="wrapper-toolpills-projects">    
                         <ul>
                             {
-                                cmsPills.map(item => (
+                                cmsPills.slice(0,4).map(item => (
                                     <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
                                     <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/>
                                     </li>

@@ -12,6 +12,20 @@ import cmsPills from '../arrays/cmsPills';
 const Pastillas = () => {
   const {t} = useTranslation();
  
+  const idsToInclude = [1, 2, 4, 5, 6];
+
+  const cmsToDisplay = cmsPills
+    .filter(item => idsToInclude.includes(item.id))
+    .map(item => ({
+      id: item.id,
+      content: item.content,
+      theme: item.theme,
+      li_class: item.li_class,
+      img_src: item.img_src,
+      img_alt: item.img_alt,
+      img_class: item.img_class,
+    }));
+
   return (
     <>
 <article className='container'>
@@ -84,14 +98,14 @@ const Pastillas = () => {
       <div className='col-12 col-md-6'>  
         <h4 className='sub-pasti my-3'>CMS</h4> 
         <ul>
-          {
-            cmsPills.slice(0,2).map(item=> (
-              <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
-              <li class={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class}/></li>
-            </Tippy>
-            ))
-          }  
-        </ul>
+                                {
+                                cmsPills.filter(item => idsToInclude.includes(item.id)).map(item => (
+                                <Tippy key={item.id} content={<strong>{item.content}</strong>} allowHTML={true} inertia={true} arrow={false} touch="hold" animation='scale-extreme' theme={item.theme}>
+                                    <li className={item.li_class}><img src={item.img_src} alt={item.img_alt} className={item.img_class} /></li>
+                                </Tippy>
+                                ))
+                                }
+                            </ul>    
       </div>
     </div>
   </div>

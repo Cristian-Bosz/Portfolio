@@ -114,5 +114,17 @@
         "p1": "Hablando del Theme elegido, podemos decir que lo **“exprimimos” al máximo** ya que utilizamos todas sus funciones y estamos muy satisfechos ya que este es muy completo. ",
         "p2": "En nuestra página **aplicamos distintos tipos de secciones de productos a vender,** como por ejemplo distintas categorías de piano y guitarras, teniendo así un **amplio catalogo de productos** a ofrecer a nuestros clientes. ",
         "p3": "Las funciones que esperamos de nuestro sitio es que sea un **ecommerce cómodo para la gente,** cumpliendo todos los deseos de nuestros clientes **ofreciéndoles lo mejor en el momento de realizar compras de instrumentos.**"
+    },
+    "cleanhouse":{
+        "title": "Calidad, precisión y confianza en cada rincón",
+        "description": "Mi enfoque al crear Clean House ha sido avanzar en mi conocimiento y destreza en el desarrollo web, particularmente en la plataforma WordPress. Este proyecto representa un espacio donde puedo aplicar creatividad y técnica para construir un sitio web efectivo y atractivo.",
+        "button1": "Visitá el sitio",
+        "tools": "Este proyecto fue creado con Wordpress",
+        "title2": "Conocé los Detalles Clave de mi Página",
+        "1": "Me decidí por un hosting y dominio gratuitos de **InfinityFree**, justo para cubrir las necesidades iniciales del proyecto. Para reforzar la seguridad, activé SSL, asegurando una conexión cifrada",
+        "2": "La elección del **tema** fue clave, opté por **'Blocksy'**, un gratuito que ha demostrado ser excepcional. Su integración con editores de bloques como **Stackable** de Gutenberg facilitó la personalización del sitio.",
+        "3": "Elegí **WP Forms** para la personalización eficiente de **formularios**, buscando simplicidad y funcionalidad adaptada a las necesidades específicas del sitio.",
+        "4": "Incorporé el **plugin WP-Optimize** para mejorar el rendimiento del sitio, asegurando una carga rápida de las páginas y una experiencia de usuario fluida.",
+        "5": "Y por supuesto, agregué un toque extra al proyecto: ¡el sitio es **completamente responsive**! Esto significa que se adapta a la perfección a diferentes **dispositivos**, garantizando una experiencia visual y funcional sin problemas en cualquier pantalla."
     }
 }

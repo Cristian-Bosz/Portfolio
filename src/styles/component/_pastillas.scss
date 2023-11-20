@@ -275,12 +275,41 @@
   border: 5px solid #9b5c8f;
   box-shadow: 0 0 15px #9b5c8f;
   transition: all 0.3s ease;
-}
-.wrapper ul li:hover .i-woo {
+  }
+  .wrapper ul li:hover .i-woo {
   opacity: 1;
   transition: all 0.3s ease;
-}
-
+  }
+  /*elementor*/
+  .wrapper ul li:hover.border-elementor {
+    border: 5px solid #bd3264;
+    box-shadow: 0 0 15px #bd3264;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li:hover .i-elementor {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  /*stackable*/
+    .wrapper ul li:hover.border-stackable {
+      border: 5px solid #463b55;
+      box-shadow: 0 0 15px #463b55;
+      transition: all 0.3s ease;
+    }
+    .wrapper ul li:hover .i-stackable {
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+  /*gutenberg*/
+  .wrapper ul li:hover.border-gutenberg {
+    border: 5px solid #115cfa;
+    box-shadow: 0 0 15px #115cfa;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li:hover .i-gutenberg {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
 
 
 /* media queries */

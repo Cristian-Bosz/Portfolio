@@ -360,6 +360,32 @@
     opacity: 1;
     transition: all 0.3s ease;
   }
+  /*stackable*/
+    .wrapper-toolpills-projects ul li:hover.border-stackable {
+      border: 5px solid #463b55;
+      box-shadow: 0 0 15px #463b55;
+      transition: all 0.3s ease;
+    }
+    .wrapper-toolpills-projects ul li .i-stackable {
+      width: 45px;
+    }
+    .wrapper-toolpills-projects ul li:hover .i-stackable {
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+  /*gutenberg*/
+  .wrapper-toolpills-projects ul li:hover.border-gutenberg {
+    border: 5px solid #115cfa;
+    box-shadow: 0 0 15px #115cfa;
+    transition: all 0.3s ease;
+  }
+  .wrapper-toolpills-projects ul li .i-gutenberg {
+    width: 45px;
+  }
+  .wrapper-toolpills-projects ul li:hover .i-gutenberg {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
 
 .tippy-box[data-theme~='skill-html'] {
     background-color: #e34f26;
@@ -461,6 +487,14 @@
     background-color: #bd3264;
     color: #ffffff;
   }
+  .tippy-box[data-theme~='stackable'] {
+    background-color: #463b55;
+    color: #ffffff;
+  }
+  .tippy-box[data-theme~='gutenberg'] {
+    background-color: #115cfa;
+    color: #ffffff;
+  }
   
 
 /* Breakpoint*/
@@ -544,6 +578,12 @@
     }   
     .wrapper-toolpills-projects ul li .i-elementor {
         width:40px;
+    }
+    .wrapper-toolpills-projects ul li .i-stackable {
+      width:40px;
+    }
+    .wrapper-toolpills-projects ul li .i-gutenberg {
+      width:40px;
     }   
 }
 /* Breakpoint formato tablet*/
@@ -627,6 +667,12 @@
     }   
     .wrapper-toolpills-projects ul li .i-elementor {
         width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .i-stackable {
+      width:35px;
+    } 
+    .wrapper-toolpills-projects ul li .i-gutenberg {
+    width:35px;
     }   
 }
 
@@ -711,5 +757,11 @@
     }   
     .wrapper-toolpills-projects ul li .i-elementor {
         width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-stackable {
+      width:30px;
+    }   
+    .wrapper-toolpills-projects ul li .i-gutenberg {
+    width:30px;
     }   
 }

@@ -13,6 +13,7 @@ import {
 import Navbar from './components/Navbar';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
+import CleanHouse from './pages/CleanHouse';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
                   <Route path='/kyber' element={<Kyber/>}/>
                   <Route path='/thorkey' element={<Thorkey/>}/>
                   <Route path='/bszstore' element={<BszStore/>}/>
+                  <Route path='/cleanhouse' element={<CleanHouse/>}/>
           </Routes>
       <Footer/>
     </BrowserRouter>

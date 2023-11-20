@@ -114,5 +114,18 @@
         "p1": "Regarding the chosen theme, we can say that we **fully utilized** its features and we are highly satisfied with it. It is very comprehensive.",
         "p2": "On our website, we **implemented different product sections for sale,** such as various categories of pianos and guitars. This allows us to offer a **wide range of products** to our customers.",
         "p3": "Our site aims to be a **user-friendly e-commerce platform,** fulfilling all our customers' desires and **providing them with the best experience when purchasing instruments.**"  
-    }
+    },
+    "cleanhouse":
+        {
+            "title": "Quality, Precision, and Trust in Every Corner",
+            "description": "My approach in creating Clean House has been to advance my knowledge and skills in web development, particularly on the WordPress platform. This project represents a space where I can apply creativity and technique to build an effective and attractive website.",
+            "button1": "Visit the site",
+            "tools": "This project was created with WordPress",
+            "title2": "Discover Key Details of My Page",
+            "1": "I opted for free hosting and domain from **InfinityFree**, precisely to meet the initial project requirements. To enhance security, I activated SSL, ensuring an encrypted connection.",
+            "2": "The choice of the **theme** was crucial, I chose **'Blocksy'**, a free theme that has proven to be exceptional. Its integration with block editors like Gutenberg's **Stackable** made site customization easy.",
+            "3": "I chose **WP Forms** for efficient **form** customization, seeking simplicity and functionality tailored to the specific needs of the site.",
+            "4": "I incorporated the **WP-Optimize plugin** to improve site performance, ensuring fast page loading and a smooth user experience.",
+            "5": "And of course, I added an extra touch to the project: the site is **fully responsive**! This means it adapts perfectly to different **devices**, ensuring a seamless visual and functional experience on any screen."
+        }
 }

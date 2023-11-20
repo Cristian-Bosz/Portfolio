@@ -2,6 +2,8 @@ import wp from '../icons/wordpress.svg'
 import woo from '../icons/woocommerce.svg'
 import mercado from '../icons/mpago.png' 
 import elementor from '../icons/elementor.svg'
+import stackable from '../icons/stackable.png'
+import gutenberg from '../icons/gutenberg.svg'
 
 const cmsPills = [
     {
@@ -39,6 +41,24 @@ const cmsPills = [
         img_src: elementor,
         img_alt: "icono de elementor",
         img_class: "i-elementor",
+    },
+    {
+        id: 5,
+        content: "Stackable",
+        theme: "stackable",
+        li_class: "border-stackable",
+        img_src: stackable,
+        img_alt: "icono de stackable",
+        img_class: "i-stackable",
+    },
+    {
+        id: 6,
+        content: "Gutenberg",
+        theme: "gutenberg",
+        li_class: "border-gutenberg",
+        img_src: gutenberg,
+        img_alt: "icono de gutenberg",
+        img_class: "i-gutenberg",
     },
 ]
 
