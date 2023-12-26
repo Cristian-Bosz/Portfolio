@@ -1,7 +1,7 @@
 {
     "intro": {
         "intro": "Hi! I'm Cristian Bösz, welcome!",
-        "subintro": "Front-end Developer Jr"
+        "subintro": "FullStack Developer Jr"
     },
     "about":{
         "title": "About me",
@@ -16,9 +16,13 @@
         "librerias": "Libreries and frameworks",
         "diseño": "Design"
     },
+    "work":{
+        "title": "Career path",
+        "subtitle": "Explore my professional path through meaningful projects.  My commitment is reflected in the constant search for creative and innovative solutions for each work challenge."
+    },
     "projects":{
-        "title": "These are my last projects",
-        "subtitle": "I have worked on several personal projects to enhance my skills and put into practice what I learned in school. I enjoy working on **challenging projects** that allow me to apply my knowledge and skills, and I am committed to providing **creative and innovative solutions** for any problem that arises. "
+        "title": "Personal projects",
+        "subtitle": "I developed personal projects to strengthen skills and apply knowledge acquired at school.  I am passionate about facing challenges, always seeking to improve my technical capabilities."
     },
     "experience":{
         "title": "These projects allowed me to gain experience in",

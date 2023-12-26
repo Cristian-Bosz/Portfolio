@@ -1,7 +1,7 @@
 {
     "intro":{
         "intro": "¡Hola! Soy Cristian Bösz, bienvenido/a!",
-        "subintro": "Desarrollador Front-end y Back-end JR"
+        "subintro": "Desarrollador FullStack JR"
     },
     "about":{
         "title": "Sobre mí",
@@ -16,9 +16,13 @@
         "librerias": "Librerias y frameworks",
         "diseño": "Diseño"
     },
+    "work":{
+        "title": "Trayectoria Profesional",
+        "subtitle": "Explorá mi camino profesional a través de proyectos significativos. Mi compromiso se refleja en la búsqueda constante de soluciones creativas e innovadoras para cada desafío laboral."
+    },
     "projects":{
-        "title": "Estos son mis últimos proyectos",
-        "subtitle": "Trabajé en varios proyectos personales para mejorar mis habilidades y poner en práctica lo que aprendí en la escuela. Me gusta trabajar en **proyectos desafiantes** que me permitan aplicar mis conocimientos y habilidades, y estoy comprometido a proporcionar **soluciones creativas e innovadoras** para cualquier problema que se presente. "
+        "title": "Proyectos Personales",
+        "subtitle": "Desarrollé proyectos personales para fortalecer habilidades y aplicar conocimientos adquiridos en la escuela. Me apasiona enfrentar desafíos, buscando siempre mejorar mis capacidades técnicas."
     },
     "experience":{
         "title": "Estos proyectos me permitieron ganar experiencia en",
