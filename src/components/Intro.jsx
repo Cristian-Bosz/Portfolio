@@ -1,5 +1,5 @@
 import React from 'react'
-import memoji from '../../src/pics/thumbnail_image2.png' 
+import memoji from '../../src/pics/cris.JPG' 
 import { useTranslation } from 'react-i18next'
 
 
