@@ -1,0 +1,62 @@
+.work-bg{
+  background-image: var(--bg-image-intro);
+}
+.work-subtitle{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--p-font-color);
+    text-align: center;
+    margin: 2em 3em 2em 3em ;
+  }
+  .miniatura{
+      border-radius: 30px;
+    }
+  .miniatura-pic{
+      border-radius: 30px;
+    }
+  
+  
+  
+  /* Breakpoint formato mac*/
+  @media screen and (max-width: 995px) {
+    .work-subtitle{
+      margin: 4em 1em 5em 1em ;
+    }
+    .projects-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      vertical-align: middle;
+      justify-content: center;
+      padding: 0 5em;
+    }
+    .miniatura-pic{
+      max-width: 100%;
+    }
+  }  
+  /* Breakpoint formato tablet*/
+  @media screen and (max-width: 768px) {
+    .work-subtitle{
+      font-size: 16px;   
+      margin: 4em 0 5em 0 ;
+    }
+    .projects-wrapper{
+        padding: 0 4em;
+    }
+  }
+  /* Breakpoint formato tablet*/
+  @media screen and (max-width: 576px) {
+    .work-subtitle{
+      font-size: 14px;   
+      margin: 3em 1em 4em 1em ;
+    }
+    .projects-wrapper{
+        padding: 0 4em;
+    }
+  }
+  /* Breakpoint formato tablet*/
+  @media screen and (max-width: 420px) {
+    .projects-wrapper{
+        padding: 0 3em;
+    }
+  }

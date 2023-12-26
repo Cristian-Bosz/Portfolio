@@ -1,32 +1,32 @@
 footer{
-    background: var(--bg-image-footer);
+    background: var(--bg-image-intro);
   }
   
 .ft-title{
     font-size: 35px;
     font-weight: 600;
-    color: #ffffff;
+    color: var(--p-font-color);
   }
   .p-footer{
     font-size: 20px;
     font-weight: 600;
-    color: #ffffff;
+    color: var(--p-font-color);
   }
 
   .bi-whatsapp{
-    color: #ffffff;
+    color: var(--p-font-color);
     font-size: 2rem; 
   }
   .bi-linkedin{
-    color: #ffffff;
+    color: var(--p-font-color);
     font-size: 2rem; 
   }
   .bi-envelope{
-    color: #ffffff;
+    color: var(--p-font-color);
     font-size: 2rem; 
   }
   .bi-github{
-    color: #ffffff;
+    color: var(--p-font-color);
     font-size: 2rem; 
   }
   
