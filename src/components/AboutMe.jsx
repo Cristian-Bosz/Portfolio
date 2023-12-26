@@ -29,7 +29,7 @@ const AboutMe = () => {
 
 
 
-                          <a href="https://drive.google.com/file/d/1h_37zAWaowOF4OVOZktWl_wSMi9NHsxM/view?usp=sharing" target="_blank"  className='btn-cv fw-bold'>{t("about.cv")}</a>
+                          <a href={t("about.link")} target="_blank"  className='btn-cv fw-bold'>{t("about.cv")}</a>
                         </div>
                     </div>      
                 </div>
