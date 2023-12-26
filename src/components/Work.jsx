@@ -5,8 +5,9 @@ const Work = () => {
     const {t} = useTranslation();
   return (
     <>
-      <section className='container pt-4 pb-5'>
-         <h3 className='title-home m-5'>{t("work.title")}</h3>
+      <section className='container-fluid work-bg'>
+        <div className='container pt-4 pb-5'>
+                <h3 className='title-home m-5'>{t("work.title")}</h3>
          <p className='work-subtitle'>
          {t("work.subtitle")}
          </p>         
@@ -20,6 +21,8 @@ const Work = () => {
            
         </div>
     
+        </div>
+     
     </section>
     </>
   )
