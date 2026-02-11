@@ -1,53 +1,47 @@
 import React from 'react'
-import kyberMin from "../../src/pics/kyber_dispositivos.jpg"
-import walletfyMin from "../../src/pics/walletfy_min.jpg"
-import blueocean from '../../src/pics/blueocean_min2.jpg'
-import thorkey from '../../src/pics/thorkey_min.jpg'
-import bsz from '../../src/pics/bzStore-min.jpg'
-import clean from '../../src/pics/cleanhouse-mockup1.jpg'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import TextConvert from './TextConvert'
 
+import kyberMin from "../pics/kyber_dispositivos.jpg"
+import walletfyMin from "../pics/walletfy_min.jpg"
+import blueocean from '../pics/blueocean_min2.jpg'
+import thorkey from '../pics/thorkey_min.jpg'
+import bsz from '../pics/bzStore-min.jpg'
+import clean from '../pics/cleanhouse-mockup1.jpg'
+
 const Projects = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
+
+  const projects = [
+    { id: 1, img: clean, link: '/cleanhouse', title: 'CleanHouse' },
+    { id: 2, img: bsz, link: '/bszstore', title: 'BszStore' },
+    { id: 3, img: walletfyMin, link: '/walletfy', title: 'Walletfy' },
+    { id: 4, img: kyberMin, link: '/kyber', title: 'Kyber' },
+    { id: 5, img: blueocean, link: '/blueocean', title: 'BlueOcean' },
+    { id: 6, img: thorkey, link: '/thorkey', title: 'ThorKey' },
+  ];
 
   return (
     <>
-    <section className='container pt-4 pb-5'>
-         <h3 className='title-home m-5'>{t("projects.title")}</h3>
-         <p className='project-subtitle'>
+      <section className='container pt-4 pb-5'>
+        <h3 className='title-home m-5'>{t("projects.title")}</h3>
+        <p className='project-subtitle'>
           <TextConvert text={t("projects.subtitle")} />
-         </p>         
+        </p>
 
         <div className="row justify-content-center my-5 projects-wrapper">
-        <div className="col-12 col-lg-5 m-2 miniatura shadow">  
-               <a href='/cleanhouse'> <img src={clean} className="w-100 miniatura-pic" alt="..."/></a>
+          {projects.map((project) => (
+            <div className="col-12 col-lg-5 m-2 miniatura shadow" key={project.id}>
+              <Link to={project.link}>
+                <img src={project.img} className="w-100 miniatura-pic" alt={`Project ${project.title}`} />
+              </Link>
             </div>
-
-        <div className="col-12 col-lg-5 m-2 miniatura shadow">  
-               <a href='/bszstore'> <img src={bsz} className="w-100 miniatura-pic" alt="..."/></a>
-            </div>
-
-            <div className="col-12 col-lg-5 m-2 miniatura shadow">  
-               <a href='/walletfy'> <img src={walletfyMin} className="w-100 miniatura-pic" alt="..."/></a>
-            </div>
-            
-            <div className="col-12 col-lg-5 m-2 miniatura shadow">
-              <a href='/kyber'> <img src={kyberMin} className="w-100 miniatura-pic" alt="..."/></a>
-            </div>
-            
-            <div className="col-12 col-lg-5 m-2 miniatura shadow">
-             <a href='/blueocean'> <img src={blueocean} className="w-100 miniatura-pic" alt="..."/></a>
-            </div>
-            
-            <div className="col-12 col-lg-5 m-2 miniatura shadow">
-             <a href='/thorkey'><img src={thorkey} className="w-100 miniatura-pic" alt="..."/></a>
-              </div>
-           
+          ))}
         </div>
-    
-    </section>
-    
+
+      </section>
+
     </>
   )
 }
